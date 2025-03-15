@@ -4,7 +4,9 @@ import Login from "./pages/Login";  // Import Login component
 import EmployeeProjectView from "./pages/EmployeeProjectView";  // Import EmployeeProjectView page
 import RegistrationProps from "./pages/Registration";
 import EditCompanyProfile from "./pages/EditCompanyProfile";
-import BODashboardView from "./pages/BODashboardView";
+import BOAddTeamMemberView from "./pages/BOAddTeamMemberView";
+import BOEditTeamMemberView from "./pages/BOEditTeamMemberView";
+import BODepartmentRolesView from "./pages/BODepartmentRolesView";
 
 function App() {
   return (
@@ -19,8 +21,12 @@ function App() {
          <Route path="/guest-register" element={<RegistrationProps />} />  
          {/* Route for Edit Company Profile page */}
          <Route path="/edit-company-profile" element={<EditCompanyProfile />} />  
-          {/* Route for BO Dashboard page */}
-          <Route path="/bo-dashboard" element={<BODashboardView />} />  
+         {/* Route for Edit BOAddTeamMemberView page */}
+         <Route path="/bo-add-team-member-view" element={<BOAddTeamMemberView />} /> 
+         {/* Route for Edit BOEditTeamMemberView page */}
+         <Route path="/bo-edit-team-member-view" element={<BOEditTeamMemberView />} /> 
+         {/* Route for Edit BODepartmentRolesView page */}
+         <Route path="/bo-department-roles-view" element={<BODepartmentRolesView />} /> 
       </Routes>
     </Router>
   );
