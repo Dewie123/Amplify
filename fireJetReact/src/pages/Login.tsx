@@ -1,6 +1,6 @@
 import { useState } from "react";
-import LogoNavbar from "./assets/LogoNavbar";
-import Logout from "./assets/Logout";
+import LogoNavbar from "../components/assets/LogoNavbar";
+import Logout from "../components/assets/Logout";
 import "./Login.css";
 
 export default function Login({ className = "" }: LoginProps) {

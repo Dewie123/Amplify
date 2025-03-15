@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Login from "./components/Login";  // Import Login component
+import Login from "./pages/Login";  // Import Login component
 import EmployeeProjectView from "./pages/EmployeeProjectView";  // Import EmployeeProjectView page
 
 function App() {
