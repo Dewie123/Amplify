@@ -17,7 +17,6 @@ export default function Login({ className = "" }: LoginProps) {
         method: 'post',
         body: JSON.stringify(body),
         headers: {'Content-Type': 'application/json'},
-        mode: 'no-cors'
       });
   
       if (response.ok) {
