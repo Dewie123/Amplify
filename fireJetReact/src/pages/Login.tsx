@@ -11,17 +11,13 @@ export default function Login({ className = "" }: LoginProps) {
     // Handle the sign-in logic here
     console.log("Email:", email);
     console.log("Password:", password);
-  
+    const body = {email: 'admin@example.com', password: "password"};
     try {
       const response = await fetch('https://e27fn45lod.execute-api.ap-southeast-2.amazonaws.com/dev/account/login', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          email: email,
-          password: password,
-        }),
+        method: 'post',
+        body: JSON.stringify(body),
+        headers: {'Content-Type': 'application/json'},
+        mode: 'no-cors'
       });
   
       if (response.ok) {
