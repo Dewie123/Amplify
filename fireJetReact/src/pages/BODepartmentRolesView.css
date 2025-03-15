@@ -238,15 +238,15 @@
 
 .bo-department-roles-view-tt-rectangle-8boside-menu-mid-white-container {
   flex-grow: 1;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
   display: flex;
+  width: 100vw;
   
 }
 
 .bo-department-roles-view-t-rectangle-8boside-menu {
   font-weight: 600;
-  margin-left: -170px;
 }
 
 .bo-department-roles-view-report-issues {
@@ -268,10 +268,9 @@
 
 .bo-department-roles-view-mid-white-container {
   background-color: white;
-  padding-right: 108px;
-  padding-top: 3px;
   justify-content: center;
-  gap: 29px;
+  width: 100%
+  
 }
 
 .bo-department-roles-view-tt-emproster-tadd-team-member {
