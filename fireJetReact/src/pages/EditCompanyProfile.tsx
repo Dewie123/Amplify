@@ -2,11 +2,14 @@ import T from "./T";
 import LogoNavbar from "../components/assets/LogoNavbar";
 import Logout from "../components/assets/Logout";
 import "./EditCompanyProfile.css";
+import image from "../components/assets/image.png";
 
 export default function EditCompanyProfile({
+  
   className = "",
 }: EditCompanyProfileProps) {
   return (
+    
     <div className={`${className} edit-company-profile-edit-company-profile`}>
       <div className="edit-company-profile-edit-company-profile-1">
 
@@ -32,21 +35,23 @@ export default function EditCompanyProfile({
                 <div className="edit-company-profile-t-image">
                   <img
                     className="edit-company-profile-image"
-                    src="/assets/image.png"
+                    src = {image}
                     loading="lazy"
                   />
                 </div>
               </div>
             </div>
+            
             <div className="edit-company-profile-t-button">
               <div className="edit-company-profile-button">
-                <div className="edit-company-profile-manage-roles">
+                <div className="edit-company-profile-manage-roles" >
                   Manage Roles
                 </div>
               </div>
             </div>
+        
             <div className="edit-company-profile-button-1">
-              <div className="edit-company-profile-button-2">Submit</div>
+              <div className="edit-company-profile-button-2" >Submit</div>
             </div>
           </div>
 

@@ -2,14 +2,14 @@ import "./T.css";
 
 export default function T({
   className = "",
-  text = "Company Name",
-  text1 = "Yishun Cafe 123 Pte. Ltd.",
+  text = "Name",
+  text1 = "Marry Jane",
 }: TProps) {
   return (
-    <div className={`${className} t-t-company-name-input-1`}>
-      <div className="t-company-name">{text}</div>
-      <div className="t-input">
-        <div className="t-yishun-cafe-123pte-ltd">{text1}</div>
+    <div className={`${className} t-t-name-input-1`}>
+      <div className="t-name">{text}</div>
+      <div className="t-input-3">
+        <div className="t-marry-jane">{text1}</div>
       </div>
     </div>
   );

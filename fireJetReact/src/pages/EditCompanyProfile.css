@@ -92,6 +92,7 @@
 
 .edit-company-profile-edit-company-profile {
   width: 100%;
+  
   line-height: normal;
 }
 
@@ -330,5 +331,7 @@
 }
 
 .middle-group {
-  margin-top: 500px;
+  transform: translate(900px,-100px);
+ 
 }
+
