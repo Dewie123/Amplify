@@ -7,10 +7,38 @@ export default function Login({ className = "" }: LoginProps) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleSignIn = () => {
+  const handleSignIn = async () => {
     // Handle the sign-in logic here
     console.log("Email:", email);
     console.log("Password:", password);
+  
+    try {
+      const response = await fetch('https://e27fn45lod.execute-api.ap-southeast-2.amazonaws.com/dev/account/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: email,
+          password: password,
+        }),
+      });
+  
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data);
+        if (data.responseCode === "200"){
+          console.log('Login successful:', data);
+        }
+        
+        // Handle success, like storing a token or redirecting the user
+      } else {
+        throw new Error('Login failed');
+      }
+    } catch (err) {
+      console.error('Error:', err);
+      // Handle error (e.g., show an error message to the user)
+    }
   };
 
   const handleForgotPassword = () => {
