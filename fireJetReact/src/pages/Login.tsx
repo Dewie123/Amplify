@@ -14,7 +14,7 @@ export default function Login({ className = "" }: LoginProps) {
   
     try {
       const response = await fetch('https://e27fn45lod.execute-api.ap-southeast-2.amazonaws.com/dev/account/login', {
-        method: 'POST',
+        method: 'GET',
         headers: {
           'Content-Type': 'application/json',
         },
