@@ -7,6 +7,7 @@ import EditCompanyProfile from "./pages/EditCompanyProfile";
 import BOAddTeamMemberView from "./pages/BOAddTeamMemberView";
 import BOEditTeamMemberView from "./pages/BOEditTeamMemberView";
 import BODepartmentRolesView from "./pages/BODepartmentRolesView";
+import BODashboardView from "./pages/BODashboardView";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
          <Route path="/bo-edit-team-member-view" element={<BOEditTeamMemberView />} /> 
          {/* Route for Edit BODepartmentRolesView page */}
          <Route path="/bo-department-roles-view" element={<BODepartmentRolesView />} /> 
+         {/* Route for Edit BODepartmentRolesView page */}
+         <Route path="/bo-dashboard-view" element={<BODashboardView />} /> 
       </Routes>
     </Router>
   );
