@@ -28,7 +28,7 @@ function App() {
          <Route path="/bo-edit-team-member-view" element={<BOEditTeamMemberView />} /> 
          {/* Route for Edit BODepartmentRolesView page */}
          <Route path="/bo-department-roles-view" element={<BODepartmentRolesView />} /> 
-         {/* Route for Edit BODepartmentRolesView page */}
+         {/* Route for Edit BODashboardView page */}
          <Route path="/bo-dashboard-view" element={<BODashboardView />} /> 
       </Routes>
     </Router>
