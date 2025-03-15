@@ -1,0 +1,324 @@
+.common-11,
+.edit-company-profile-form-contact,
+.t-input {
+  border-style: solid;
+  border-color: gainsboro;
+}
+
+.common-12,
+.edit-company-profile-button,
+.edit-company-profile-button-1 {
+  border-style: solid;
+  border-color: black;
+}
+
+.common-6,
+.edit-company-profile-t-form-contact-timage,
+.edit-company-profile-t-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.common-7,
+.edit-company-profile-tt-update-company-details-ttform-contact-timage-6tbutton-button,
+.edit-company-profile-t-image,
+.t-t-company-name-input-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.common-8,
+.edit-company-profile-button,
+.edit-company-profile-button-1,
+.edit-company-profile-tt-logo-navbar-welcome-back-system-admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-9,
+.edit-company-profile-edit-company-profile,
+.edit-company-profile-tt-company-name-input-taddress-input-temail-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.common-10,
+.edit-company-profile-tt-form-contact-timage,
+.edit-company-profile-ttt-company-name-input-taddress-input-temail-input,
+.edit-company-profile-nav-bar-system-admin {
+  display: flex;
+  align-items: center;
+}
+
+.common-4,
+.edit-company-profile-report-issues,
+.edit-company-profile-bo-side-menu {
+  color: white;
+  font-weight: 600;
+}
+
+.common-5,
+.edit-company-profile-update-company-details,
+.edit-company-profile-manage-roles {
+  font-size: 14px;
+  text-align: center;
+}
+
+.common-1,
+.edit-company-profile-edit-company-profile-1,
+.edit-company-profile-form-contact,
+.t-input {
+  display: flex;
+  background-color: white;
+}
+
+.common-2,
+.edit-company-profile-rectangle,
+.edit-company-profile-bo-side-menu {
+  display: flex;
+  background-color: #663399ea;
+}
+
+.common-3,
+.edit-company-profile-t-image,
+.edit-company-profile-image {
+  width: 62px;
+  height: 62px;
+}
+
+.edit-company-profile-edit-company-profile {
+  width: 100%;
+  line-height: normal;
+}
+
+.edit-company-profile-edit-company-profile-1 {
+  overflow: clip;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+.edit-company-profile-tt-update-company-details-ttform-contact-timage-6tbutton-button {
+  width: 361px;
+  height: 486px;
+  max-width: 361px;
+  z-index: 0;
+  bottom: 13px;
+  left: calc(50% + -243px + 93px);
+  position: absolute;
+  gap: 13px;
+}
+
+.edit-company-profile-update-company-details {
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 1.2;
+  padding-left: 13px;
+}
+
+.edit-company-profile-tt-form-contact-timage {
+  align-self: stretch;
+  padding-left: 12px;
+  padding-top: 4px;
+  justify-content: flex-end;
+}
+
+.edit-company-profile-t-form-contact-timage {
+  flex-grow: 1;
+  padding-top: 59px;
+  position: relative;
+}
+
+.edit-company-profile-form-contact {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  flex-direction: column;
+  align-self: stretch;
+  padding-bottom: 19px;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 23px;
+  justify-content: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  z-index: 1;
+}
+
+.edit-company-profile-ttt-company-name-input-taddress-input-temail-input {
+  padding-right: 29px;
+}
+
+.edit-company-profile-tt-company-name-input-taddress-input-temail-input {
+  font-size: 13px;
+  gap: 24px;
+}
+
+.edit-company-profile-t-image {
+  z-index: 2;
+  left: calc(50% + -31px + -10.5px);
+  top: 0px;
+  position: absolute;
+}
+
+.edit-company-profile-image {
+  object-fit: cover;
+  object-position: center;
+}
+
+.edit-company-profile-t-button {
+  padding-top: 8px;
+}
+
+.edit-company-profile-button {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding-bottom: 11px;
+  padding-left: 133px;
+  padding-right: 133px;
+  padding-top: 11px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.edit-company-profile-manage-roles {
+  color: black;
+  line-height: 1;
+}
+
+.edit-company-profile-button-1 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: black;
+  align-self: stretch;
+  padding-bottom: 11px;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 11px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.edit-company-profile-button-2 {
+  text-align: center;
+  color: whitesmoke;
+  line-height: 1;
+}
+
+.edit-company-profile-tt-navbar-system-admin-trectangle-8boside-menu {
+  margin-top: 157px;
+  flex-grow: 1;
+  height: 708px;
+  z-index: 2;
+}
+
+.edit-company-profile-nav-bar-system-admin {
+  background-color: midnightblue;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-top: 7px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 9.6px;
+}
+
+.edit-company-profile-tt-logo-navbar-welcome-back-system-admin {
+  gap: 9.6px;
+}
+
+.edit-company-profile-logo-navbar {
+  width: 30px;
+  height: 30px;
+}
+
+.edit-company-profile-welcome-back-system-admin {
+  width: 231px;
+  font-size: 14px;
+  color: ghostwhite;
+}
+
+.edit-company-profile-logout {
+  width: 24px;
+  height: 24px;
+}
+
+.edit-company-profile-t-rectangle {
+  align-items: flex-end;
+  height: 20px;
+  display: flex;
+}
+
+.edit-company-profile-rectangle {
+  align-items: flex-end;
+  flex-grow: 1;
+  height: 27px;
+  max-width: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.edit-company-profile-report-issues {
+  flex-grow: 1;
+}
+
+.edit-company-profile-bo-side-menu {
+  flex-direction: column;
+  max-width: 200px;
+  padding-bottom: 556px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  gap: 10px;
+}
+
+.t-t-company-name-input-1 {
+  max-width: 273px;
+  gap: 7.5px;
+}
+
+.t-company-name {
+  align-self: stretch;
+  color: black;
+  line-height: 1.4;
+}
+
+.t-input {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  width: 273px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.t-yishun-cafe-123pte-ltd {
+  flex-grow: 1;
+  color: darkgray;
+  line-height: 1;
+}

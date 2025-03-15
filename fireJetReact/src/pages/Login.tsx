@@ -11,7 +11,7 @@ export default function Login({ className = "" }: LoginProps) {
     // Handle the sign-in logic here
     console.log("Email:", email);
     console.log("Password:", password);
-    const body = {email: 'admin@example.com', password: "password"};
+    const body = {email: email, password: password};
     try {
       const response = await fetch('https://e27fn45lod.execute-api.ap-southeast-2.amazonaws.com/dev/account/login', {
         method: 'post',

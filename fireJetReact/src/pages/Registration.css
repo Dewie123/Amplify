@@ -1,0 +1,285 @@
+.common-5,
+.registration-background,
+.registration-background-1 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+.common-4,
+.registration-form-register,
+.registration-input,
+.registration-input-1,
+.registration-input-2,
+.registration-input-3 {
+  border-style: solid;
+  border-color: gainsboro;
+}
+
+.common-2,
+.registration-registration,
+.registration-form-register,
+.registration-t-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.common-3,
+.registration-nav-bar-system-admin,
+.registration-button {
+  display: flex;
+  align-items: center;
+}
+
+.common-1,
+.registration-input,
+.registration-input-1,
+.registration-input-2,
+.registration-input-3 {
+  display: flex;
+  width: 521px;
+  background-color: white;
+}
+
+.registration-registration {
+  background-color: white;
+  padding-bottom: 3px;
+  width: 100%;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  line-height: normal;
+}
+
+.registration-t-navbar-system-admin {
+  align-self: stretch;
+}
+
+.registration-nav-bar-system-admin {
+  margin-left: 5px;
+  background-color: midnightblue;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+
+.registration-logo-navbar {
+  width: 30px;
+  height: 30px;
+}
+
+.registration-app-name {
+  align-items: flex-start;
+  flex-direction: column;
+  width: 1256px;
+  padding-bottom: 6px;
+  padding-left: 461px;
+  padding-right: 461px;
+  position: relative;
+  display: flex;
+  color: black;
+  line-height: 1.2;
+  text-align: center;
+  gap: 8px;
+}
+
+.registration-background {
+  background-image: url(/assets/background.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.registration-background-1 {
+  background-image: rgba(255, 255, 255, 0.8);
+}
+
+.registration-title {
+  z-index: 1;
+  font-size: 61px;
+  font-weight: 700;
+}
+
+.registration-subtitle {
+  align-self: stretch;
+  z-index: 2;
+  font-size: 21px;
+}
+
+.registration-form-register {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 568px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 23px;
+  justify-content: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 11px;
+  gap: 7.5px;
+}
+
+.registration-name {
+  align-self: stretch;
+  color: black;
+  line-height: 1.4;
+}
+
+.registration-input {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.registration-value {
+  flex-grow: 1;
+  color: darkgray;
+  line-height: 1;
+}
+
+.registration-t-company-name {
+  align-self: stretch;
+  max-width: 521px;
+  padding-top: 16px;
+}
+
+.registration-company-name {
+  color: black;
+  line-height: 1.4;
+}
+
+.registration-input-1 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.registration-value-1 {
+  flex-grow: 1;
+  color: darkgray;
+  line-height: 1;
+}
+
+.registration-t-company-email-address {
+  align-self: stretch;
+  max-width: 521px;
+  padding-top: 16px;
+}
+
+.registration-company-email-address {
+  color: black;
+  line-height: 1.4;
+}
+
+.registration-input-2 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.registration-value-2 {
+  flex-grow: 1;
+  color: darkgray;
+  line-height: 1;
+}
+
+.registration-t-password {
+  align-self: stretch;
+  max-width: 521px;
+  padding-top: 16px;
+}
+
+.registration-password {
+  color: black;
+  line-height: 1.4;
+}
+
+.registration-input-3 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.registration-value-3 {
+  flex-grow: 1;
+  color: darkgray;
+  line-height: 1;
+}
+
+.registration-t-button {
+  padding-top: 16px;
+  justify-content: flex-end;
+}
+
+.registration-button {
+  border-style: solid;
+  border-color: black;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: black;
+  padding-bottom: 11px;
+  padding-left: 238px;
+  padding-right: 238px;
+  padding-top: 11px;
+  justify-content: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.registration-button-1 {
+  text-align: center;
+  color: whitesmoke;
+  line-height: 1;
+}
