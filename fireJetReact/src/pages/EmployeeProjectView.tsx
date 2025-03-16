@@ -3,14 +3,7 @@ import Logout from "../components/assets/Logout";
 import Row from "../components/Row2";
 import "./EmployeeProjectView.css";
 
-<<<<<<< HEAD
 export default function EmployeeProjectView({ className = "" }: EmployeeProjectViewProps) {
-=======
-
-export default function EmployeeProjectView({
-  className = "",
-}: EmployeeProjectViewProps) {
->>>>>>> 4bca4ed9e49489e7765125099a6dc6709344b090
   return (
     <div className={`${className} employee-project-view-wrapper`}>
       {/* Top navigation */}
