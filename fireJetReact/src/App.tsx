@@ -20,6 +20,7 @@ import BODepartmentRolesViewMCRequestsViewDetails from "./pages/BODepartmentRole
 import EditEmployeeDetail from "./pages/EditEmployeeDetail";
 import BODepartmentRolesLeaveView from "./pages/BODepartmentRolesLeaveView";
 import BODepartmentRolesMCView from "./pages/BODepartmentRolesMCView";
+import BODepartmentRolesViewLeaveRequestsViewDetails from "./pages/BODepartmentRolesViewLeaveRequestsViewDetails";
 
 
 function App() {
@@ -67,6 +68,8 @@ function App() {
          <Route path="/bo-department-roles-leave-view" element={<BODepartmentRolesLeaveView />} /> 
          {/* Route for Edit BODepartmentRolesMCView page */}
          <Route path="/bo-department-roles-mc-view" element={<BODepartmentRolesMCView />} /> 
+         {/* Route for Edit BODepartmentRolesLeaveView page */}
+         <Route path="/bo-department-roles-view-leave-requests-view-details" element={<BODepartmentRolesViewLeaveRequestsViewDetails />} /> 
       </Routes>
     </Router>
   );
