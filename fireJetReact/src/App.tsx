@@ -16,6 +16,8 @@ import EmployeeSendReceiveMessage from "./pages/EmployeeSendReceiveMessage";
 import EmployeeSubmitTimeSwapRequestView from "./pages/EmployeeSubmitTimeSwapRequestView";
 import EmployeeDashboard from "./pages/EmployeeDashboard";
 import BOReportIssuesViewUpdateDetails from "./pages/BOReportIssuesViewUpdateDetails";
+import BODepartmentRolesViewMCRequestsViewDetails from "./pages/BODepartmentRolesViewMCRequestsViewDetails";
+import EditEmployeeDetail from "./pages/EditEmployeeDetails";
 
 
 function App() {
@@ -53,8 +55,12 @@ function App() {
          <Route path="/employee-submit-time-swap-request-view" element={<EmployeeSubmitTimeSwapRequestView />} />  
          {/* Route for Edit EmployeeDashboard page */}
          <Route path="/employee-dashboard" element={<EmployeeDashboard />} />
-         {/* Route for Edit EmployeeDashboard page */}
-         <Route path="/bo-report-issues-form-update-details-view" element={<BOReportIssuesViewUpdateDetails />} />    
+         {/* Route for BOReportIssuesForm (Update details) page */}
+         <Route path="/bo-report-issues-form-update-details-view" element={<BOReportIssuesViewUpdateDetails />} /> 
+         {/* Route for BODepartmentRolesForm (View MC) page */}
+         <Route path="/bo-department-roles-form-view-mc-requests" element={<BODepartmentRolesViewMCRequestsViewDetails />} />  
+         {/* Route for EditEmployeDetail page*/}
+         <Route path="/bo-department-roles-form-view-mc-requests" element={<EditEmployeeDetail />} />       
       </Routes>
     </Router>
   );
