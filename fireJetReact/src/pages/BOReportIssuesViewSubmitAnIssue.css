@@ -22,7 +22,6 @@
 }
 
 .common-7,
-.bo-report-issues-view-submit-an-issue-t-rectangle-8boside-menu,
 .bo-report-issues-view-submit-an-issue-t-update-profile {
   display: flex;
   flex-direction: column;
@@ -49,7 +48,7 @@
 .bo-report-issues-view-submit-an-issue-ttt-rectangle-8boside-menu-mid-white-container-right-sidebar,
 .bo-report-issues-view-submit-an-issue-tt-rectangle-8boside-menu-mid-white-container {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
 }
 
@@ -119,6 +118,7 @@
   border-top-right-radius: 2px;
   align-items: flex-start;
   line-height: normal;
+  height: 100vh;
 }
 
 .bo-report-issues-view-submit-an-issue-bo-report-issues-view-submit-an-issue {
@@ -172,10 +172,7 @@
   flex-grow: 1;
 }
 
-.bo-report-issues-view-submit-an-issue-t-rectangle-8boside-menu {
-  color: white;
-  font-weight: 600;
-}
+
 
 .bo-report-issues-view-submit-an-issue-report-issues {
   padding-left: 10px;
@@ -185,7 +182,7 @@
 
 .bo-report-issues-view-submit-an-issue-bo-side-menu {
   flex-direction: column;
-  padding-bottom: 556px;
+  padding-bottom: 680px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
@@ -202,6 +199,7 @@
   padding-top: 9px;
   font-size: 14px;
   gap: 7px;
+  width: 100%;
 }
 
 .bo-report-issues-view-submit-an-issue-emp-roster {
@@ -411,6 +409,7 @@
 
 .bo-report-issues-view-submit-an-issue-t-2025emproster-all-rights-reserved {
   padding-top: 27px;
+  
 }
 
 .bo-report-issues-view-submit-an-issue-emproster-all-rights-reserved {
