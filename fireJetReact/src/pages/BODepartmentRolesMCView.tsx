@@ -24,13 +24,15 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
             <div className="bo-department-roles-view-title">
               <h2>EMP Roster</h2>
             </div>
-            <button className="submit-issue-button">Submit an Issue</button>
+            <div>
+              <h2>MC Requests</h2>
+            </div>
             <div className="bo-department-roles-view-table">
               <table>
                 <thead>
                   <tr>
-                    <th>Reported Issues</th>
-                    <th>Description</th>
+                    <th>Dates</th>
+                    <th>Proof of MC</th>
                     <th>Status</th>
                     <th></th>
                   </tr>
@@ -41,7 +43,7 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>Pending</td>
                     <td>
-                      <button>Update</button> <button>Resolve</button>
+                    <button>View Details</button> <button>Approve</button><button>Reject</button>
                     </td>
                   </tr>
                   <tr>
@@ -49,23 +51,22 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>Pending</td>
                     <td>
-                      <button>Update</button> <button>Resolve</button>
+                    <button>View Details</button> <button>Approve</button><button>Reject</button>
                     </td>
                   </tr>
                   <tr>
                     <td>New hire Andy not shown</td>
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>Resolved</td>
-                    <td>
-                      <button>Update</button> <button>Resolve</button>
-                    </td>
+                    
+                    <button>View Details</button> <button>Approve</button><button>Reject</button>
                   </tr>
                   <tr>
                     <td>Page layout misaligned</td>
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>In Progress</td>
                     <td>
-                      <button>Update</button> <button>Resolve</button>
+                    <button>View Details</button> <button>Approve</button><button>Reject</button>
                     </td>
                   </tr>
                 </tbody>
