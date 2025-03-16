@@ -16,22 +16,15 @@ export default function Row({
       <div className="row-cell-13">
         <div className={`${container1} row-text-16`}>{text1}</div>
       </div>
-      <div className="row-cell-14">
-        <div className="row-text-17">9am-5.30pm</div>
-      </div>
       <div className="row-cell-15">
         <div className="row-text-18">{text2}</div>
       </div>
-      <div className="row-cell-16">
-        <div className="row-text-19">Active</div>
-      </div>
       <div className={`${container2} row-cell-17`}>
-        <div className="row-text-20">Edit Details</div>
         <div className="row-view-mc-requests-button-1">
-          <div className="row-text-21">View MC Requests</div>
+          <div className="row-text-21">Update Details</div>
         </div>
         <div className="row-view-leave-requests">
-          <div className="row-text-22">View Leave Requests</div>
+          <div className="row-text-22">Resolve Issue</div>
         </div>
       </div>
     </div>
@@ -40,8 +33,8 @@ export default function Row({
 
 interface RowProps {
   className?: string;
-  text: string;
   container1: string;
+  test: string;
   text1: string;
   text2: string;
   container2: string;
