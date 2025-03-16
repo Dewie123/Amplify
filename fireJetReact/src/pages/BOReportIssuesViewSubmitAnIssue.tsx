@@ -21,10 +21,8 @@ export default function BOReportIssuesViewSubmitAnIssue({
         <div className="bo-report-issues-view-submit-an-issue-ttt-rectangle-8boside-menu-mid-white-container-right-sidebar" >
           <div className="bo-report-issues-view-submit-an-issue-tt-rectangle-8boside-menu-mid-white-container" >
             <div className="bo-report-issues-view-submit-an-issue-t-rectangle-8boside-menu" >
-              <div className="bo-report-issues-view-submit-an-issue-report-issues" >
-                Report Issues
-              </div>
               <div className="bo-report-issues-view-submit-an-issue-bo-side-menu" >
+                <div>Report Issues</div>
                 <div>Dashboard</div>
                 <div>Schedule</div>
                 <div>Department/Roles</div>
@@ -34,11 +32,11 @@ export default function BOReportIssuesViewSubmitAnIssue({
               <div className="bo-report-issues-view-submit-an-issue-emp-roster" >
                 EmpRoster
               </div>
-              <div className="bo-report-issues-view-submit-an-issue-tt-report-an-issue" >
-                <div className="bo-report-issues-view-submit-an-issue-report-an-issue" >
-                  Report an issue
-                </div>
+              
+              <div className="bo-report-issues-view-submit-an-issue-report-an-issue" >
+                Report an issue
               </div>
+              
               <div className="bo-report-issues-view-submit-an-issue-t-form-contact" >
                 <div className="bo-report-issues-view-submit-an-issue-form-contact" >
                   <div className="bo-report-issues-view-submit-an-issue-name">

@@ -41,7 +41,7 @@ function App() {
          <Route path="/bo-schedule-view" element={<BOScheduleView />} /> 
          {/* Route for Edit BOTeamAvailabilityView page */}
          <Route path="/bo-team-availability-view" element={<BOTeamAvailabilityView />} /> 
-         {/* Route for Edit BOReportIssuesView page */}
+         {/* Route for Edit BOReportIssuesFormView page */}
          <Route path="/bo-report-issues-form-view" element={<BOReportIssuesViewSubmitAnIssue />} /> 
          {/* Route for Edit BOReportIssuesView page */}
          <Route path="/bo-report-issues-view" element={<BOReportIssuesView />} /> 
