@@ -12,6 +12,9 @@ import BOScheduleView from "./pages/BOScheduleView";
 import BOTeamAvailabilityView from "./pages/BOTeamAvaibilityView";
 import BOReportIssuesViewSubmitAnIssue from "./pages/BOReportIssuesViewSubmitAnIssue";
 import BOReportIssuesView from "./pages/BOReportIssuesView";
+import EmployeeSendReceiveMessage from "./pages/EmployeeSendReceiveMessage";
+import EmployeeSubmitTimeSwapRequestView from "./pages/EmployeeSubmitTimeSwapRequestView";
+import EmployeeDashboard from "./pages/EmployeeDashboard";
 
 function App() {
   return (
@@ -42,6 +45,12 @@ function App() {
          <Route path="/bo-report-issues-form-view" element={<BOReportIssuesViewSubmitAnIssue />} /> 
          {/* Route for Edit BOReportIssuesView page */}
          <Route path="/bo-report-issues-view" element={<BOReportIssuesView />} /> 
+         {/* Route for Edit EmployeeSendReceiveMessage page */}
+         <Route path="/employee-send-receive-message" element={<EmployeeSendReceiveMessage />} />
+         {/* Route for Edit EmployeeSubmitTimeSwapRequestView page */}
+         <Route path="/employee-submit-time-swap-request-view" element={<EmployeeSubmitTimeSwapRequestView />} />  
+         {/* Route for Edit EmployeeDashboard page */}
+         <Route path="/employee-dashboard" element={<EmployeeDashboard />} />  
       </Routes>
     </Router>
   );
