@@ -25,6 +25,9 @@ import EmployeeViewTimeSwapRequestViewMain from "./pages/EmployeeViewTimeSwapReq
 import Row from "./pages/SysAdReviewAndRating";
 import SysRow from "./pages/SysAdFAQ";
 import EmployeeViewReceivedTimeSwapRequestViewMain from "./pages/EmployeeViewReceivedTimeSwapRequestViewMain";
+import EmployeeViewSubmittedTimeSwapRequestView from "./pages/EmployeeViewSubmittedTimeSwapRequestView";
+import DemoVideo from "./pages/SysAdDemoVideo";
+import EmployeeViewAttendance from "./pages/EmployeeViewAttendance";
 
 
 function App() {
@@ -82,6 +85,12 @@ function App() {
           <Route path="/sys-faq" element={<SysRow/>} />
           {/* Route for Edit EmployeeViewReceivedTimeSwapRequest page */}
          <Route path="/employee-view-received-time-swap-request" element={<EmployeeViewReceivedTimeSwapRequestViewMain />} />
+         {/* Route for Edit EmployeeViewSubmittedTimeSwapRequestView page */}
+         <Route path="/employee-view-submitted-time-swap-request" element={<EmployeeViewSubmittedTimeSwapRequestView />} />
+         {/* Route for SysAdDemoVideo page*/}
+         <Route path="/sys-demo-vid" element={<DemoVideo/>} />   
+         {/* Route for Employee ViewAttendance page*/}
+         <Route path="/employee-view-attendance" element={<EmployeeViewAttendance/>} /> 
          
       </Routes>
     </Router>
