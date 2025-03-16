@@ -1,6 +1,6 @@
 import LogoTransparent from "../components/assets/LogoTransparent";
 import Logout from "../components/assets/Logout";
-import Row from "../components/Row1";
+import Row from "../components/Row4";
 import "./BODepartmentRolesView.css";
 
 export default function BODepartmentRolesView({
@@ -18,9 +18,10 @@ export default function BODepartmentRolesView({
         </div>
         <div className="bo-department-roles-view-tt-rectangle-8boside-menu-mid-white-container" >
           <div className="bo-department-roles-view-t-rectangle-8boside-menu">
-            
+            <div className="bo-department-roles-view-report-issues">
+              Report Issues
+            </div>
             <div className="bo-department-roles-view-bo-side-menu">
-              <div>Report Issues</div>
               <div>Dashboard</div>
               <div>Schedule</div>
               <div>Department/Roles</div>

@@ -21,6 +21,7 @@ import EditEmployeeDetail from "./pages/EditEmployeeDetail";
 import BODepartmentRolesLeaveView from "./pages/BODepartmentRolesLeaveView";
 import BODepartmentRolesMCView from "./pages/BODepartmentRolesMCView";
 import BODepartmentRolesViewLeaveRequestsViewDetails from "./pages/BODepartmentRolesViewLeaveRequestsViewDetails";
+import EmployeeViewTimeSwapRequestViewMain from "./pages/EmployeeViewTimeSwapRequestViewMain";
 
 
 function App() {
@@ -70,6 +71,8 @@ function App() {
          <Route path="/bo-department-roles-mc-view" element={<BODepartmentRolesMCView />} /> 
          {/* Route for Edit BODepartmentRolesLeaveView page */}
          <Route path="/bo-department-roles-view-leave-requests-view-details" element={<BODepartmentRolesViewLeaveRequestsViewDetails />} /> 
+         {/* Route for Edit EmployeeMainViewTimeSwapRequest page */}
+         <Route path="/employee-main-view-time-swap-request" element={<EmployeeViewTimeSwapRequestViewMain />} />
       </Routes>
     </Router>
   );

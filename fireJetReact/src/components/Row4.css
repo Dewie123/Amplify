@@ -634,19 +634,7 @@
   padding-left: 4px;
 }
 @media (min-width: 1270px) {
-  .bo-department-roles-view-nav-bar-system-admin {
-    flex-wrap: nowrap;
-  }
-  .bo-department-roles-view-tt-rectangle-8boside-menu-mid-white-container {
-    flex-wrap: nowrap;
-  }
-  .bo-department-roles-view-t-emproster-tadd-team-member {
-    flex-wrap: nowrap;
-  }
-  .bo-department-roles-view-row {
-    flex-wrap: nowrap;
-  }
-  .bo-department-roles-view-row-3 {
+  .row-row-4 {
     flex-wrap: nowrap;
   }
 }
