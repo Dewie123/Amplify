@@ -17,7 +17,7 @@ import EmployeeSubmitTimeSwapRequestView from "./pages/EmployeeSubmitTimeSwapReq
 import EmployeeDashboard from "./pages/EmployeeDashboard";
 import BOReportIssuesViewUpdateDetails from "./pages/BOReportIssuesViewUpdateDetails";
 import BODepartmentRolesViewMCRequestsViewDetails from "./pages/BODepartmentRolesViewMCRequestsViewDetails";
-import EditEmployeeDetail from "./pages/EditEmployeeDetails";
+import EditEmployeeDetail from "./pages/EditEmployeeDetail";
 
 
 function App() {
