@@ -24,7 +24,7 @@ import BODepartmentRolesViewLeaveRequestsViewDetails from "./pages/BODepartmentR
 import EmployeeViewTimeSwapRequestViewMain from "./pages/EmployeeViewTimeSwapRequestViewMain";
 import Row from "./pages/SysAdReviewAndRating";
 import SysRow from "./pages/SysAdFAQ";
-
+import EmployeeViewReceivedTimeSwapRequestViewMain from "./pages/EmployeeViewReceivedTimeSwapRequestViewMain";
 
 function App() {
   return (
@@ -79,6 +79,8 @@ function App() {
           <Route path="/sys-review-rating" element={<Row/>} />    
           {/* Route for SysAdFAQ page*/}
           <Route path="/sys-faq" element={<SysRow/>} />
+          {/* Route for Edit EmployeeViewReceivedTimeSwapRequest page */}
+         <Route path="/employee-view-received-time-swap-request" element={<EmployeeViewReceivedTimeSwapRequestViewMain />} />
       </Routes>
     </Router>
   );
