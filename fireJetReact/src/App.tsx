@@ -8,6 +8,7 @@ import BOAddTeamMemberView from "./pages/BOAddTeamMemberView";
 import BOEditTeamMemberView from "./pages/BOEditTeamMemberView";
 import BODepartmentRolesView from "./pages/BODepartmentRolesView";
 import BODashboardView from "./pages/BODashboardView";
+import BOScheduleView from "./pages/BOScheduleView";
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
          <Route path="/bo-department-roles-view" element={<BODepartmentRolesView />} /> 
          {/* Route for Edit BODashboardView page */}
          <Route path="/bo-dashboard-view" element={<BODashboardView />} /> 
+         {/* Route for Edit BOScheduleView page */}
+         <Route path="/bo-schedule-view" element={<BOScheduleView />} /> 
       </Routes>
     </Router>
   );
