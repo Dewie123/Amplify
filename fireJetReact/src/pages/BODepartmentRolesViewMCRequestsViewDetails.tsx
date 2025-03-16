@@ -34,63 +34,65 @@ export default function BOBODepartmentRolesViewMCRequestsViewDetails({
               </div>
               
               <div className="bo-report-issues-view-submit-an-issue-report-an-issue" >
-                Report an issue
+                MC Details
               </div>
               
               <div className="bo-report-issues-view-submit-an-issue-t-form-contact" >
-                <div className="bo-report-issues-view-submit-an-issue-form-contact" >
-                  <div className="bo-report-issues-view-submit-an-issue-name">
-                    Name
-                  </div>
-                  <div className="bo-report-issues-view-submit-an-issue-input" >
-                    <div className="bo-report-issues-view-submit-an-issue-eg-anna-smores" >
-                      John Smith
+                <div className="container-form">
+                    <div className="bo-report-issues-view-submit-an-issue-form-contact" >
+                    <div className="bo-report-issues-view-submit-an-issue-name">
+                        Name
                     </div>
-                  </div>
-                  <div className="bo-report-issues-view-submit-an-issue-t-role" >
-                    <div className="bo-report-issues-view-submit-an-issue-role" >
-                      Role
+                    <div className="bo-report-issues-view-submit-an-issue-input" >
+                        <div className="bo-report-issues-view-submit-an-issue-eg-anna-smores" >
+                        John Smith
+                        </div>
                     </div>
-                  </div>
-                  <div className="bo-report-issues-view-submit-an-issue-input-1" >
-                    <div className="bo-report-issues-view-submit-an-issue-eg-manager" >
-                      Supervisor
+                    <div className="bo-report-issues-view-submit-an-issue-t-role" >
+                        <div className="bo-report-issues-view-submit-an-issue-role" >
+                        Date
+                        </div>
                     </div>
-                  </div>
-                  <div className="bo-report-issues-view-submit-an-issue-t-issue-to-report" >
-                    <div className="bo-report-issues-view-submit-an-issue-issue-to-report" >
-                      Issue to report
+                    <div className="bo-report-issues-view-submit-an-issue-input-1" >
+                        <div className="bo-report-issues-view-submit-an-issue-eg-manager" >
+                        23/02/2025
+                        </div>
                     </div>
-                  </div>
-                  <div className="bo-report-issues-view-submit-an-issue-input-2" >
-                    <div className="bo-report-issues-view-submit-an-issue-eg-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-fusce-faucibus-mollis-suscipit-ut-tincidunt-blandit-tellus-amattis-proin-sapien-diam-porta-sed-luctus-at-ornare-vel-nisi" >
-                      <p>
-                        I can't seem to add new team members, I tried refreshing the browser to ensure that it is not my issue, system admin please advise me on this or help to resolve the issue, thanks.
-                      </p>
+                    <div className="bo-report-issues-view-submit-an-issue-t-issue-to-report" >
+                        <div className="bo-report-issues-view-submit-an-issue-issue-to-report" >
+                        Reason for MC
+                        </div>
                     </div>
-                  </div>
-                  <div className="bo-report-issues-view-submit-an-issue-t-attach-image-if-any" >
-                    <div className="bo-report-issues-view-submit-an-issue-attach-image-if-any" >
-                      Attach image (if any)
+                    <div className="bo-report-issues-view-submit-an-issue-input-2" >
+                        <div className="bo-report-issues-view-submit-an-issue-eg-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-fusce-faucibus-mollis-suscipit-ut-tincidunt-blandit-tellus-amattis-proin-sapien-diam-porta-sed-luctus-at-ornare-vel-nisi" >
+                        <p>
+                            Flu
+                        </p>
+                        </div>
                     </div>
-                  </div>
-                  <div className="bo-report-issues-view-submit-an-issue-tt-bg-rectangle-13upload-choose-file" >
-                    <div className="bo-report-issues-view-submit-an-issue-t-bg-rectangle-13upload-choose-file" >
-                      <div className="bo-report-issues-view-submit-an-issue-wrapper-1" >
-                        <div className="bo-report-issues-view-submit-an-issue-bg-rectangle" />
-                      </div>
-                      <div className="bo-report-issues-view-submit-an-issue-choose-file" >
-                        9287348.jpeg
-                      </div>
-                      <Upload className="bo-report-issues-view-submit-an-issue-upload" />
+                    <div className="bo-report-issues-view-submit-an-issue-t-attach-image-if-any" >
+                        <div className="bo-report-issues-view-submit-an-issue-attach-image-if-any" >
+                        Attach image (if any)
+                        </div>
                     </div>
-                  </div>
+                    <div className="bo-report-issues-view-submit-an-issue-tt-bg-rectangle-13upload-choose-file" >
+                        <div className="bo-report-issues-view-submit-an-issue-t-bg-rectangle-13upload-choose-file" >
+                        <div className="bo-report-issues-view-submit-an-issue-wrapper-1" >
+                            <div className="bo-report-issues-view-submit-an-issue-bg-rectangle" />
+                        </div>
+                        <div className="bo-report-issues-view-submit-an-issue-choose-file" >
+                            8475932.jpeg
+                        </div>
+                        <Upload className="bo-report-issues-view-submit-an-issue-upload" />
+                        </div>
+                    </div>
+                    </div>
                 </div>
               </div>
               <div className="bo-report-issues-view-submit-an-issue-t-update-profile" >
                 <div className="bo-report-issues-view-submit-an-issue-update-profile" >
                   <div className="bo-report-issues-view-submit-an-issue-button" >
-                    Update Details
+                    Status: Pending
                   </div>
                 </div>
               </div>

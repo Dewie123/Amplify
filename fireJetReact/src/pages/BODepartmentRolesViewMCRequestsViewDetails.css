@@ -37,11 +37,18 @@
 }
 
 .common-9,
-.bo-report-issues-view-submit-an-issue-t-form-contact,
 .bo-report-issues-view-submit-an-issue-update-profile {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.bo-report-issues-view-submit-an-issue-t-form-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
 }
 
 .common-10,
@@ -238,6 +245,12 @@
   color: gray;
   font-weight: 300;
   gap: 4.5px;
+  width: 100%;
+}
+
+.fuck {
+    display: flex;
+    justify-content: center;
 }
 
 .bo-report-issues-view-submit-an-issue-name {
@@ -382,7 +395,7 @@
   border-right-width: 1px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  background-color: black;
+  background-color: orangered;
   padding-bottom: 13px;
   padding-left: 275px;
   padding-right: 275px;
