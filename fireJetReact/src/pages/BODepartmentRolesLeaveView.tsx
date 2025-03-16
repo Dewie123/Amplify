@@ -1,8 +1,8 @@
 import LogoTransparent from "../components/assets/LogoTransparent";
 import Logout from "../components/assets/Logout";
-import "./BOReportIssuesView.css";
+import "./BODepartmentRolesLeaveView.css";
 
-export default function BOReportIssuesView({ className = "" }: BOReportIssuesProps) {
+export default function BODepartmentRolesLeaveView({ className = "" }: BODepartmentRolesLeaveView) {
   return (
     <div className={`${className} bo-department-roles-view-wrapper`}>
       <div className="bo-department-roles-view-bo-department-roles-view">
@@ -29,8 +29,8 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
               <table>
                 <thead>
                   <tr>
-                    <th>Reported Issues</th>
-                    <th>Description</th>
+                    <th>Date</th>
+                    <th>Reason for Leave</th>
                     <th>Status</th>
                     <th></th>
                   </tr>
@@ -41,23 +41,22 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>Pending</td>
                     <td>
-                      <button>Update</button> <button>Resolve</button>
+                      <button>View Details</button> <button>Approve</button><button>Reject</button>
                     </td>
                   </tr>
                   <tr>
                     <td>Slow response time</td>
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>Pending</td>
-                    <td>
-                      <button>Update</button> <button>Resolve</button>
-                    </td>
+                    
+                    <button>View Details</button> <button>Approve</button><button>Reject</button>
                   </tr>
                   <tr>
                     <td>New hire Andy not shown</td>
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>Resolved</td>
                     <td>
-                      <button>Update</button> <button>Resolve</button>
+                      <button>View Details</button> <button>Approve</button><button>Reject</button>
                     </td>
                   </tr>
                   <tr>
@@ -65,7 +64,7 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>In Progress</td>
                     <td>
-                      <button>Update</button> <button>Resolve</button>
+                      <button>View Details</button> <button>Approve</button><button>Reject</button>
                     </td>
                   </tr>
                 </tbody>
@@ -87,6 +86,6 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
   );
 }
 
-interface BOReportIssuesProps {
+interface BODepartmentRolesLeaveView {
   className?: string;
 }

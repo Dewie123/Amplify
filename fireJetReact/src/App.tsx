@@ -16,6 +16,10 @@ import EmployeeSendReceiveMessage from "./pages/EmployeeSendReceiveMessage";
 import EmployeeSubmitTimeSwapRequestView from "./pages/EmployeeSubmitTimeSwapRequestView";
 import EmployeeDashboard from "./pages/EmployeeDashboard";
 import BOReportIssuesViewUpdateDetails from "./pages/BOReportIssuesViewUpdateDetails";
+import BODepartmentRolesViewMCRequestsViewDetails from "./pages/BODepartmentRolesViewMCRequestsViewDetails";
+import EditEmployeeDetail from "./pages/EditEmployeeDetail";
+import BODepartmentRolesLeaveView from "./pages/BODepartmentRolesLeaveView";
+import BODepartmentRolesMCView from "./pages/BODepartmentRolesMCView";
 
 
 function App() {
@@ -55,6 +59,14 @@ function App() {
          <Route path="/employee-dashboard" element={<EmployeeDashboard />} />
          {/* Route for Edit EmployeeDashboard page */}
          <Route path="/bo-report-issues-form-update-details-view" element={<BOReportIssuesViewUpdateDetails />} />    
+         {/* Route for Edit BODepartmentRolesViewMCRequestsViewDetails page */}
+         <Route path="/bo-department-roles-view-mc-requests-view-details" element={<BODepartmentRolesViewMCRequestsViewDetails />} />   
+         {/* Route for Edit BOEditEmployeeDetail page */}
+         <Route path="/bo-edit-employee-detail" element={<EditEmployeeDetail />} />   
+         {/* Route for Edit BODepartmentRolesLeaveView page */}
+         <Route path="/bo-department-roles-leave-view" element={<BODepartmentRolesLeaveView />} /> 
+         {/* Route for Edit BODepartmentRolesMCView page */}
+         <Route path="/bo-department-roles-mc-view" element={<BODepartmentRolesMCView />} /> 
       </Routes>
     </Router>
   );
