@@ -22,6 +22,8 @@ import BODepartmentRolesLeaveView from "./pages/BODepartmentRolesLeaveView";
 import BODepartmentRolesMCView from "./pages/BODepartmentRolesMCView";
 import BODepartmentRolesViewLeaveRequestsViewDetails from "./pages/BODepartmentRolesViewLeaveRequestsViewDetails";
 import EmployeeViewTimeSwapRequestViewMain from "./pages/EmployeeViewTimeSwapRequestViewMain";
+import Row from "./pages/SysAdReviewAndRating";
+import SysRow from "./pages/SysAdFAQ";
 
 
 function App() {
@@ -73,6 +75,10 @@ function App() {
          <Route path="/bo-department-roles-view-leave-requests-view-details" element={<BODepartmentRolesViewLeaveRequestsViewDetails />} /> 
          {/* Route for Edit EmployeeMainViewTimeSwapRequest page */}
          <Route path="/employee-main-view-time-swap-request" element={<EmployeeViewTimeSwapRequestViewMain />} />
+          {/* Route for SysAdReviewAndRating page*/}
+          <Route path="/sys-review-rating" element={<Row/>} />    
+          {/* Route for SysAdFAQ page*/}
+          <Route path="/sys-faq" element={<SysRow/>} />
       </Routes>
     </Router>
   );
