@@ -3,6 +3,7 @@ import Logout from "../components/assets/Logout";
 import Row from "../components/Row";
 import "./EmployeeProjectView.css";
 
+
 export default function EmployeeProjectView({
   className = "",
 }: EmployeeProjectViewProps) {

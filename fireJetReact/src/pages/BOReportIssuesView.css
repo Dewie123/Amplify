@@ -585,7 +585,69 @@
   align-self: left;
 }
 
+.bo-department-roles-view-title {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
 
+.submit-issue-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-issue-button:hover {
+  background-color: #0056b3;
+}
+
+.bo-department-roles-view-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.bo-department-roles-view-table table {
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.bo-department-roles-view-table th, .bo-department-roles-view-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.bo-department-roles-view-table th {
+  background-color: #f2f2f2;
+}
+
+.bo-department-roles-view-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.bo-department-roles-view-table button {
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-right: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bo-department-roles-view-table button:hover {
+  background-color: #0056b3;
+}
 
 
 

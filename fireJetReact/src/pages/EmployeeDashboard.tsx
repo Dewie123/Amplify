@@ -6,6 +6,7 @@ import UserDetail1 from "../components/assets/UserDetail1";
 import UserDetail2 from "../components/assets/UserDetail2";
 import "./EmployeeDashboard.css";
 
+
 export default function EmployeeDashboard({
   className = "",
 }: EmployeeDashboardProps) {

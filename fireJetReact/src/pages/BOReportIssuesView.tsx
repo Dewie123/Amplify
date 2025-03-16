@@ -21,6 +21,10 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
             </div>
           </div>
           <div className="bo-department-roles-view-mid-white-container">
+            <div className="bo-department-roles-view-title">
+              <h2>EMP Roster</h2>
+            </div>
+            <button className="submit-issue-button">Submit an Issue</button>
             <div className="bo-department-roles-view-table">
               <table>
                 <thead>
