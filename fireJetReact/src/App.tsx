@@ -18,7 +18,6 @@ import EmployeeDashboard from "./pages/EmployeeDashboard";
 import BOReportIssuesViewUpdateDetails from "./pages/BOReportIssuesViewUpdateDetails";
 
 
-
 function App() {
   return (
     <Router>
@@ -56,7 +55,6 @@ function App() {
          <Route path="/employee-dashboard" element={<EmployeeDashboard />} />
          {/* Route for Edit EmployeeDashboard page */}
          <Route path="/bo-report-issues-form-update-details-view" element={<BOReportIssuesViewUpdateDetails />} />    
-        
       </Routes>
     </Router>
   );

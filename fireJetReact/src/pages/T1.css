@@ -1,0 +1,525 @@
+.common-16,
+.edit-employee-detail-background,
+.edit-employee-detail-background-1 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+.common-15,
+.edit-employee-detail-background,
+.edit-employee-detail-background-1 {
+  background-image: url(/assets/background-1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.common-14,
+.edit-employee-detail-input,
+.edit-employee-detail-input-1,
+.edit-employee-detail-input-2,
+.t-input-3 {
+  border-style: solid;
+  border-color: gainsboro;
+}
+
+.common-8,
+.edit-employee-detail-nav-bar-system-admin,
+.edit-employee-detail-t-delete-profile,
+.edit-employee-detail-t-2025emproster-all-rights-reserved {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.common-9,
+.edit-employee-detail-tt-edit-profile-edit-personnel-logo,
+.edit-employee-detail-filter-account-status,
+.edit-employee-detail-update-profile,
+.edit-employee-detail-delete-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-10,
+.edit-employee-detail-t-employee-side-menu-mid-white-container-right-sidebar,
+.edit-employee-detail-t-form-contact-form-contact {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.common-11,
+.edit-employee-detail-tt-name-input-taddress-input-temail-input,
+.t-t-name-input-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.common-12,
+.edit-employee-detail-ttt-edit-profile-edit-personnel-logo,
+.edit-employee-detail-ttt-name-input-taddress-input-temail-input,
+.edit-employee-detail-t-filter-account-status {
+  display: flex;
+  align-items: center;
+}
+
+.common-13,
+.edit-employee-detail-mid-white-container,
+.edit-employee-detail-form-contact {
+  flex-direction: column;
+  align-items: center;
+}
+
+.common-4,
+.edit-employee-detail-tt-name-input-taddress-input-temail-input,
+.edit-employee-detail-singer,
+.edit-employee-detail-am-530pm,
+.edit-employee-detail-vocalist {
+  color: gray;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.common-5,
+.edit-employee-detail-button,
+.edit-employee-detail-button-1 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.common-6,
+.edit-employee-detail-text,
+.edit-employee-detail-emproster-all-rights-reserved {
+  font-size: 12px;
+  text-align: center;
+}
+
+.common-7,
+.edit-employee-detail-emp-roster,
+.edit-employee-detail-text-1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.common-1,
+.edit-employee-detail-wrapper,
+.edit-employee-detail-edit-employee-detail {
+  display: flex;
+  width: 100%;
+}
+
+.common-2,
+.edit-employee-detail-mid-white-container,
+.edit-employee-detail-form-contact,
+.edit-employee-detail-form-contact-1,
+.edit-employee-detail-input,
+.edit-employee-detail-input-1,
+.edit-employee-detail-input-2,
+.t-input-3 {
+  display: flex;
+  background-color: white;
+}
+
+.common-3,
+.edit-employee-detail-text,
+.edit-employee-detail-employee-side-menu {
+  display: flex;
+  color: white;
+}
+
+.edit-employee-detail-wrapper {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  align-items: flex-start;
+  line-height: normal;
+}
+
+.edit-employee-detail-edit-employee-detail {
+  border-style: solid;
+  border-color: transparent;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  overflow: clip;
+  background-color: black;
+  flex-direction: column;
+  padding-bottom: 21px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  height: 100%;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  gap: 1px;
+}
+
+.edit-employee-detail-nav-bar-system-admin {
+  background-color: midnightblue;
+  padding-bottom: 5px;
+  padding-left: 58px;
+  padding-right: 1052px;
+  padding-top: 18px;
+  position: relative;
+}
+
+.edit-employee-detail-logout {
+  width: 24px;
+  height: 24px;
+  right: 10px;
+  top: calc(50% + -12px + -4.5px);
+  position: absolute;
+}
+
+.edit-employee-detail-logo-transparent {
+  width: 30px;
+  bottom: 11px;
+  left: 17px;
+  top: 12px;
+  position: absolute;
+}
+
+.edit-employee-detail-text {
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-employee-detail-t-employee-side-menu-mid-white-container-right-sidebar {
+  flex-grow: 1;
+}
+
+.edit-employee-detail-employee-side-menu {
+  background-color: rebeccapurple;
+  flex-direction: column;
+  width: 200px;
+  padding-bottom: 26px;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-top: 26px;
+  font-size: 20px;
+  font-weight: 600;
+  gap: 33px;
+}
+
+.edit-employee-detail-mid-white-container {
+  padding-bottom: 9px;
+  padding-left: 66px;
+  padding-right: 66px;
+  padding-top: 9px;
+  gap: 6px;
+}
+
+.edit-employee-detail-emp-roster {
+  font-size: 55px;
+  line-height: 1.2;
+  color: black;
+  filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
+}
+
+.edit-employee-detail-ttt-edit-profile-edit-personnel-logo {
+  align-self: stretch;
+  padding-left: 99px;
+  padding-right: 99px;
+}
+
+.edit-employee-detail-tt-edit-profile-edit-personnel-logo {
+  gap: 190px;
+}
+
+.edit-employee-detail-edit-profile {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.edit-employee-detail-edit-personnel-logo {
+  width: 66px;
+  height: 66px;
+  position: relative;
+}
+
+.edit-employee-detail-tt-form-contact-form-contact {
+  align-items: flex-end;
+  align-self: stretch;
+  padding-top: 14px;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.edit-employee-detail-t-form-contact-form-contact {
+  align-items: flex-start;
+  height: 363px;
+  gap: 60px;
+}
+
+.edit-employee-detail-form-contact {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-self: stretch;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.edit-employee-detail-ttt-name-input-taddress-input-temail-input {
+  padding-right: 36px;
+}
+
+.edit-employee-detail-tt-name-input-taddress-input-temail-input {
+  gap: 30px;
+}
+
+.edit-employee-detail-form-contact-1 {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 49px;
+  padding-left: 24px;
+  padding-right: 80px;
+  padding-top: 24px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  gap: 4.5px;
+}
+
+.edit-employee-detail-role {
+  color: black;
+}
+
+.edit-employee-detail-input {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  align-self: stretch;
+  max-width: 255px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.edit-employee-detail-singer {
+  flex-grow: 1;
+}
+
+.edit-employee-detail-t-working-hours {
+  align-self: stretch;
+  max-width: 255px;
+  padding-top: 25px;
+}
+
+.edit-employee-detail-working-hours {
+  color: black;
+}
+
+.edit-employee-detail-input-1 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  align-self: stretch;
+  max-width: 255px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.edit-employee-detail-am-530pm {
+  flex-grow: 1;
+}
+
+.edit-employee-detail-t-skillsets {
+  align-self: stretch;
+  max-width: 255px;
+  padding-top: 25px;
+}
+
+.edit-employee-detail-skillsets {
+  color: black;
+}
+
+.edit-employee-detail-input-2 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  align-self: stretch;
+  max-width: 255px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.edit-employee-detail-vocalist {
+  flex-grow: 1;
+}
+
+.edit-employee-detail-t-status {
+  align-self: stretch;
+  max-width: 255px;
+  padding-top: 25px;
+}
+
+.edit-employee-detail-status {
+  color: black;
+}
+
+.edit-employee-detail-filter-account-status {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: gainsboro;
+  height: 20px;
+  padding-left: 5px;
+  padding-right: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  gap: 4px;
+}
+
+.edit-employee-detail-activated {
+  width: 100px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.edit-employee-detail-line {
+  width: 1px;
+  height: 20px;
+}
+
+.edit-employee-detail-dropdown-down {
+  width: 15px;
+  height: 15px;
+}
+
+.edit-employee-detail-update-profile {
+  border-style: solid;
+  border-color: darkgray;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: seagreen;
+  padding-bottom: 13px;
+  padding-left: 247px;
+  padding-right: 247px;
+  padding-top: 13px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.edit-employee-detail-button {
+  line-height: 1;
+}
+
+.edit-employee-detail-t-delete-profile {
+  padding-top: 7px;
+}
+
+.edit-employee-detail-delete-profile {
+  border-style: solid;
+  border-color: gray;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: indianred;
+  padding-bottom: 13px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 13px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.edit-employee-detail-button-1 {
+  line-height: 1;
+}
+
+.edit-employee-detail-right-sidebar {
+  border-style: solid;
+  border-color: black;
+  border-top-width: 0.2px;
+  border-bottom-width: 0.2px;
+  border-left-width: 0.2px;
+  border-right-width: 0.2px;
+  background-color: white;
+  width: 153px;
+  min-height: 670px;
+}
+
+.edit-employee-detail-t-2025emproster-all-rights-reserved {
+  padding-top: 26px;
+}
+
+.edit-employee-detail-emproster-all-rights-reserved {
+  color: white;
+  line-height: 1.3;
+}
+
+.t-t-name-input-1 {
+  align-items: center;
+  max-width: 255px;
+  gap: 4.5px;
+}
+
+.t-name {
+  align-self: stretch;
+  color: black;
+}
+
+.t-input-3 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  width: 255px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.t-marry-jane {
+  flex-grow: 1;
+}
