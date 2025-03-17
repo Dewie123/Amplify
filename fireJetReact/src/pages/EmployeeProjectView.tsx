@@ -11,8 +11,10 @@ export default function EmployeeProjectView({ className = "" }: EmployeeProjectV
   const handleAttendanceClick = () => {
     navigate('/employee-view-attendance');
   };
-  
-  
+  const handleTimeSwapClick = () => {
+    navigate('/employee-view-received-time-swap-request');
+  };
+
   return (
     <div className={`${className} employee-project-view-wrapper`}>
       {/* Top navigation */}
@@ -40,7 +42,9 @@ export default function EmployeeProjectView({ className = "" }: EmployeeProjectV
               <button className="employee-project-view-button" 
                 onClick={handleAttendanceClick}
                 style={{ cursor: 'pointer' }}>View Attendance Record</button>
-              <button className="employee-project-view-button">View Time Swap Request</button>
+              <button className="employee-project-view-button"
+              onClick={handleTimeSwapClick}
+              style={{ cursor: 'pointer' }}>View Time Swap Request</button>
             </div>
 
             <div className="employee-project-view-date-container">

@@ -26,7 +26,7 @@ export default function EmployeeViewTimeSwapRequestViewMain({
             <div><EmployeeSideMenu /></div>
           </div>
           <div className="employee-view-time-swap-request-view-main-mid-white-container" >
-            <div className="employee-view-time-swap-request-view-main-ttt-view-attendance-record-button-view-attendance-record-button-tview-time-swap-request-view-time-swap-request" >
+            <div className="employee-view-time-swap-request-view-main-ttt-view-attendance-record-button-view-attendance-record-button-tview-time-swap-request-view-time-swap-request">
               <div className="employee-view-time-swap-request-view-main-tt-view-attendance-record-button-view-attendance-record-button-tview-time-swap-request-view-time-swap-request" >
                 <TView
                   container1="employee-view-time-swap-request-view-main-t-view-attendance-record-button-view-attendance-record-button-0-type"
