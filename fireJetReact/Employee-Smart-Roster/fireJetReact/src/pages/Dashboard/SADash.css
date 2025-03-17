@@ -44,3 +44,10 @@
     }
 }
 
+.App-content {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    height: 100%;
+}
+

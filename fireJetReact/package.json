@@ -6,9 +6,13 @@
   "description": "Boilerplate Package Json for FireJet projects support react,vue,svelte,html",
   "dependencies": {
     "@headlessui/react": "^2.0.0",
+    "axios": "^1.8.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-external-link": "^2.4.0",
+    "react-icons": "^5.5.0",
     "react-router-dom": "^6.30.0",
+    "recharts": "^2.15.1",
     "vue": "^3.2.47"
   },
   "devDependencies": {
