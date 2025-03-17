@@ -2,11 +2,12 @@ import { useState } from "react";
 import LogoNavbar from "../components/assets/LogoNavbar";
 import Logout from "../components/assets/Logout";
 import "./Login.css";
+import useRedirectHandler from "../utility/RedirectHandler";
 
 export default function Login({ className = "" }: LoginProps) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
+  const redirect = useRedirectHandler();
   const handleSignIn = async () => {
     // Handle the sign-in logic here
     console.log("Email:", email);
@@ -24,6 +25,7 @@ export default function Login({ className = "" }: LoginProps) {
         console.log(data);
         if (data.responseCode === "200"){
           console.log('Login successful:', data);
+          redirect(data.userType);
         }
         
         // Handle success, like storing a token or redirecting the user
