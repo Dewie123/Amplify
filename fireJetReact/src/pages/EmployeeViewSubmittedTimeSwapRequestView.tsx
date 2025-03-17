@@ -5,10 +5,30 @@ import TTUenCompanyNameSubsStatusSubsStatusTContainer from "./TTUenCompanyNameSu
 import "./EmployeeViewSubmittedTimeSwapRequestView.css";
 import AccountLogout from './AccountLogout';
 import EmployeeSideMenu from "./EmployeeSideMenu";
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 export default function EmployeeViewSubmittedTimeSwapRequestView({
   className = "",
 }: EmployeeViewSubmittedTimeSwapRequestViewProps) {
+const navigate = useNavigate(); // Initialize useNavigate
+
+  // Navigation handlers
+  const handleViewAttendanceRecord = () => {
+    navigate('/employee-view-attendance'); // Replace with your desired route
+  };
+
+  const handleAllTimeSwapRequests = () => {
+    navigate('/employee-main-view-time-swap-request'); // Replace with your desired route
+  };
+
+  const handleSubmitTimeSwapRequest = () => {
+    navigate('/employee-submit-time-swap-request-view'); // Replace with your desired route
+  };
+
+  const handleViewReceivedRequests = () => {
+    navigate('/employee-view-received-time-swap-request'); // Replace with your desired route
+  };
+
   return (
     <div
       className={`${className} employee-view-time-swap-request-view-main-wrapper`}
@@ -28,17 +48,31 @@ export default function EmployeeViewSubmittedTimeSwapRequestView({
           <div className="employee-view-time-swap-request-view-main-mid-white-container" >
             <div className="employee-view-time-swap-request-view-main-ttt-view-attendance-record-button-view-attendance-record-button-tview-time-swap-request-view-time-swap-request" >
               <div className="employee-view-time-swap-request-view-main-tt-view-attendance-record-button-view-attendance-record-button-tview-time-swap-request-view-time-swap-request" >
-                <TView
-                  container1="employee-view-time-swap-request-view-main-t-view-attendance-record-button-view-attendance-record-button-0-type"
-                  container2="employee-view-time-swap-request-view-main-t-view-attendance-record-button-view-attendance-record-button-1-type"
-                  text="View Attendance Record"
-                  text1="View All Time Swap Requests"
-                 />
-                <TView
-                  container1="employee-view-time-swap-request-view-main-t-view-time-swap-request-view-time-swap-request-0-type"
-                  text="Submit Time Swap Request"
-                  text1="View All Received Time Swaps"
-                 />
+               {/* Replace TView with buttons */}
+               <button
+                  className="employee-view-time-swap-request-view-main-t-view-attendance-record-button-view-attendance-record-button-0-type"
+                  onClick={handleViewAttendanceRecord}
+                >
+                  View Attendance Record
+                </button>
+                <button
+                  className="employee-view-time-swap-request-view-main-t-view-attendance-record-button-view-attendance-record-button-1-type"
+                  onClick={handleAllTimeSwapRequests}
+                >
+                  View All Time Swap Requests
+                </button>
+                <button
+                  className="employee-view-time-swap-request-view-main-t-view-time-swap-request-view-time-swap-request-0-type"
+                  onClick={handleSubmitTimeSwapRequest}
+                >
+                  Submit Time Swap Request
+                </button>
+                <button
+                  className="employee-view-time-swap-request-view-main-t-view-time-swap-request-view-time-swap-request-1-type"
+                  onClick={handleViewReceivedRequests}
+                >
+                  View Received Requests
+                 </button>
               </div>
             </div>
             <div className="employee-view-time-swap-request-view-main-all-time-swap-requests" >

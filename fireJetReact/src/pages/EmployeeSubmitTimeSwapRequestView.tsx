@@ -5,10 +5,16 @@ import Drag from "../components/assets/Drag";
 import "./EmployeeSubmitTimeSwapRequestView.css";
 import AccountLogout from './AccountLogout';
 import EmployeeSideMenu from "./EmployeeSideMenu";
+import { useNavigate } from 'react-router-dom';
 
 export default function EmployeeSubmitTimeSwapRequestView({
   className = "",
 }: EmployeeSubmitTimeSwapRequestViewProps) {
+  const navigate = useNavigate();
+  const handleCancelClick = () => {
+    // Redirect to the desired route (e.g., "/report-issues")
+    navigate('/employee-main-view-time-swap-request');
+  };
   return (
     <div
       className={`${className} employee-submit-time-swap-request-view-wrapper`}
@@ -76,14 +82,16 @@ export default function EmployeeSubmitTimeSwapRequestView({
             </div>
             <div className="employee-submit-time-swap-request-view-t-submit">
               <div className="employee-submit-time-swap-request-view-submit">
-                <div className="employee-submit-time-swap-request-view-button" >
+                <button className="employee-submit-time-swap-request-view-button" onClick={()=>alert("Submitted!")}>
                   Submit
-                </div>
+                </button>
               </div>
             </div>
             <div className="employee-submit-time-swap-request-view-delete-profile" >
-              <div className="employee-submit-time-swap-request-view-button-1" >
-                Cancel
+              <div className="employee-submit-time-swap-request-view-button-1" 
+                onClick={handleCancelClick}
+                style={{ cursor: 'pointer' }} >
+                  Cancel
               </div>
             </div>
           </div>

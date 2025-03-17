@@ -267,14 +267,63 @@
 }
 
 .employee-view-time-swap-request-view-main-t-view-attendance-record-button-view-attendance-record-button-0-type {
+  text-align: center;
+                background-color: slateblue;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                width: 251px;
+  gap: 23px;
+}
+
+.employee-view-time-swap-request-view-main-t-view-time-swap-request-view-time-swap-request-1-type {
+  text-align: center;
+                background-color: slateblue;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                width: 251px;
   gap: 23px;
 }
 
 .employee-view-time-swap-request-view-main-t-view-attendance-record-button-view-attendance-record-button-1-type {
+  text-align: center;
+                background-color: slateblue;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                width: 251px;
+  gap: 23px;
   width: 251px;
 }
 
 .employee-view-time-swap-request-view-main-t-view-time-swap-request-view-time-swap-request-0-type {
+  text-align: center;
+                background-color: slateblue;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                width: 150px;
   gap: 21px;
 }
 
