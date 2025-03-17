@@ -28,6 +28,9 @@ import EmployeeViewReceivedTimeSwapRequestViewMain from "./pages/EmployeeViewRec
 import EmployeeViewSubmittedTimeSwapRequestView from "./pages/EmployeeViewSubmittedTimeSwapRequestView";
 import DemoVideo from "./pages/SysAdDemoVideo";
 import EmployeeViewAttendance from "./pages/EmployeeViewAttendance";
+import SADash from "../Employee-Smart-Roster/fireJetReact/src/pages/Dashboard/SADash";
+import RegisRequests from "../Employee-Smart-Roster/fireJetReact/src/pages/SA/RegisRequest/RegisRequests";
+import UserMgts from "../Employee-Smart-Roster/fireJetReact/src/pages/UserManagement/UserMgts";
 
 
 function App() {
@@ -90,7 +93,17 @@ function App() {
          {/* Route for SysAdDemoVideo page*/}
          <Route path="/sys-demo-vid" element={<DemoVideo/>} />   
          {/* Route for Employee ViewAttendance page*/}
-         <Route path="/employee-view-attendance" element={<EmployeeViewAttendance/>} /> 
+         <Route path="/employee-view-attendance" element={<EmployeeViewAttendance/>} />
+
+
+
+
+         {/* Route for SADash page*/}
+         <Route path="/system-admin-dashboard" element={< SADash/>} /> 
+         {/* Route for System Admin Register Requests page*/}
+         <Route path="/system-admin-register-requests" element={< RegisRequests/>} /> 
+         {/* Route for User Management page*/}
+         <Route path="/user-management" element={< UserMgts/>} /> 
          
       </Routes>
     </Router>
