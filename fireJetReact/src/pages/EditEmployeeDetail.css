@@ -524,6 +524,35 @@
 .t-marry-jane {
   flex-grow: 1;
 }
+
+
+.edit-employee-detail-input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc; /* Light gray border */
+  border-radius: 5px;
+  outline: none; /* Removes default focus outline */
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* When user focuses on the input */
+.edit-employee-detail-input-field:focus {
+  border-color: #007bff; /* Changes border to blue on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Optional: Add hover effect */
+.edit-employee-detail-input-field:hover {
+  border-color: #666;
+}
+
+/* Optional: Make disabled fields look different */
+.edit-employee-detail-input-field:disabled {
+  background-color: #f8f9fa;
+  cursor: not-allowed;
+}
+
 @media (min-width: 1270px) {
   .edit-employee-detail-t-employee-side-menu-mid-white-container-right-sidebar {
     flex-wrap: nowrap;
