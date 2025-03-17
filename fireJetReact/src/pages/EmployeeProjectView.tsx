@@ -2,6 +2,7 @@ import LogoTransparent from "../components/assets/LogoTransparent";
 import Logout from "../components/assets/Logout";
 import Row from "../components/Row2";
 import "./EmployeeProjectView.css";
+import AccountLogout from './AccountLogout';
 import EmployeeSideMenu from "./EmployeeSideMenu";
 import { useNavigate } from 'react-router-dom';
 
@@ -20,7 +21,7 @@ export default function EmployeeProjectView({ className = "" }: EmployeeProjectV
         <div className="employee-project-view-welcome-text">
           Welcome Back, Employee
         </div>
-        <Logout className="employee-project-view-logout" />
+        <AccountLogout className="employee-project-view-logout" />
       </div>
 
       <div className="employee-project-view-container">

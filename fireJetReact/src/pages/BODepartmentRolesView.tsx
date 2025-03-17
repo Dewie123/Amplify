@@ -2,6 +2,8 @@ import LogoTransparent from "../components/assets/LogoTransparent";
 import Logout from "../components/assets/Logout";
 import Row from "../components/Row4";
 import "./BODepartmentRolesView.css";
+import BOSideMenu from './BOSideMenu';
+import AccountLogout from './AccountLogout';
 
 export default function BODepartmentRolesView({
   className = "",
@@ -14,17 +16,12 @@ export default function BODepartmentRolesView({
           <div className="bo-department-roles-view-text">
             Welcome Back, Business Owner
           </div>
-          <Logout className="bo-department-roles-view-logout" />
+          <AccountLogout className="bo-department-roles-view-logout" />
         </div>
         <div className="bo-department-roles-view-tt-rectangle-8boside-menu-mid-white-container" >
           <div className="bo-department-roles-view-t-rectangle-8boside-menu">
-            <div className="bo-department-roles-view-report-issues">
-              Report Issues
-            </div>
             <div className="bo-department-roles-view-bo-side-menu">
-              <div>Dashboard</div>
-              <div>Schedule</div>
-              <div>Department/Roles</div>
+              <div><BOSideMenu /></div>
             </div>
           </div>
           <div className="bo-department-roles-view-mid-white-container">

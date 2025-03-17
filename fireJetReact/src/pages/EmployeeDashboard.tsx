@@ -5,6 +5,7 @@ import UserDetail from "../components/assets/UserDetail";
 import UserDetail1 from "../components/assets/UserDetail1";
 import UserDetail2 from "../components/assets/UserDetail2";
 import "./EmployeeDashboard.css";
+import AccountLogout from './AccountLogout';
 import EmployeeSideMenu from "./EmployeeSideMenu";
 
 
@@ -21,7 +22,7 @@ export default function EmployeeDashboard({
               Welcome Back, Employee
             </div>
           </div>
-          <Logout className="employee-dashboard-logout" />
+          <AccountLogout className="employee-dashboard-logout" />
         </div>
         <div className="employee-dashboard-t-employee-side-menu-main-components" >
           <div className="employee-dashboard-employee-side-menu">

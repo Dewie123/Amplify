@@ -1,6 +1,8 @@
 import LogoTransparent from "../components/assets/LogoTransparent";
 import Logout from "../components/assets/Logout";
 import "./BODepartmentRolesLeaveView.css";
+import BOSideMenu from './BOSideMenu';
+import AccountLogout from './AccountLogout';
 
 export default function BODepartmentRolesLeaveView({ className = "" }: BODepartmentRolesLeaveView) {
   return (
@@ -9,15 +11,12 @@ export default function BODepartmentRolesLeaveView({ className = "" }: BODepartm
         <div className="bo-department-roles-view-nav-bar-system-admin">
           <LogoTransparent className="bo-department-roles-view-logo-transparent" />
           <div className="bo-department-roles-view-text">Welcome Back, Business Owner</div>
-          <Logout className="bo-department-roles-view-logout" />
+          <AccountLogout className="bo-department-roles-view-logout" />
         </div>
         <div className="bo-department-roles-view-tt-rectangle-8boside-menu-mid-white-container">
           <div className="bo-department-roles-view-t-rectangle-8boside-menu">
             <div className="bo-department-roles-view-bo-side-menu">
-              <div>Report Issues</div>
-              <div>Dashboard</div>
-              <div>Schedule</div>
-              <div>Department/Roles</div>
+              <div><BOSideMenu /></div>
             </div>
           </div>
           <div className="bo-department-roles-view-mid-white-container">

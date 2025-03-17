@@ -2,6 +2,7 @@ import LogoTransparent from "../components/assets/LogoTransparent1";
 import Logout from "../components/assets/Logout";
 import BgMidWhiteContainer from "../components/assets/BgMidWhiteContainer";
 import "./EmployeeSendReceiveMessage.css";
+import AccountLogout from './AccountLogout';
 import EmployeeSideMenu from "./EmployeeSideMenu";
 
 export default function EmployeeSendReceiveMessage({
@@ -15,7 +16,7 @@ export default function EmployeeSendReceiveMessage({
           <div className="employee-send-receive-message-text">
             Welcome Back, Employee
           </div>
-          <Logout className="employee-send-receive-message-logout" />
+          <AccountLogout className="employee-send-receive-message-logout" />
         </div>
         <div className="employee-send-receive-message-t-employee-side-menu-ttbg-mid-white-container-chatwith-io" >
           <div className="employee-send-receive-message-employee-side-menu">

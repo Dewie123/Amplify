@@ -3,6 +3,8 @@ import LogoNavbar from "../components/assets/LogoNavbar";
 import Logout from "../components/assets/Logout";
 import "./EditCompanyProfile.css";
 import image from "../components/assets/image.png";
+import BOSideMenu from './BOSideMenu';
+import AccountLogout from './AccountLogout';
 
 export default function EditCompanyProfile({
   
@@ -65,20 +67,15 @@ export default function EditCompanyProfile({
                   Welcome Back, Business Owner
                 </div>
               </div>
-              <Logout className="edit-company-profile-logout" />
+              <AccountLogout className="edit-company-profile-logout" />
             </div>
             <div className="edit-company-profile-t-rectangle">
               <div className="edit-company-profile-rectangle">
-                <div className="edit-company-profile-report-issues">
-                  Report Issues
-                </div>
               </div>
             </div>
           </div>
           <div className="edit-company-profile-bo-side-menu">
-            <div>Dashboard</div>
-            <div>Schedule</div>
-            <div>Department/Roles</div>
+            <div><BOSideMenu /></div>
           </div>
         </div>
       </div>

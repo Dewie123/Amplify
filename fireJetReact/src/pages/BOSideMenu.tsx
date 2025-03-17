@@ -6,23 +6,49 @@ export default function BOSideMenu() {
   const navigate = useNavigate();
 
   const handleReportIssuesClick = () => {
-    // Redirect to the desired route (e.g., "/report-issues")
     navigate('/bo-report-issues-view');
+  };
+
+  const handleDashboardClick = () => {
+    navigate('/bo-dashboard-view'); // update with your actual route
+  };
+
+  const handleScheduleClick = () => {
+    navigate('/bo-schedule-view'); // update with your actual route
+  };
+
+  const handleDepartmentRolesClick = () => {
+    navigate('/bo-department-roles-view'); // update with your actual route
   };
 
   return (
     <div className="bo-dashboard-view-t-rectangle-8boside-menu">
-      <div 
-        className="bo-dashboard-view-report-issues" 
+      <div
+        className="bo-dashboard-view-report-issues"
         onClick={handleReportIssuesClick}
-        style={{ cursor: 'pointer' }} // Indicates it's clickable
+        style={{ cursor: 'pointer' }}
       >
         Report Issues
       </div>
       <div className="bo-dashboard-view-bo-side-menu">
-        <div>Dashboard</div>
-        <div>Schedule</div>
-        <div>Department/Roles</div>
+        <div 
+          onClick={handleDashboardClick} 
+          style={{ cursor: 'pointer' }}
+        >
+          Dashboard
+        </div>
+        <div 
+          onClick={handleScheduleClick} 
+          style={{ cursor: 'pointer' }}
+        >
+          Schedule
+        </div>
+        <div 
+          onClick={handleDepartmentRolesClick} 
+          style={{ cursor: 'pointer' }}
+        >
+          Department/Roles
+        </div>
       </div>
     </div>
   );
