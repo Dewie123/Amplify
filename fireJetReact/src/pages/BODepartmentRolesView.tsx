@@ -4,10 +4,13 @@ import Row from "../components/Row4";
 import "./BODepartmentRolesView.css";
 import BOSideMenu from './BOSideMenu';
 import AccountLogout from './AccountLogout';
+import { useNavigate } from 'react-router-dom';
+import React from 'react';
 
 export default function BODepartmentRolesView({
   className = "",
 }: BODepartmentRolesViewProps) {
+  const navigate = useNavigate();
   return (
     <div className={`${className} bo-department-roles-view-wrapper`}>
       <div className="bo-department-roles-view-bo-department-roles-view">
@@ -34,7 +37,11 @@ export default function BODepartmentRolesView({
                   <div className="bo-department-roles-view-t-add-team-member">
                     <div className="bo-department-roles-view-add-team-member">
                       <div>+</div>
-                      <div className="bo-department-roles-view-add-team-member-1" >
+                      <div 
+                        className="bo-department-roles-view-add-team-member-1"
+                        onClick={() => navigate('/bo-add-team-member-view')} //Change path here
+                        style={{ cursor: 'pointer' }}
+                      >
                         Add Team Member
                       </div>
                     </div>
@@ -111,17 +118,29 @@ export default function BODepartmentRolesView({
                   </div>
                 </div>
                 <div className="bo-department-roles-view-cell-11">
-                  <div className="bo-department-roles-view-text-11">
+                  <div 
+                    className="bo-department-roles-view-text-11"
+                    onClick={() => navigate('/bo-edit-team-member-view')} //Change path here
+                    style={{ cursor: 'pointer' }}
+                  >
                     Edit Details
                   </div>
                   <div className="bo-department-roles-view-t-view-mc-requests-button" >
                     <div className="bo-department-roles-view-view-mc-requests-button" >
-                      <div className="bo-department-roles-view-text-12">
+                      <div 
+                        className="bo-department-roles-view-text-12"
+                        onClick={() => navigate('/bo-department-roles-mc-view')} //Change path here
+                        style={{ cursor: 'pointer' }}
+                      >
                         View MC Requests
                       </div>
                     </div>
                   </div>
-                  <div className="bo-department-roles-view-text-13">
+                  <div 
+                    className="bo-department-roles-view-text-13"
+                    onClick={() => navigate('/bo-department-roles-leave-view')} //Change path here
+                    style={{ cursor: 'pointer' }}
+                  >
                     View Leave Requests
                   </div>
                 </div>

@@ -7,6 +7,7 @@ import "./BOEditTeamMemberView.css";
 import BOSideMenu from './BOSideMenu';
 import AccountLogout from './AccountLogout';
 
+
 export default function BOEditTeamMemberView({
   className = "",
 }: BOAddTeamMemberViewProps) {
@@ -107,13 +108,21 @@ export default function BOEditTeamMemberView({
                 </div>
               </div>
               <div className="bo-add-team-member-view-update-profile">
-                <div className="bo-add-team-member-view-button">
+                <div
+                  className="bo-add-team-member-view-button"
+                  onClick={() => alert("Successfully Updated!")}
+                  style={{ cursor: "pointer" }} // Optional: shows it's clickable
+                >
                   Update Profile
                 </div>
               </div>
               <div className="bo-add-team-member-view-t-delete-profile">
                 <div className="bo-add-team-member-view-delete-profile">
-                  <div className="bo-add-team-member-view-button-1">
+                  <div
+                    className="bo-add-team-member-view-button-1"
+                    onClick={() => alert("Account Deleted!")}
+                    style={{ cursor: "pointer" }} // Optional: shows it's clickable
+                  >
                     Delete Profile
                   </div>
                 </div>

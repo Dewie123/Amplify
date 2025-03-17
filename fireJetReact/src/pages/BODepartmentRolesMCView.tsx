@@ -3,9 +3,12 @@ import Logout from "../components/assets/Logout";
 import "./BOReportIssuesView.css";
 import BOSideMenu from './BOSideMenu';
 import AccountLogout from './AccountLogout';
+import { useNavigate } from 'react-router-dom';
+import React from 'react';
 
 
 export default function BOReportIssuesView({ className = "" }: BOReportIssuesProps) {
+  const navigate = useNavigate();
   return (
     <div className={`${className} bo-department-roles-view-wrapper`}>
       <div className="bo-department-roles-view-bo-department-roles-view">
@@ -43,7 +46,24 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>Pending</td>
                     <td>
-                    <button>View Details</button> <button>Approve</button><button>Reject</button>
+                    <button 
+                        onClick={() => navigate('/bo-department-roles-view-mc-requests-view-details')}
+                        style={{ cursor: 'pointer' }}
+                      >
+                        View Details
+                      </button>
+                      <button 
+                        onClick={() => alert('Approved!')}
+                        style={{ cursor: 'pointer', marginLeft: '8px' }}
+                      >
+                        Approve
+                      </button>
+                      <button 
+                        onClick={() => alert('Rejected!')}
+                        style={{ cursor: 'pointer', marginLeft: '8px' }}
+                      >
+                        Reject
+                    </button>
                     </td>
                   </tr>
                   <tr>
@@ -51,7 +71,24 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>Pending</td>
                     <td>
-                    <button>View Details</button> <button>Approve</button><button>Reject</button>
+                    <button 
+                        onClick={() => navigate('/bo-department-roles-view-mc-requests-view-details')}
+                        style={{ cursor: 'pointer' }}
+                      >
+                        View Details
+                      </button>
+                      <button 
+                        onClick={() => alert('Approved!')}
+                        style={{ cursor: 'pointer', marginLeft: '8px' }}
+                      >
+                        Approve
+                      </button>
+                      <button 
+                        onClick={() => alert('Rejected!')}
+                        style={{ cursor: 'pointer', marginLeft: '8px' }}
+                      >
+                        Reject
+                    </button>
                     </td>
                   </tr>
                   <tr>
@@ -59,14 +96,14 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>Resolved</td>
                     
-                    <button>View Details</button> <button>Approve</button><button>Reject</button>
+                    <button>View Details</button>
                   </tr>
                   <tr>
                     <td>Page layout misaligned</td>
                     <td>Lorem ipsum dolor sit amet...</td>
-                    <td>In Progress</td>
+                    <td>Resolved</td>
                     <td>
-                    <button>View Details</button> <button>Approve</button><button>Reject</button>
+                    <button>View Details</button>
                     </td>
                   </tr>
                 </tbody>

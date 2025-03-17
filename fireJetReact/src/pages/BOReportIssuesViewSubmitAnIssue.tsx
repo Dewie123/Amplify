@@ -88,7 +88,11 @@ export default function BOReportIssuesViewSubmitAnIssue({
               </div>
               <div className="bo-report-issues-view-submit-an-issue-t-update-profile" >
                 <div className="bo-report-issues-view-submit-an-issue-update-profile" >
-                  <div className="bo-report-issues-view-submit-an-issue-button" >
+                  <div
+                    className="bo-report-issues-view-submit-an-issue-button"
+                    onClick={() => alert("Issue Submitted!")}
+                    style={{ cursor: "pointer" }} // Optional: shows it's clickable
+                  >
                     Submit
                   </div>
                 </div>

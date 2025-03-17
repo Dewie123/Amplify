@@ -3,8 +3,11 @@ import Logout from "../components/assets/Logout";
 import "./BOReportIssuesView.css";
 import BOSideMenu from './BOSideMenu';
 import AccountLogout from './AccountLogout';
+import { useNavigate } from 'react-router-dom';
+import React from 'react';
 
 export default function BOReportIssuesView({ className = "" }: BOReportIssuesProps) {
+  const navigate = useNavigate();
   return (
     <div className={`${className} bo-department-roles-view-wrapper`}>
       <div className="bo-department-roles-view-bo-department-roles-view">
@@ -23,7 +26,9 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
             <div className="bo-department-roles-view-title">
               <h2>EMP Roster</h2>
             </div>
-            <button className="submit-issue-button">Submit an Issue</button>
+            <button onClick={() => navigate('/bo-report-issues-form-view')}
+                    style={{ cursor: 'pointer' }} 
+                    className="submit-issue-button">Submit an Issue</button>
             <div className="bo-department-roles-view-table">
               <table>
                 <thead>
@@ -40,7 +45,18 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>Pending</td>
                     <td>
-                      <button>Update</button> <button>Resolve</button>
+                      <button 
+                        onClick={() => navigate('/bo-report-issues-form-update-details-view')}
+                        style={{ cursor: 'pointer' }}
+                        >
+                        View Details
+                      </button> 
+                      
+                      <button 
+                        onClick={() => alert('Noted!')}
+                        style={{ cursor: 'pointer', marginLeft: '8px' }}
+                        >
+                        Issue Resolved</button>
                     </td>
                   </tr>
                   <tr>
@@ -48,7 +64,18 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>Pending</td>
                     <td>
-                      <button>Update</button> <button>Resolve</button>
+                      <button 
+                          onClick={() => navigate('/bo-report-issues-form-update-details-view')}
+                          style={{ cursor: 'pointer' }}
+                          >
+                          View Details
+                        </button> 
+                        
+                        <button 
+                          onClick={() => alert('Noted!')}
+                          style={{ cursor: 'pointer', marginLeft: '8px' }}
+                          >
+                          Issue Resolved</button>
                     </td>
                   </tr>
                   <tr>
@@ -56,15 +83,25 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>Resolved</td>
                     <td>
-                      <button>Update</button> <button>Resolve</button>
+                      <button 
+                          onClick={() => navigate('/bo-report-issues-form-update-details-view')}
+                          style={{ cursor: 'pointer' }}
+                          >
+                          View Details
+                        </button> 
                     </td>
                   </tr>
                   <tr>
                     <td>Page layout misaligned</td>
                     <td>Lorem ipsum dolor sit amet...</td>
-                    <td>In Progress</td>
+                    <td>Resolved</td>
                     <td>
-                      <button>Update</button> <button>Resolve</button>
+                      <button 
+                          onClick={() => navigate('/bo-report-issues-form-update-details-view')}
+                          style={{ cursor: 'pointer' }}
+                          >
+                          View Details
+                        </button> 
                     </td>
                   </tr>
                 </tbody>

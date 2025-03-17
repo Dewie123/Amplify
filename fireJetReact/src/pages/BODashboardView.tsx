@@ -11,6 +11,7 @@ import AccountLogout from './AccountLogout';
 export default function BODashboardView({
   className = "",
 }: BODashboardViewProps) {
+  const navigate = useNavigate();
   return (
     <div className={`${className} bo-dashboard-view-wrapper`}>
       <div className="bo-dashboard-view-bo-dashboard-view">
@@ -30,7 +31,11 @@ export default function BODashboardView({
           <div className="bo-dashboard-view-t-mid-white-container-ttable-for-upcoming-completed-jobs-tright-sidebar" >
             <div className="bo-dashboard-view-mid-white-container">
               <div className="bo-dashboard-view-edit-details" />
-              <div className="bo-dashboard-view-text-1">
+              <div 
+                className="bo-dashboard-view-text-1"
+                onClick={() => navigate('/edit-company-profile')} //Change path here
+                style={{ cursor: 'pointer' }}
+              >
                 Update Company Details
               </div>
               <div className="bo-dashboard-view-emp-roster">

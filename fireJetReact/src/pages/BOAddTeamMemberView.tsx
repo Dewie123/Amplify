@@ -107,13 +107,21 @@ export default function BOAddTeamMemberView({
                 </div>
               </div>
               <div className="bo-add-team-member-view-update-profile">
-                <div className="bo-add-team-member-view-button">
+              <div
+                  className="bo-add-team-member-view-button"
+                  onClick={() => alert("Account Created!")}
+                  style={{ cursor: "pointer" }} // Optional: shows it's clickable
+                >
                   Create Profile
                 </div>
               </div>
               <div className="bo-add-team-member-view-t-delete-profile">
                 <div className="bo-add-team-member-view-delete-profile">
-                  <div className="bo-add-team-member-view-button-1">
+                <div
+                    className="bo-add-team-member-view-button-1"
+                    onClick={() => alert("Account Deleted!")}
+                    style={{ cursor: "pointer" }} // Optional: shows it's clickable
+                  >
                     Delete Profile
                   </div>
                 </div>
