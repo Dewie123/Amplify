@@ -23,7 +23,7 @@ export default function Login({ className = "" }: LoginProps) {
       if (response.ok) {
         const data = await response.json();
         console.log(data);
-        if (data.responseCode === "200"){
+        if (data.responseCode === 200){
           console.log('Login successful:', data);
           redirect(data.userType);
         }
