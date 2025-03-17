@@ -3,6 +3,9 @@ import Logout from "../components/assets/BOLogoutDashboard";
 import Row from "../components/BORowDashboard";
 import Line from "../components/assets/BOLineDashboard";
 import "./BODashboardView.css";
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import BOSideMenu from './BOSideMenu';
 
 export default function BODashboardView({
   className = "",
@@ -19,13 +22,8 @@ export default function BODashboardView({
         </div>
         <div className="bo-dashboard-view-tt-rectangle-8boside-menu-tmid-white-container-ttable-for-upcoming-completed-jobs-tright-sidebar" >
           <div className="bo-dashboard-view-t-rectangle-8boside-menu">
-            <div className="bo-dashboard-view-report-issues">
-              Report Issues
-            </div>
             <div className="bo-dashboard-view-bo-side-menu">
-              <div>Dashboard</div>
-              <div>Schedule</div>
-              <div>Department/Roles</div>
+              <div><BOSideMenu /></div>
             </div>
           </div>
           <div className="bo-dashboard-view-t-mid-white-container-ttable-for-upcoming-completed-jobs-tright-sidebar" >
