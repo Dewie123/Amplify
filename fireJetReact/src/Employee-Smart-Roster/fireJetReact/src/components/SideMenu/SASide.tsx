@@ -42,10 +42,10 @@ const SASide = () => {
         <div className="side-menu">
             <div className="main">USER</div>
             <div className="sub-menu user">
-                <Link to="/users-menagement" className="sub-link-1">
+                <Link to="/user-management" className="sub-link-1">
                     Users Management
                 </Link>
-                <Link to="/reg-list" className="sub-link-2">
+                <Link to="/system-admin-register-requests" className="sub-link-2">
                     Registration List
                 </Link>
             </div>
@@ -58,13 +58,13 @@ const SASide = () => {
 
             <div className="main">LANDING PAGE MANAGEMENT</div>
             <div className="sub-menu landing">
-                <Link to="/video-management" className="sub-link-4">
+                <Link to="/sys-demo-vid" className="sub-link-4">
                     Manage Demo Video
                 </Link>
-                <Link to="/review-rating-management" className="sub-link-5">
+                <Link to="/sys-review-rating" className="sub-link-5">
                     Manage Review & Rating
                 </Link>
-                <Link to="/faq-management" className="sub-link-6">
+                <Link to="/sys-faq" className="sub-link-6">
                     Manage FAQ
                 </Link>
             </div>

@@ -68,7 +68,7 @@ function App() {
          <Route path="/employee-submit-time-swap-request-view" element={<EmployeeSubmitTimeSwapRequestView />} />  
          {/* Route for Edit EmployeeDashboard page */}
          <Route path="/employee-dashboard" element={<EmployeeDashboard />} />
-         {/* Route for Edit EmployeeDashboard page */}
+         {/* Route for Edit BOReportIssuesFormUpdateDetails page */}
          <Route path="/bo-report-issues-form-update-details-view" element={<BOReportIssuesViewUpdateDetails />} />    
          {/* Route for Edit BODepartmentRolesViewMCRequestsViewDetails page */}
          <Route path="/bo-department-roles-view-mc-requests-view-details" element={<BODepartmentRolesViewMCRequestsViewDetails />} />   
