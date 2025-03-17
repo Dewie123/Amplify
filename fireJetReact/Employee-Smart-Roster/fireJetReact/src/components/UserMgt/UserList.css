@@ -1,0 +1,85 @@
+.UserList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: fit-content;
+}
+
+.user-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--primary-background);
+    border-radius: 10px;
+    gap: 5px;
+    background-color: var(--light-color-text);
+    height: fit-content;
+}
+
+.user-detail-name {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: var(--primary-background);
+    height: fit-content;
+    align-items: center;
+
+    .user-detail-detail {
+        color: var(--primary-background);
+        font-size: 30px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+}
+
+.user-detail-detail:hover {
+    background-color: var(--primary-background);
+    color: var(--light-color-text);
+}
+
+.user-detail-data {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 10px;
+}
+
+.uen, .sub-status, .emp-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px;
+}
+
+.uen-title, .email-title, .sub-status-title {
+    width: 60px;
+    font-weight: bold;
+}
+
+.detail-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--popup-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+
+  button {
+    background-color: none;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  button:hover {
+    background-color: none;
+  }

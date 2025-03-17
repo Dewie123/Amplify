@@ -1,0 +1,52 @@
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    background-color: var(--side-menu-background);
+    opacity: var(--side-menu-transparency);
+    color: var(--light-color-text);
+    padding: 10px;
+    height: 100lvh;
+    justify-content: start;
+}
+
+.main {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main:hover {
+    font-weight: 900;
+    font-style: oblique;
+}
+
+.sub-menu {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    min-height: fit-content;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--secondary-text);
+}
+
+.sub-link {
+    min-height: fit-content;
+    width: max-content;
+}
+
+.sub-link-1:hover, 
+.sub-link-2:hover,
+.sub-link-3:hover,
+.sub-link-4:hover,
+.sub-link-5:hover,
+.sub-link-6:hover {
+    text-decoration: underline;
+
+}
+
+.user, .issues, .landing {
+    display: none;
+}

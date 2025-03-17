@@ -1,0 +1,77 @@
+.App {
+  background-color: var(--main-page-background);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter;
+  font-size: var(--text-size);
+  color: #1F2937;
+}
+
+.App-navbar {
+  background-color: var(--primary-background);
+  color: var(--light-color-text);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.App-secondary-text {
+  font-size: var(--secondary-text);
+  color: var(--primary-text);
+}
+
+.App-light-text {
+  color: var(--light-color-text);
+}
+
+.App-purple-text {
+  color: var(--purple-color-text);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: var(--text-h1);
+  color: var(--h1);
+}
+
+h2 {
+  font-weight: 800;
+  font-size: var(--text-h2);
+  color: var(--h2);
+}
+
+h3 {
+  font-weight: 600;
+  font-size: var(--text-h3);
+  color: var(--h3);
+}
+
+@media only screen and (max-width: 490){
+  .App{
+    font-size: var(--text-size-m);
+  }
+
+  .App-secondary-text {
+    font-size: var(--secondary-text-m);
+  }
+
+  h1 {
+    font-size: var(--text-h1-m);
+  }  
+
+  h2 {
+    font-size: var(--text-h2-m);
+  }
+
+  h3 {
+    font-size: var(--text-h3-m);
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
