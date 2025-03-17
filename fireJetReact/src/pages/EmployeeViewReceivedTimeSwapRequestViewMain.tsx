@@ -3,6 +3,7 @@ import Logout from "../components/assets/Logout";
 import TView from "./TView";
 import TTUenCompanyNameSubsStatusSubsStatusTContainer from "./TTUenCompanyNameSubsStatusSubsStatusTContainer";
 import "./EmployeeViewTimeSwapRequestViewMain.css";
+import EmployeeSideMenu from "./EmployeeSideMenu";
 
 export default function EmployeeViewReceivedTimeSwapRequestViewMain({
   className = "",
@@ -21,10 +22,7 @@ export default function EmployeeViewReceivedTimeSwapRequestViewMain({
         </div>
         <div className="employee-view-time-swap-request-view-main-t-employee-side-menu-mid-white-container" >
           <div className="employee-view-time-swap-request-view-main-employee-side-menu" >
-            <div>Dashboard</div>
-            <div>Project View</div>
-            <div>Chat</div>
-            <div>Time Swap</div>
+            <div><EmployeeSideMenu /></div>
           </div>
           <div className="employee-view-time-swap-request-view-main-mid-white-container" >
             <div className="employee-view-time-swap-request-view-main-ttt-view-attendance-record-button-view-attendance-record-button-tview-time-swap-request-view-time-swap-request" >

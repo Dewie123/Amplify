@@ -3,6 +3,7 @@ import Logout from "../components/assets/Logout";
 import ChevronDown from "../components/assets/ChevronDown";
 import Drag from "../components/assets/Drag";
 import "./EmployeeSubmitTimeSwapRequestView.css";
+import EmployeeSideMenu from "./EmployeeSideMenu";
 
 export default function EmployeeSubmitTimeSwapRequestView({
   className = "",
@@ -21,10 +22,7 @@ export default function EmployeeSubmitTimeSwapRequestView({
         </div>
         <div className="employee-submit-time-swap-request-view-t-employee-side-menu-tmid-white-container" >
           <div className="employee-submit-time-swap-request-view-employee-side-menu" >
-            <div>Dashboard</div>
-            <div>Project View</div>
-            <div>Chat</div>
-            <div>Time Swap</div>
+            <div><EmployeeSideMenu /></div>
           </div>
           <div className="employee-submit-time-swap-request-view-mid-white-container" >
             <div className="employee-submit-time-swap-request-view-emp-roster" >

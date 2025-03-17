@@ -2,8 +2,16 @@ import LogoTransparent from "../components/assets/LogoTransparent";
 import Logout from "../components/assets/Logout";
 import Row from "../components/Row2";
 import "./EmployeeProjectView.css";
+import EmployeeSideMenu from "./EmployeeSideMenu";
+import { useNavigate } from 'react-router-dom';
 
 export default function EmployeeProjectView({ className = "" }: EmployeeProjectViewProps) {
+  const navigate = useNavigate();
+  const handleAttendanceClick = () => {
+    navigate('/employee-view-attendance');
+  };
+  
+  
   return (
     <div className={`${className} employee-project-view-wrapper`}>
       {/* Top navigation */}
@@ -18,10 +26,7 @@ export default function EmployeeProjectView({ className = "" }: EmployeeProjectV
       <div className="employee-project-view-container">
         {/* Left sidebar */}
         <div className="employee-project-view-bo-side-menu">
-          <div>Dashboard</div>
-          <div>Project View</div>
-          <div>Chat</div>
-          <div>Time Swap</div>
+          <div><EmployeeSideMenu /></div>
         </div>
 
         {/* Main content area */}
@@ -31,7 +36,9 @@ export default function EmployeeProjectView({ className = "" }: EmployeeProjectV
             <h1 className="employee-project-view-emp-roster">EmpRoster</h1>
 
             <div className="employee-project-view-buttons">
-              <button className="employee-project-view-button">View Attendance Record</button>
+              <button className="employee-project-view-button" 
+                onClick={handleAttendanceClick}
+                style={{ cursor: 'pointer' }}>View Attendance Record</button>
               <button className="employee-project-view-button">View Time Swap Request</button>
             </div>
 

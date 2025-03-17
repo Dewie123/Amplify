@@ -2,6 +2,7 @@ import LogoTransparent from "../components/assets/LogoTransparent1";
 import Logout from "../components/assets/Logout";
 import BgMidWhiteContainer from "../components/assets/BgMidWhiteContainer";
 import "./EmployeeSendReceiveMessage.css";
+import EmployeeSideMenu from "./EmployeeSideMenu";
 
 export default function EmployeeSendReceiveMessage({
   className = "",
@@ -18,14 +19,11 @@ export default function EmployeeSendReceiveMessage({
         </div>
         <div className="employee-send-receive-message-t-employee-side-menu-ttbg-mid-white-container-chatwith-io" >
           <div className="employee-send-receive-message-employee-side-menu">
-            <div>Dashboard</div>
-            <div>Project View</div>
             <div className="employee-send-receive-message-t-chat">
-              <div>Chat</div>
             </div>
             <div className="employee-send-receive-message-t-time-swap">
-              <div>Time Swap</div>
             </div>
+               <div><EmployeeSideMenu /></div>
           </div>
           <div className="employee-send-receive-message-tt-bg-mid-white-container-chatwith-io" >
             <div className="employee-send-receive-message-t-bg-mid-white-container-chatwith-io" >

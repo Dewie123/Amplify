@@ -5,6 +5,7 @@ import UserDetail from "../components/assets/UserDetail";
 import UserDetail1 from "../components/assets/UserDetail1";
 import UserDetail2 from "../components/assets/UserDetail2";
 import "./EmployeeDashboard.css";
+import EmployeeSideMenu from "./EmployeeSideMenu";
 
 
 export default function EmployeeDashboard({
@@ -24,10 +25,7 @@ export default function EmployeeDashboard({
         </div>
         <div className="employee-dashboard-t-employee-side-menu-main-components" >
           <div className="employee-dashboard-employee-side-menu">
-            <div>Dashboard</div>
-            <div>Project View</div>
-            <div>Chat</div>
-            <div>Time Swap</div>
+            <div><EmployeeSideMenu /></div>
           </div>
           <div className="employee-dashboard-main-components">
             <div className="employee-dashboard-t-edit-personnel-logo">
