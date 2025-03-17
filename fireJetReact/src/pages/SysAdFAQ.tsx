@@ -2,6 +2,7 @@ import LogoNavbar from "../components/assets/LogoNavbar";
 import Logout from "../components/assets/Logout";
 import Row from "./SysAdFAQRow";
 import "./SysAdFAQ.css";
+import AccountLogout from './AccountLogout';
 
 export default function FAQ({ className = "" }: FAQProps) {
   return (
@@ -13,7 +14,7 @@ export default function FAQ({ className = "" }: FAQProps) {
             Welcome Back, System Admin
           </div>
         </div>
-        <Logout className="faq-logout" />
+        <AccountLogout className="faq-logout" />
       </div>
       <div className="faq-t-side-menu-tttttfilter-review-delete-table">
         <div className="faq-side-menu">

@@ -2,8 +2,10 @@ import LogoTransparent from "../components/assets/LogoTransparent";
 import Logout from "../components/assets/Logout";
 import Upload from "../components/assets/Upload";
 import "./BODepartmentRolesViewMCRequestsViewDetails.css";
+import BOSideMenu from './BOSideMenu';
+import AccountLogout from './AccountLogout';
 
-export default function BOBODepartmentRolesViewMCRequestsViewDetails({
+export default function BODepartmentRolesViewMCRequestsViewDetails({
   className = "",
 }: BODepartmentRolesViewMCRequestsViewDetailsProps) {
   return (
@@ -16,16 +18,13 @@ export default function BOBODepartmentRolesViewMCRequestsViewDetails({
           <div className="bo-report-issues-view-submit-an-issue-text">
             Welcome Back, Business Owner
           </div>
-          <Logout className="bo-report-issues-view-submit-an-issue-logout" />
+          <AccountLogout className="bo-report-issues-view-submit-an-issue-logout" />
         </div>
         <div className="bo-report-issues-view-submit-an-issue-ttt-rectangle-8boside-menu-mid-white-container-right-sidebar" >
           <div className="bo-report-issues-view-submit-an-issue-tt-rectangle-8boside-menu-mid-white-container" >
             <div className="bo-report-issues-view-submit-an-issue-t-rectangle-8boside-menu" >
               <div className="bo-report-issues-view-submit-an-issue-bo-side-menu" >
-                <div>Report Issues</div>
-                <div>Dashboard</div>
-                <div>Schedule</div>
-                <div>Department/Roles</div>
+                <div><BOSideMenu /></div>
               </div>
             </div>
             <div className="bo-report-issues-view-submit-an-issue-mid-white-container" >

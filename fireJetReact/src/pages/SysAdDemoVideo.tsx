@@ -7,6 +7,7 @@ import DeleteLogo2 from "../components/assets/DeleteLogo2";
 import DeleteLogo3 from "../components/assets/DeleteLogo3";
 import DeleteLogo4 from "../components/assets/DeleteLogo4";
 import "./SysAdDemoVideo.css";
+import AccountLogout from './AccountLogout';
 
 export default function DemoVideo({ className = "" }: DemoVideoProps) {
   return (
@@ -18,7 +19,7 @@ export default function DemoVideo({ className = "" }: DemoVideoProps) {
             Welcome Back, System Admin
           </div>
         </div>
-        <Logout className="demo-video-logout" />
+        <AccountLogout className="demo-video-logout" />
       </div>
       <div className="demo-video-t-side-menu-tttpreview-rectangle-12tttvideos-to-be-played-tprimary-button-list" >
         <div className="demo-video-side-menu">

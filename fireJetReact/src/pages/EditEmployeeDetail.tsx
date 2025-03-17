@@ -5,6 +5,7 @@ import T from "./T1";
 import Line from "../components/assets/Line";
 import DropdownDown from "../components/assets/DropdownDown";
 import "./EditEmployeeDetail.css";
+import AccountLogout from './AccountLogout';
 
 export default function EditEmployeeDetail({
   className = "",
@@ -32,7 +33,7 @@ export default function EditEmployeeDetail({
           <div className="bo-schedule-view-text">
             Welcome Back, Employee
           </div>
-          <Logout className="bo-schedule-view-logout" />
+          <AccountLogout className="bo-schedule-view-logout" />
         </div>
 
         <div className="edit-employee-detail-t-employee-side-menu-mid-white-container-right-sidebar">

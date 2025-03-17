@@ -2,6 +2,8 @@ import LogoTransparent from "../components/assets/LogoTransparent";
 import Logout from "../components/assets/Logout";
 import Row from "../components/Row2";
 import "./BOScheduleView.css";
+import BOSideMenu from './BOSideMenu';
+import AccountLogout from './AccountLogout';
 
 export default function BOScheduleView({
   className = "",
@@ -14,17 +16,12 @@ export default function BOScheduleView({
           <div className="bo-schedule-view-text">
             Welcome Back, Business Owner
           </div>
-          <Logout className="bo-schedule-view-logout" />
+          <AccountLogout className="bo-schedule-view-logout" />
         </div>
         <div className="bo-schedule-view-tt-rectangle-8boside-menu-mid-white-container" >
           <div className="bo-schedule-view-t-rectangle-8boside-menu">
-            <div className="bo-schedule-view-report-issues">
-              Report Issues
-            </div>
             <div className="bo-schedule-view-bo-side-menu">
-              <div>Dashboard</div>
-              <div>Schedule</div>
-              <div>Department/Roles</div>
+              <div><BOSideMenu /></div>
             </div>
           </div>
           <div className="bo-schedule-view-mid-white-container">

@@ -4,6 +4,8 @@ import T from "./T";
 import Line from "../components/assets/Line";
 import DropdownDown from "../components/assets/DropdownDown";
 import "./BOAddTeamMemberView.css";
+import BOSideMenu from './BOSideMenu';
+import AccountLogout from './AccountLogout';
 
 export default function BOAddTeamMemberView({
   className = "",
@@ -16,18 +18,13 @@ export default function BOAddTeamMemberView({
           <div className="bo-add-team-member-view-text">
             Welcome Back, Business Owner
           </div>
-          <Logout className="bo-add-team-member-view-logout" />
+          <AccountLogout className="bo-add-team-member-view-logout" />
         </div>
         <div className="bo-add-team-member-view-ttt-rectangle-8boside-menu-mid-white-container-right-sidebar" >
           <div className="bo-add-team-member-view-tt-rectangle-8boside-menu-mid-white-container" >
             <div className="bo-add-team-member-view-t-rectangle-8boside-menu">
-              <div className="bo-add-team-member-view-report-issues">
-                Report Issues
-              </div>
               <div className="bo-add-team-member-view-bo-side-menu">
-                <div>Dashboard</div>
-                <div>Schedule</div>
-                <div>Department/Roles</div>
+                <div><BOSideMenu /></div>
               </div>
             </div>
             <div className="bo-add-team-member-view-mid-white-container">

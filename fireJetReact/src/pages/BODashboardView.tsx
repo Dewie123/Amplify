@@ -6,6 +6,7 @@ import "./BODashboardView.css";
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import BOSideMenu from './BOSideMenu';
+import AccountLogout from './AccountLogout';
 
 export default function BODashboardView({
   className = "",
@@ -18,7 +19,7 @@ export default function BODashboardView({
           <div className="bo-dashboard-view-text">
             Welcome Back, Business Owner
           </div>
-          <Logout className="bo-dashboard-view-logout" />
+          <AccountLogout className="bo-dashboard-view-logout" />
         </div>
         <div className="bo-dashboard-view-tt-rectangle-8boside-menu-tmid-white-container-ttable-for-upcoming-completed-jobs-tright-sidebar" >
           <div className="bo-dashboard-view-t-rectangle-8boside-menu">

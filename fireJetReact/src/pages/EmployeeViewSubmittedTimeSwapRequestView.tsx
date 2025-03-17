@@ -3,6 +3,7 @@ import Logout from "../components/assets/Logout";
 import TView from "./TView";
 import TTUenCompanyNameSubsStatusSubsStatusTContainer from "./TTUenCompanyNameSubsStatusSubsStatusTContainer";
 import "./EmployeeViewSubmittedTimeSwapRequestView.css";
+import AccountLogout from './AccountLogout';
 
 export default function EmployeeViewSubmittedTimeSwapRequestView({
   className = "",
@@ -17,7 +18,7 @@ export default function EmployeeViewSubmittedTimeSwapRequestView({
           <div className="employee-view-time-swap-request-view-main-text">
             Welcome Back, Employee
           </div>
-          <Logout className="employee-view-time-swap-request-view-main-logout" />
+          <AccountLogout className="employee-view-time-swap-request-view-main-logout" />
         </div>
         <div className="employee-view-time-swap-request-view-main-t-employee-side-menu-mid-white-container" >
           <div className="employee-view-time-swap-request-view-main-employee-side-menu" >

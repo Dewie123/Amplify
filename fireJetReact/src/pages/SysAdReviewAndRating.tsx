@@ -2,6 +2,7 @@ import LogoNavbar from "../components/assets/LogoNavbar";
 import Logout from "../components/assets/Logout";
 import Row from "./ReviewRatingRow";
 import "./SysAdReviewAndRating.css";
+import AccountLogout from './AccountLogout';
 
 export default function ReviewAndRating({
   className = "",
@@ -15,7 +16,7 @@ export default function ReviewAndRating({
             Welcome Back, System Admin
           </div>
         </div>
-        <Logout className="review-and-rating-logout" />
+        <AccountLogout className="review-and-rating-logout" />
       </div>
       <div className="review-and-rating-t-side-menu-ttttfilter-review-filter-ratings-table" >
         <div className="review-and-rating-side-menu">

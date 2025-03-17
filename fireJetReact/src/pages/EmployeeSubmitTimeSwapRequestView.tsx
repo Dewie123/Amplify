@@ -3,6 +3,7 @@ import Logout from "../components/assets/Logout";
 import ChevronDown from "../components/assets/ChevronDown";
 import Drag from "../components/assets/Drag";
 import "./EmployeeSubmitTimeSwapRequestView.css";
+import AccountLogout from './AccountLogout';
 
 export default function EmployeeSubmitTimeSwapRequestView({
   className = "",
@@ -17,7 +18,7 @@ export default function EmployeeSubmitTimeSwapRequestView({
           <div className="employee-submit-time-swap-request-view-text">
             Welcome Back, Employee
           </div>
-          <Logout className="employee-submit-time-swap-request-view-logout" />
+          <AccountLogout className="employee-submit-time-swap-request-view-logout" />
         </div>
         <div className="employee-submit-time-swap-request-view-t-employee-side-menu-tmid-white-container" >
           <div className="employee-submit-time-swap-request-view-employee-side-menu" >
