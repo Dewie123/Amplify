@@ -28,9 +28,9 @@ import EmployeeViewReceivedTimeSwapRequestViewMain from "./pages/EmployeeViewRec
 import EmployeeViewSubmittedTimeSwapRequestView from "./pages/EmployeeViewSubmittedTimeSwapRequestView";
 import DemoVideo from "./pages/SysAdDemoVideo";
 import EmployeeViewAttendance from "./pages/EmployeeViewAttendance";
-import SADash from "../Employee-Smart-Roster/fireJetReact/src/pages/Dashboard/SADash";
-import RegisRequests from "../Employee-Smart-Roster/fireJetReact/src/pages/SA/RegisRequest/RegisRequests";
-import UserMgts from "../Employee-Smart-Roster/fireJetReact/src/pages/UserManagement/UserMgts";
+import SADash from "./Employee-Smart-Roster/fireJetReact/src/pages/Dashboard/SADash";
+import RegisRequests from "./Employee-Smart-Roster/fireJetReact/src/pages/SA/RegisRequest/RegisRequests";
+import UserMgts from "./Employee-Smart-Roster/fireJetReact/src/pages/UserManagement/UserMgts";
 
 
 function App() {
