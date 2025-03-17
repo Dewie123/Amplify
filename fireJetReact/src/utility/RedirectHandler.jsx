@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const useRedirectHandler = () => {
     const navigate = useNavigate();
-
+    console.log(userType);
     return (userType) => {
         switch (userType) {
             case "System Admin":
