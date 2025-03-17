@@ -2,7 +2,7 @@
 
 import { useNavigate } from "react-router-dom";
 
-const useRedirectHandler = (navigate,userType) => {
+const useRedirectHandler = () => {
     const navigate = useNavigate();
     
     return (userType) => {
