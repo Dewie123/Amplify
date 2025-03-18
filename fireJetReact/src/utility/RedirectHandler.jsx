@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 const useRedirectHandler = () => {
     const navigate = useNavigate();
     
-    return (userType) => {
-        switch (userType) {
+    return (role) => {
+        switch (role) {
             case "System Admin":
                 navigate("/system-admin-dashboard");
                 break;

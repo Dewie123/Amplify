@@ -25,7 +25,7 @@ export default function Login({ className = "" }: LoginProps) {
         console.log(data);
         if (data.responseCode === 200){
           console.log('Login successful:', data);
-          redirect(data.userType);
+          redirect(data.role);
         }
         
         // Handle success, like storing a token or redirecting the user
