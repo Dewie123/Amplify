@@ -10,6 +10,11 @@ export default function EditCompanyProfile({
   
   className = "",
 }: EditCompanyProfileProps) {
+
+  function promptAlert(text: string){
+    alert({text});
+  }
+
   return (
     
     <div className={`${className} edit-company-profile-edit-company-profile`}>
@@ -56,7 +61,7 @@ export default function EditCompanyProfile({
 
               <button
                     className="edit-company-profile-button-2"
-                    onClick={(() => alert("Issue Updated!"))}
+                    onClick={(() => promptAlert("Issue Updated!"))}
                     style={{ cursor: "pointer" }} // Optional: shows it's clickable
                   >Submit</button>
             </div>
