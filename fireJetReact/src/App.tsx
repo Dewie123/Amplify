@@ -32,6 +32,8 @@ import SADash from "./Employee-Smart-Roster/fireJetReact/src/pages/Dashboard/SAD
 import RegisRequests from "./Employee-Smart-Roster/fireJetReact/src/pages/SA/RegisRequest/RegisRequests";
 import UserMgts from "./Employee-Smart-Roster/fireJetReact/src/pages/UserManagement/UserMgts";
 
+import UserManagement from "./pages/UserManagement"
+
 
 function App() {
   return (
@@ -80,6 +82,13 @@ function App() {
          <Route path="/bo-department-roles-view-leave-requests-view-details" element={<BODepartmentRolesViewLeaveRequestsViewDetails />} /> 
          {/* Route for Edit EmployeeMainViewTimeSwapRequest page */}
          <Route path="/employee-main-view-time-swap-request" element={<EmployeeViewTimeSwapRequestViewMain />} />
+
+         {/* Route for User Management page*/}
+         <Route path="/sys-user-management" element={<UserManagement/>} />
+
+
+
+
           {/* Route for SysAdReviewAndRating page*/}
           <Route path="/sys-review-rating" element={<Row/>} />    
           {/* Route for SysAdFAQ page*/}
@@ -92,6 +101,7 @@ function App() {
          <Route path="/sys-demo-vid" element={<DemoVideo/>} />   
          {/* Route for Employee ViewAttendance page*/}
          <Route path="/employee-view-attendance" element={<EmployeeViewAttendance/>} />
+
 
 
 

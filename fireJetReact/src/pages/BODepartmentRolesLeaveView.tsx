@@ -5,7 +5,6 @@ import BOSideMenu from './BOSideMenu';
 import AccountLogout from './AccountLogout';
 import { useNavigate } from 'react-router-dom';
 import React from 'react';
-import InputField from "./InputField"; 
 
 export default function BODepartmentRolesLeaveView({ className = "" }: BODepartmentRolesLeaveView) {
   const navigate = useNavigate();

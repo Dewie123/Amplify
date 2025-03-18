@@ -107,8 +107,6 @@ export default function EditEmployeeDetail({
                       />
                     </div><br/>
               
-
-    
                 <div className="edit-employee-detail-input-group">
                       <label>Working Hours</label><br/>
                       <input

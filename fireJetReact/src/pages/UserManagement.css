@@ -1,0 +1,490 @@
+.common-17,
+.user-management-cell-header,
+.user-management-cell-header-1,
+.user-management-cell-header-2,
+.user-management-cell-header-gap,
+.user-management-cell-header-gap-1 {
+  border-style: solid;
+  border-color: black;
+}
+
+.common-18,
+.user-management-uen,
+.user-management-company-name,
+.user-management-subs-status,
+.user-management-sa-view-user-details,
+.user-management-row-gap,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-ue-n,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-company-name-1,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-subs-status-1,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-sa-view-user-details,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-row-gap-1 {
+  border-style: solid;
+  border-color: midnightblue;
+}
+
+.common-8,
+.user-management-t-uen-company-name-rectangle,
+.t-t-subscription-status-filter-subs-status-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.common-9,
+.user-management-t-text,
+.user-management-t-text-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.common-10,
+.user-management-tt-logo-navbar-welcome-back-system-admin,
+.user-management-tttt-subscription-status-filter-subs-status-taccount-status-filter-account-status-tuen-company-name-rectangle,
+.user-management-tt-subscription-status-filter-subs-status-taccount-status-filter-account-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-11,
+.user-management-sa-view-user-details,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-sa-view-user-details {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-12,
+.user-management-t-cell-header-cell-header-cell-header-cell-header-gap-cell-header-gap,
+.user-management-t-uen-company-name-subs-status-saview-user-details-row-gap,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-t-uen-company-name-subs-status-saview-user-details-row-gap-7 {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.common-13,
+.user-management-t-side-menu-tttusers-management-tttttsubscription-status-filter-subs-status-taccount-status-filter-account-status-tuen-company-name-rectangle-19tcell-header-cell-header-cell-header-cell-header-gap-cell-header-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap,
+.user-management-ttt-users-management-tttttsubscription-status-filter-subs-status-taccount-status-filter-account-status-tuen-company-name-rectangle-19tcell-header-cell-header-cell-header-cell-header-gap-cell-header-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap {
+  display: flex;
+  justify-content: center;
+}
+
+.common-14,
+.user-management-nav-bar-system-admin,
+.user-management-t-users-management,
+.user-management-t-text-2,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-t-text-3 {
+  display: flex;
+  align-items: center;
+}
+
+.common-15,
+.user-management-row-gap,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-row-gap-1 {
+  flex-direction: column;
+  align-items: center;
+}
+
+.common-16,
+.user-management-rectangle,
+.user-management-cell-header-2,
+.user-management-uen,
+.user-management-company-name,
+.user-management-subs-status,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-ue-n,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-company-name-1,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-subs-status-1,
+.t-filter-subs-status {
+  justify-content: center;
+  align-items: center;
+}
+
+.common-1,
+.user-management-user-management,
+.user-management-uen,
+.user-management-company-name,
+.user-management-subs-status,
+.user-management-sa-view-user-details,
+.user-management-row-gap,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-ue-n,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-company-name-1,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-subs-status-1,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-sa-view-user-details,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-row-gap-1 {
+  display: flex;
+  background-color: white;
+}
+
+.common-2,
+.user-management-rectangle,
+.t-filter-subs-status {
+  display: flex;
+  background-color: gainsboro;
+}
+
+.common-3,
+.user-management-cell-header,
+.user-management-cell-header-1,
+.user-management-cell-header-2 {
+  display: flex;
+  background-color: #1919704c;
+}
+
+.common-4,
+.user-management-side-menu,
+.user-management-t-cell-header-cell-header-cell-header-cell-header-gap-cell-header-gap {
+  display: flex;
+  color: white;
+}
+
+.common-5,
+.user-management-t-uen-company-name-subs-status-saview-user-details-row-gap,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-t-uen-company-name-subs-status-saview-user-details-row-gap-7 {
+  display: flex;
+  color: black;
+}
+
+.common-6,
+.user-management-user-detail,
+.t-uen-company-name-subs-status-saview-user-details-row-gap-user-detail-3 {
+  width: 20px;
+  height: 20px;
+}
+
+.common-7,
+.user-management-cell-header-gap,
+.user-management-cell-header-gap-1 {
+  height: 42px;
+  background-color: #1919704c;
+}
+
+.user-management-user-management {
+  flex-direction: column;
+  width: 100%;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  line-height: normal;
+}
+
+.user-management-nav-bar-system-admin {
+  background-color: midnightblue;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-top: 7px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 9.6px;
+}
+
+.user-management-tt-logo-navbar-welcome-back-system-admin {
+  gap: 9.6px;
+}
+
+.user-management-logo-navbar {
+  width: 30px;
+  height: 30px;
+}
+
+.user-management-welcome-back-system-admin {
+  color: ghostwhite;
+}
+
+.user-management-logout {
+  width: 24px;
+  height: 24px;
+}
+
+.user-management-t-side-menu-tttusers-management-tttttsubscription-status-filter-subs-status-taccount-status-filter-account-status-tuen-company-name-rectangle-19tcell-header-cell-header-cell-header-cell-header-gap-cell-header-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap {
+  align-items: flex-start;
+  flex-grow: 1;
+  padding-right: 15px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.user-management-side-menu {
+  background-color: #663399ea;
+  flex-direction: column;
+  width: 200px;
+  align-self: stretch;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-weight: 600;
+  gap: 10px;
+}
+
+.user-management-landing-page-management {
+  display: flex;
+  align-items: flex-start;
+}
+
+.user-management-ttt-users-management-tttttsubscription-status-filter-subs-status-taccount-status-filter-account-status-tuen-company-name-rectangle-19tcell-header-cell-header-cell-header-cell-header-gap-cell-header-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap {
+  flex-direction: column;
+  flex-grow: 1;
+  padding-top: 9px;
+}
+
+.user-management-tt-users-management-tttttsubscription-status-filter-subs-status-taccount-status-filter-account-status-tuen-company-name-rectangle-19tcell-header-cell-header-cell-header-cell-header-gap-cell-header-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap {
+  font-weight: 300;
+}
+
+.user-management-users-management {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.user-management-ttttt-subscription-status-filter-subs-status-taccount-status-filter-account-status-tuen-company-name-rectangle {
+  align-items: flex-end;
+  padding-top: 15px;
+  display: flex;
+}
+
+.user-management-tttt-subscription-status-filter-subs-status-taccount-status-filter-account-status-tuen-company-name-rectangle {
+  row-gap: 18px;
+  column-gap: 47px;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+
+.user-management-tt-subscription-status-filter-subs-status-taccount-status-filter-account-status {
+  height: 37px;
+  gap: 47px;
+}
+
+.user-management-t-uen-company-name-rectangle {
+  width: 249px;
+}
+
+.user-management-uen-company-name {
+  align-self: stretch;
+  color: slateblue;
+}
+
+.user-management-rectangle {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.user-management-search-uen-company-name {
+  color: #0000007f;
+}
+
+.user-management-t-cell-header-cell-header-cell-header-cell-header-gap-cell-header-gap {
+  padding-top: 17px;
+}
+
+.user-management-cell-header {
+  border-bottom-width: 3px;
+  align-items: center;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 104px;
+  padding-top: 10px;
+}
+
+.user-management-t-text {
+  padding-bottom: 3px;
+}
+
+.user-management-cell-header-1 {
+  border-bottom-width: 3px;
+  align-items: center;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 527px;
+  padding-top: 10px;
+}
+
+.user-management-t-text-1 {
+  padding-bottom: 3px;
+}
+
+.user-management-cell-header-2 {
+  border-bottom-width: 3px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+}
+
+.user-management-text-2 {
+  padding-right: 28px;
+  padding-bottom: 3px;
+}
+
+.user-management-cell-header-gap {
+  border-bottom-width: 3px;
+  width: 30px;
+}
+
+.user-management-cell-header-gap-1 {
+  border-bottom-width: 3px;
+  width: 10px;
+}
+
+.user-management-t-uen-company-name-subs-status-saview-user-details-row-gap {
+  font-size: 14px;
+}
+
+.user-management-uen {
+  border-bottom-width: 1px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 9px;
+}
+
+.user-management-t-text-2 {
+  flex-grow: 1;
+  max-width: 126px;
+  padding-right: 30px;
+}
+
+.user-management-text-3 {
+  flex-grow: 1;
+}
+
+.user-management-company-name {
+  border-bottom-width: 1px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 9px;
+}
+
+.user-management-subs-status {
+  border-bottom-width: 1px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 9px;
+}
+
+.user-management-sa-view-user-details {
+  border-bottom-width: 1px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 8px;
+}
+
+.user-management-row-gap {
+  border-bottom-width: 1px;
+}
+
+.user-management-content {
+  overflow: clip;
+}
+
+.t-uen-company-name-subs-status-saview-user-details-row-gap-t-uen-company-name-subs-status-saview-user-details-row-gap-7 {
+  font-size: 14px;
+}
+
+.t-uen-company-name-subs-status-saview-user-details-row-gap-ue-n {
+  border-bottom-width: 1px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 9px;
+}
+
+.t-uen-company-name-subs-status-saview-user-details-row-gap-t-text-3 {
+  flex-grow: 1;
+  max-width: 126px;
+  padding-right: 30px;
+}
+
+.t-uen-company-name-subs-status-saview-user-details-row-gap-text-6 {
+  flex-grow: 1;
+}
+
+.t-uen-company-name-subs-status-saview-user-details-row-gap-company-name-1 {
+  border-bottom-width: 1px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 9px;
+}
+
+.t-uen-company-name-subs-status-saview-user-details-row-gap-subs-status-1 {
+  border-bottom-width: 1px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 9px;
+}
+
+.t-uen-company-name-subs-status-saview-user-details-row-gap-sa-view-user-details {
+  border-bottom-width: 1px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 8px;
+}
+
+.t-uen-company-name-subs-status-saview-user-details-row-gap-row-gap-1 {
+  border-bottom-width: 1px;
+}
+
+.t-uen-company-name-subs-status-saview-user-details-row-gap-content-1 {
+  overflow: clip;
+}
+
+.t-subscription-status {
+  align-self: stretch;
+  color: slateblue;
+}
+
+.t-filter-subs-status {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  flex-grow: 1;
+  max-height: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  gap: 4px;
+}
+
+.t-subscribed {
+  width: 100px;
+}
+
+.t-line-1 {
+  width: 1px;
+  height: 20px;
+}
+
+.t-dropdown-down-1 {
+  width: 15px;
+  height: 15px;
+}
+@media (min-width: 1270px) {
+  .user-management-nav-bar-system-admin {
+    flex-wrap: nowrap;
+  }
+  .user-management-t-side-menu-tttusers-management-tttttsubscription-status-filter-subs-status-taccount-status-filter-account-status-tuen-company-name-rectangle-19tcell-header-cell-header-cell-header-cell-header-gap-cell-header-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap-tuen-company-name-subs-status-saview-user-details-row-gap {
+    flex-wrap: nowrap;
+  }
+  .user-management-tttt-subscription-status-filter-subs-status-taccount-status-filter-account-status-tuen-company-name-rectangle {
+    flex-wrap: nowrap;
+  }
+  .user-management-t-cell-header-cell-header-cell-header-cell-header-gap-cell-header-gap {
+    flex-wrap: nowrap;
+  }
+  .user-management-t-uen-company-name-subs-status-saview-user-details-row-gap {
+    flex-wrap: nowrap;
+  }
+}
