@@ -46,34 +46,30 @@ export default function EmployeeSubmitTimeSwapRequestView({
                 <div className="employee-submit-time-swap-request-view-tt-date-input-ttime-select-tlabel-textarea" >
                   <div className="employee-submit-time-swap-request-view-t-date-input" >
                     <div className="employee-submit-time-swap-request-view-date" >
-                    <InputField 
-                        label="Date" 
-                        defaultValue="" 
+                      <InputField
+                        label="Date"
+                        datePicker
+                        onChange={(selectedDate) => console.log("Selected date:", selectedDate)}
                       />
                     </div>
                   </div>
                   <div className="employee-submit-time-swap-request-view-t-time-select" >
                     <div className="employee-submit-time-swap-request-view-time" >
-                      Time
-                    </div>
-                    <div className="employee-submit-time-swap-request-view-select" >
-                      <div className="employee-submit-time-swap-request-view-t-12pm-2pm-chevron-down" >
-                        <div className="employee-submit-time-swap-request-view-pm-2pm" >
-                          12pm-2pm
-                        </div>
-                        <ChevronDown className="employee-submit-time-swap-request-view-chevron-down" />
-                      </div>
+                      <InputField
+                        label="Time"
+                        timeDropdown
+                        onChange={(selectedTime) => {
+                          console.log("Selected time:", selectedTime);
+                        }}
+                      />
                     </div>
                   </div>
                   <div className="employee-submit-time-swap-request-view-t-label-textarea" >
                     <div className="employee-submit-time-swap-request-view-label" >
-                      Description
-                    </div>
-                    <div className="employee-submit-time-swap-request-view-textarea" >
-                      <div className="employee-submit-time-swap-request-view-value" >
-                        Mother is sick, please swap
-                      </div>
-                      <Drag className="employee-submit-time-swap-request-view-drag" />
+                      <InputField 
+                        label="Reason" 
+                        defaultValue="" 
+                      />
                     </div>
                   </div>
                 </div>

@@ -4,6 +4,7 @@ import Upload from "../components/assets/Upload";
 import "./BODepartmentRolesViewLeaveRequestsViewDetails.css";
 import BOSideMenu from './BOSideMenu';
 import AccountLogout from './AccountLogout';
+import InputField from "./InputField"; 
 
 export default function BODepartmentRolesViewLeaveRequestsViewDetails({
   className = "",
@@ -40,33 +41,20 @@ export default function BODepartmentRolesViewLeaveRequestsViewDetails({
                 <div className="container-form">
                     <div className="bo-report-issues-view-submit-an-issue-form-contact" >
                     <div className="bo-report-issues-view-submit-an-issue-name">
-                        Name
-                    </div>
-                    <div className="bo-report-issues-view-submit-an-issue-input" >
-                        <div className="bo-report-issues-view-submit-an-issue-eg-anna-smores" >
-                        John Smith
-                        </div>
+                      <InputField label="Name" defaultValue="" />
                     </div>
                     <div className="bo-report-issues-view-submit-an-issue-t-role" >
                         <div className="bo-report-issues-view-submit-an-issue-role" >
-                        Date
-                        </div>
-                    </div>
-                    <div className="bo-report-issues-view-submit-an-issue-input-1" >
-                        <div className="bo-report-issues-view-submit-an-issue-eg-manager" >
-                        22/02/2025 - 25/02/2025 
+                          <InputField
+                            label="Date"
+                            datePicker
+                            onChange={(selectedDate) => console.log("Selected date:", selectedDate)}
+                          />
                         </div>
                     </div>
                     <div className="bo-report-issues-view-submit-an-issue-t-issue-to-report" >
                         <div className="bo-report-issues-view-submit-an-issue-issue-to-report" >
-                        Reason for Leave
-                        </div>
-                    </div>
-                    <div className="bo-report-issues-view-submit-an-issue-input-2" >
-                        <div className="bo-report-issues-view-submit-an-issue-eg-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-fusce-faucibus-mollis-suscipit-ut-tincidunt-blandit-tellus-amattis-proin-sapien-diam-porta-sed-luctus-at-ornare-vel-nisi" >
-                        <p>
-                            My wife recently gave birth to our second child and I would like to take some time off to spend time with my family.
-                        </p>
+                          <InputField label="Reason for Leave" defaultValue="" />
                         </div>
                     </div>
                     <div className="bo-report-issues-view-submit-an-issue-t-attach-image-if-any" >

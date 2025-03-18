@@ -4,6 +4,7 @@ import Upload from "../components/assets/Upload";
 import "./BOReportIssuesViewUpdateDetails.css";
 import BOSideMenu from './BOSideMenu';
 import AccountLogout from './AccountLogout';
+import InputField from "./InputField"; 
 
 export default function BOReportIssuesViewUpdateDetails({
   className = "",
@@ -39,33 +40,21 @@ export default function BOReportIssuesViewUpdateDetails({
               <div className="bo-report-issues-view-submit-an-issue-t-form-contact" >
                 <div className="bo-report-issues-view-submit-an-issue-form-contact" >
                   <div className="bo-report-issues-view-submit-an-issue-name">
-                    Name
-                  </div>
-                  <div className="bo-report-issues-view-submit-an-issue-input" >
-                    <div className="bo-report-issues-view-submit-an-issue-eg-anna-smores" >
-                      John Smith
-                    </div>
+                    <InputField label="Name" defaultValue="" />
                   </div>
                   <div className="bo-report-issues-view-submit-an-issue-t-role" >
                     <div className="bo-report-issues-view-submit-an-issue-role" >
-                      Role
-                    </div>
-                  </div>
-                  <div className="bo-report-issues-view-submit-an-issue-input-1" >
-                    <div className="bo-report-issues-view-submit-an-issue-eg-manager" >
-                      Supervisor
+                      <InputField label="Role" defaultValue="" />
                     </div>
                   </div>
                   <div className="bo-report-issues-view-submit-an-issue-t-issue-to-report" >
                     <div className="bo-report-issues-view-submit-an-issue-issue-to-report" >
-                      Issue to report
-                    </div>
-                  </div>
-                  <div className="bo-report-issues-view-submit-an-issue-input-2" >
-                    <div className="bo-report-issues-view-submit-an-issue-eg-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-fusce-faucibus-mollis-suscipit-ut-tincidunt-blandit-tellus-amattis-proin-sapien-diam-porta-sed-luctus-at-ornare-vel-nisi" >
-                      <p>
-                        I can't seem to add new team members, I tried refreshing the browser to ensure that it is not my issue, system admin please advise me on this or help to resolve the issue, thanks.
-                      </p>
+                      <InputField
+                        label="Description"
+                        description
+                        defaultValue=""
+                        onChange={(val) => console.log("Description:", val)}
+                      />
                     </div>
                   </div>
                   <div className="bo-report-issues-view-submit-an-issue-t-attach-image-if-any" >

@@ -6,6 +6,7 @@ import DropdownDown from "../components/assets/DropdownDown";
 import "./BOEditTeamMemberView.css";
 import BOSideMenu from './BOSideMenu';
 import AccountLogout from './AccountLogout';
+import InputField from "./InputField"; 
 
 
 export default function BOEditTeamMemberView({
@@ -46,66 +47,29 @@ export default function BOEditTeamMemberView({
                    />
                 </div>
               </div>
-              <div className="bo-add-team-member-view-tt-form-contact-form-contact" >
-                <div className="bo-add-team-member-view-t-form-contact-form-contact" >
-                  <div className="bo-add-team-member-view-form-contact">
-                    <div className="bo-add-team-member-view-ttt-name-input-taddress-input-temail-input-twage-input" >
-                      <div className="bo-add-team-member-view-tt-name-input-taddress-input-temail-input-twage-input" >
-                        <T text="Name" text1="Marry Jane" />
-                        <T
-                          text="Address"
-                          text1="12 Bukit Gombak Ave 3 #09-09"
-                         />
-                        <T text="Email" text1="MarryJane@gmail.com" />
-                        <T text="Wage" text1="$20/hr" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="bo-add-team-member-view-form-contact-1">
-                    <div className="bo-add-team-member-view-role">
-                      Role
-                    </div>
-                    <div className="bo-add-team-member-view-input">
-                      <div className="bo-add-team-member-view-singer">
-                        Singer
-                      </div>
-                    </div>
-                    <div className="bo-add-team-member-view-t-working-hours">
-                      <div className="bo-add-team-member-view-working-hours">
-                        Working Hours
-                      </div>
-                    </div>
-                    <div className="bo-add-team-member-view-input-1">
-                      <div className="bo-add-team-member-view-am-530pm">
-                        9am-5.30pm
-                      </div>
-                    </div>
-                    <div className="bo-add-team-member-view-t-skillsets">
-                      <div className="bo-add-team-member-view-skillsets">
-                        Skillsets
-                      </div>
-                    </div>
-                    <div className="bo-add-team-member-view-input-2">
-                      <div className="bo-add-team-member-view-vocalist">
-                        Vocalist
-                      </div>
-                    </div>
-                    <div className="bo-add-team-member-view-t-status">
-                      <div className="bo-add-team-member-view-status">
-                        Status
-                      </div>
-                    </div>
-                    <div className="bo-add-team-member-view-t-filter-account-status" >
-                      <div className="bo-add-team-member-view-filter-account-status" >
-                        <div className="bo-add-team-member-view-activated">
-                          Active
-                        </div>
-                        <Line className="bo-add-team-member-view-line" />
-                        <DropdownDown className="bo-add-team-member-view-dropdown-down" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="grid-container">
+                {/* 4 items in column 1 (left) */}
+                <InputField label="Name" defaultValue="" />
+                <InputField label="Address" defaultValue="" />
+                <InputField label="Email" defaultValue="" />
+                <InputField label="Wage" defaultValue="$ /hr" />
+
+                {/* 4 items in column 2 (right) */}
+                <InputField label="Role" defaultValue="" />
+                <InputField
+                  label="Working Hours"
+                  timeDropdown
+                  onChange={(selectedTime) => {
+                    console.log("Selected time:", selectedTime);
+                  }}
+                />
+                <InputField label="Skillsets" defaultValue="" />
+                <InputField
+                  label="Status"
+                  statusDropdown
+                  defaultValue="Active"
+                  onChange={(val) => console.log("Status changed to:", val)}
+                />
               </div>
               <div className="bo-add-team-member-view-update-profile">
                 <div

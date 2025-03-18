@@ -20,9 +20,6 @@ export default function EditEmployeeDetail({
   const [skillsets, setSkillsets] = useState("Vocalist");
 
 
-
-
-
   return (
     <div className={`${className} edit-employee-detail-wrapper`}>
       <div className="edit-employee-detail-edit-employee-detail">
@@ -75,9 +72,6 @@ export default function EditEmployeeDetail({
                       />
                     </div>
 
-                    
-
-                    
                     <div className="edit-employee-detail-input-group">
                       <label>Address</label><br/>
                       <input

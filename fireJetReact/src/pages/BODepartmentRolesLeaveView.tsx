@@ -5,6 +5,7 @@ import BOSideMenu from './BOSideMenu';
 import AccountLogout from './AccountLogout';
 import { useNavigate } from 'react-router-dom';
 import React from 'react';
+import InputField from "./InputField"; 
 
 export default function BODepartmentRolesLeaveView({ className = "" }: BODepartmentRolesLeaveView) {
   const navigate = useNavigate();
@@ -95,7 +96,12 @@ export default function BODepartmentRolesLeaveView({ className = "" }: BODepartm
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>Resolved</td>
                     <td>
-                      <button>View Details</button>
+                      <button 
+                        onClick={() => navigate('/bo-department-roles-view-leave-requests-view-details')}
+                        style={{ cursor: 'pointer' }}
+                      >
+                        View Details
+                      </button>
                     </td>
                   </tr>
                   <tr>
@@ -103,7 +109,12 @@ export default function BODepartmentRolesLeaveView({ className = "" }: BODepartm
                     <td>Lorem ipsum dolor sit amet...</td>
                     <td>Resolved</td>
                     <td>
-                      <button>View Details</button>
+                      <button 
+                        onClick={() => navigate('/bo-department-roles-view-leave-requests-view-details')}
+                        style={{ cursor: 'pointer' }}
+                      >
+                        View Details
+                      </button>
                     </td>
                   </tr>
                 </tbody>
