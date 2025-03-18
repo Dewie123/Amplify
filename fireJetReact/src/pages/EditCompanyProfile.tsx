@@ -58,7 +58,7 @@ export default function EditCompanyProfile({
                     className="edit-company-profile-button-2"
                     onClick={() => alert("Issue Updated!")}
                     style={{ cursor: "pointer" }} // Optional: shows it's clickable
-                  >Subm</div>
+                  >Submit</div>
             </div>
           </div>
 
