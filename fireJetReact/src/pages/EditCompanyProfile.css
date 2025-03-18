@@ -1,3 +1,29 @@
+.edit-company-profile-button-1 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: black;
+  align-self: stretch;
+  padding-bottom: 11px;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 11px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  position: relative;
+  z-index: 3;
+}
+
+
+.edit-company-profile-button-2 {
+  text-align: center;
+  color: whitesmoke;
+  line-height: 1;
+}
+
 .common-11,
 .edit-company-profile-form-contact,
 .t-input {
@@ -34,6 +60,8 @@
 .edit-company-profile-button,
 .edit-company-profile-button-1,
 .edit-company-profile-tt-logo-navbar-welcome-back-system-admin {
+  z-index: 3;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +136,7 @@
   width: 361px;
   height: 486px;
   max-width: 361px;
-  z-index: 0;
+  z-index: 4;
   bottom: 13px;
   left: calc(50% + -243px + 93px);
   position: absolute;
@@ -169,6 +197,7 @@
   left: calc(50% + -31px + -10.5px);
   top: 0px;
   position: absolute;
+  pointer-events: none;
 }
 
 .edit-company-profile-image {
@@ -200,29 +229,7 @@
   line-height: 1;
 }
 
-.edit-company-profile-button-1 {
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-right-width: 1px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  background-color: black;
-  align-self: stretch;
-  padding-bottom: 11px;
-  padding-left: 11px;
-  padding-right: 11px;
-  padding-top: 11px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-}
 
-
-.edit-company-profile-button-2 {
-  text-align: center;
-  color: whitesmoke;
-  line-height: 1;
-}
 
 .edit-company-profile-tt-navbar-system-admin-trectangle-8boside-menu {
   margin-top: 0px;
@@ -331,7 +338,6 @@
 }
 
 .middle-group {
-  transform: translate(900px,-100px);
- 
+  transform: none;
 }
 

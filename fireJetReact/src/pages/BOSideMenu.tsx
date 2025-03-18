@@ -21,6 +21,10 @@ export default function BOSideMenu() {
     navigate('/bo-department-roles-view'); // update with your actual route
   };
 
+  const handleTeaamAvailabilityClick = () => {
+    navigate('/bo-team-availability-view'); // update with your actual route
+  };
+
   return (
     <div className="bo-dashboard-view-t-rectangle-8boside-menu">
       <div
@@ -48,6 +52,12 @@ export default function BOSideMenu() {
           style={{ cursor: 'pointer' }}
         >
           Department/Roles
+        </div>
+        <div 
+          onClick={handleTeaamAvailabilityClick} 
+          style={{ cursor: 'pointer' }}
+        >
+          Team Availability
         </div>
       </div>
     </div>

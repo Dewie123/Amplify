@@ -6,6 +6,7 @@ import "./EmployeeSubmitTimeSwapRequestView.css";
 import AccountLogout from './AccountLogout';
 import EmployeeSideMenu from "./EmployeeSideMenu";
 import { useNavigate } from 'react-router-dom';
+import InputField from "./InputField";
 
 export default function EmployeeSubmitTimeSwapRequestView({
   className = "",
@@ -45,12 +46,10 @@ export default function EmployeeSubmitTimeSwapRequestView({
                 <div className="employee-submit-time-swap-request-view-tt-date-input-ttime-select-tlabel-textarea" >
                   <div className="employee-submit-time-swap-request-view-t-date-input" >
                     <div className="employee-submit-time-swap-request-view-date" >
-                      Date
-                    </div>
-                    <div className="employee-submit-time-swap-request-view-input" >
-                      <div className="employee-submit-time-swap-request-view-component" >
-                        12/02/2021
-                      </div>
+                    <InputField 
+                        label="Date" 
+                        defaultValue="" 
+                      />
                     </div>
                   </div>
                   <div className="employee-submit-time-swap-request-view-t-time-select" >

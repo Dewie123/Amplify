@@ -15,11 +15,6 @@ export default function EmployeeSideMenu() {
     navigate('/employee-projects');
   };
 
-  const handleChatClick = () => {
-    // Redirect to the desired route (e.g., "/report-issues")
-    navigate('/employee-send-receive-message');
-  };
-
   const handleTimeSwapClick = () => {
     // Redirect to the desired route (e.g., "/report-issues")
     navigate('/employee-main-view-time-swap-request');
@@ -40,13 +35,6 @@ export default function EmployeeSideMenu() {
         style={{ cursor: 'pointer' }} // Indicates it's clickable
       >
         Project View
-      </div>
-      <div 
-        className="emp-dashboard-view-dashboard" 
-        onClick={handleChatClick}
-        style={{ cursor: 'pointer' }} // Indicates it's clickable
-      >
-        Chat
       </div>
       <div 
         className="emp-dashboard-view-dashboard" 
