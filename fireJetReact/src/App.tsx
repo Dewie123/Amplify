@@ -30,6 +30,7 @@ import DemoVideo from "./pages/SysAdDemoVideo";
 import EmployeeViewAttendance from "./pages/EmployeeViewAttendance";
 import Dashboard from "./pages/SADashboard"
 import UserManagement from "./pages/UserManagement"
+import RegRequest from "./pages/RegRequest"
 
 
 function App() {
@@ -93,6 +94,8 @@ function App() {
          <Route path="/employee-view-attendance" element={<EmployeeViewAttendance/>} />
          {/* Route for SADashboard page*/}
          <Route path="/system-admin-dashboard" element={<Dashboard/>} />
+         {/* Route for SARegRequest page*/}
+         <Route path="/system-admin-registration-request" element={<RegRequest/>} />
 
          
          {/* Route for UserManagement page*/}
