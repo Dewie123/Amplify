@@ -3,8 +3,8 @@ import Logout from "../components/assets/Logout";
 import T from "./T";
 import Line from "../components/assets/Line";
 import DropdownDown from "../components/assets/DropdownDown";
-//import "./BOEditTeamMemberView.css";
-//import BOSideMenu from './BOSideMenu';
+import "./BOEditTeamMemberView.css";
+import BOSideMenu from './BOSideMenu';
 import AccountLogout from './AccountLogout';
 import InputField from "./InputField"; 
 
