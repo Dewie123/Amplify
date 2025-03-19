@@ -31,14 +31,14 @@ import EmployeeViewAttendance from "./pages/EmployeeViewAttendance";
 import Dashboard from "./pages/SADashboard"
 import UserManagement from "./pages/UserManagement"
 import RegRequest from "./pages/RegRequest"
-
+import LandingPage from "./pages/LandingPage/LandingPage"
 
 function App() {
   return (
     <Router>
       <Routes>
-        {/* Default route (Login page) */}
-        <Route path="/" element={<Login />} />  
+        {/* Default route (LandingPage) */}
+        <Route path="/" element={<LandingPage />} />  
 
         {/* Route for EmployeeProjectView page */}
         <Route path="/employee-projects" element={<EmployeeProjectView />} />  
@@ -101,6 +101,9 @@ function App() {
          {/* Route for UserManagement page*/}
          <Route path="/sys-user-management" element={<UserManagement/>} />
 
+
+        {/* Route for Login page*/}
+        <Route path="/login" element={<Login/>} />
 
       
       </Routes>

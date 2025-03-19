@@ -1,0 +1,76 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 40px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.register-btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.feature-item .icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.video-section .video-placeholder {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.plans {
+    text-align: left;
+    margin-top: 40px;
+    background: #fff;
+    padding: 20px;
+    border-top: 2px solid #ddd;
+}
+
+.plan-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.plan {
+    font-weight: bold;
+}
+
+.plan i {
+    font-style: italic;
+    color: #555;
+}
