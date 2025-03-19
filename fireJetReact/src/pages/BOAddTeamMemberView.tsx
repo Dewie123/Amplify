@@ -3,8 +3,8 @@ import Logout from "../components/assets/Logout";
 import T from "./T";
 import Line from "../components/assets/Line";
 import DropdownDown from "../components/assets/DropdownDown";
-//import "./BOAddTeamMemberView.css";
-//mport BOSideMenu from './BOSideMenu';
+import "./BOAddTeamMemberView.css";
+import BOSideMenu from './BOSideMenu';
 import AccountLogout from './AccountLogout';
 import InputField from "./InputField"; 
 
@@ -25,7 +25,7 @@ export default function BOAddTeamMemberView({
           <div className="bo-add-team-member-view-tt-rectangle-8boside-menu-mid-white-container" >
             <div className="bo-add-team-member-view-t-rectangle-8boside-menu">
               <div className="bo-add-team-member-view-bo-side-menu">
-                
+              <div><BOSideMenu /></div>
               </div>
             </div>
             <div className="bo-add-team-member-view-mid-white-container">
