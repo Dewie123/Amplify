@@ -12,6 +12,7 @@ import UserDetail from "../components/assets_SADash/UserDetail";
 import UserDetail1 from "../components/assets_SADash/UserDetail1";
 import UserDetail2 from "../components/assets_SADash/UserDetail2";
 import "./SADashboard.css";
+import SysAdminSideMenu from './SysAdminSideMenu';
 
 export default function Dashboard({ className = "" }: DashboardProps) {
   return (
@@ -27,11 +28,7 @@ export default function Dashboard({ className = "" }: DashboardProps) {
       </div>
       <div className="dashboard-t-side-menu-main-content">
         <div className="dashboard-side-menu">
-          <div>USER</div>
-          <div>ISSUES LOG</div>
-          <div className="dashboard-landing-page-management">
-            <p>LANDING PAGE MANAGEMENT</p>
-          </div>
+          <div><SysAdminSideMenu /></div>
         </div>
         <div className="dashboard-main-content">
           <div className="dashboard-tt-rating-tsubscription-plans-total-users-tttenterprise-tfree-tbg-zr-60cls-961zr-60cls-962tttregistration-request-no-of-request-tcard-card-card-treported-issues" >

@@ -5,62 +5,66 @@ import { useNavigate } from 'react-router-dom';
 export default function SysAdminSideMenu() {
   const navigate = useNavigate();
 
-  const handleReportIssuesClick = () => {
+  const handleSysUserMgntClick = () => {
     navigate('/sys-user-management');
   };
 
-  const handleDashboardClick = () => {
-    navigate('/bo-dashboard-view'); // update with your actual route
+  const handleSysAdminRegClick = () => {
+    navigate('/system-admin-registration-request'); // update with your actual route
   };
 
-  const handleScheduleClick = () => {
-    navigate('/bo-schedule-view'); // update with your actual route
+  const handleSysAdminDashClick = () => {
+    navigate('/system-admin-dashboard'); // update with your actual route
   };
 
-  const handleDepartmentRolesClick = () => {
-    navigate('/bo-department-roles-view'); // update with your actual route
+  const handleSysDemoVidsClick = () => {
+    navigate('/sys-demo-vid'); // update with your actual route
   };
 
-  const handleTeaamAvailabilityClick = () => {
-    navigate('/bo-team-availability-view'); // update with your actual route
+  const handleSysReviewRatingClick = () => {
+    navigate('/sys-review-rating'); // update with your actual route
+  };
+
+  const handleSysFAQClick = () => {
+    navigate('/sys-faq'); // update with your actual route
   };
 
   return (
     <div className="bo-dashboard-view-t-rectangle-8boside-menu">
       <div
         className="sys-user-management"
-        onClick={handleReportIssuesClick}
+        onClick={handleSysUserMgntClick}
         style={{ cursor: 'pointer' }}
       >
         Users Management
       </div>
       <div className="bo-dashboard-view-bo-side-menu">
         <div 
-          onClick={handleDashboardClick} 
+          onClick={handleSysAdminRegClick} 
           style={{ cursor: 'pointer' }}
         >
           Registration List
         </div>
         <div 
-          onClick={handleScheduleClick} 
+          onClick={handleSysAdminDashClick} 
           style={{ cursor: 'pointer' }}
         >
-          Issues Log
+          Dashboard
         </div>
         <div 
-          onClick={handleDepartmentRolesClick} 
+          onClick={handleSysDemoVidsClick} 
           style={{ cursor: 'pointer' }}
         >
           Management Demo Video
         </div>
         <div 
-          onClick={handleTeaamAvailabilityClick} 
+          onClick={handleSysReviewRatingClick} 
           style={{ cursor: 'pointer' }}
         >
           Management Reviews & Rating
         </div>
         <div 
-          onClick={handleTeaamAvailabilityClick} 
+          onClick={handleSysFAQClick} 
           style={{ cursor: 'pointer' }}
         >
           Manage FAQ

@@ -2,6 +2,7 @@ import LogoNavbar from "../components/assets/LogoNavbar";
 import Logout from "../components/assets/Logout";
 import TRegIdUenCompanyNameSAViewUserDetailsRowGap from "./TRegIdUenCompanyNameSAViewUserDetailsRowGap";
 import "./RegRequest.css";
+import SysAdminSideMenu from './SysAdminSideMenu';
 
 export default function RegRequest({ className = "" }: RegRequestProps) {
   return (
@@ -17,11 +18,7 @@ export default function RegRequest({ className = "" }: RegRequestProps) {
       </div>
       <div className="reg-request-t-side-menu-tttregistration-list-tregistration-id-trectangle-19ttable-reg-list" >
         <div className="reg-request-side-menu">
-          <div>USER</div>
-          <div>ISSUES LOG</div>
-          <div className="reg-request-landing-page-management">
-            <p>LANDING PAGE MANAGEMENT</p>
-          </div>
+          <div><SysAdminSideMenu /></div>
         </div>
         <div className="reg-request-ttt-registration-list-tregistration-id-trectangle-19ttable-reg-list" >
           <div className="reg-request-tt-registration-list-tregistration-id-trectangle-19ttable-reg-list" >

@@ -3,6 +3,7 @@ import Logout from "../components/assets/Logout";
 import Row from "./ReviewRatingRow";
 import "./SysAdReviewAndRating.css";
 import AccountLogout from './AccountLogout';
+import SysAdminSideMenu from './SysAdminSideMenu';
 
 export default function ReviewAndRating({
   className = "",
@@ -20,11 +21,7 @@ export default function ReviewAndRating({
       </div>
       <div className="review-and-rating-t-side-menu-ttttfilter-review-filter-ratings-table" >
         <div className="review-and-rating-side-menu">
-          <div>USER</div>
-          <div>ISSUES LOG</div>
-          <div className="review-and-rating-landing-page-management">
-            <p>LANDING PAGE MANAGEMENT</p>
-          </div>
+          <div><SysAdminSideMenu /></div>
         </div>
         <div className="review-and-rating-tttt-filter-review-filter-ratings-table" >
           <div className="review-and-rating-ttt-filter-review-filter-ratings-table" >

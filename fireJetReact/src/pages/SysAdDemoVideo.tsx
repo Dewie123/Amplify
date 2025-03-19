@@ -8,6 +8,7 @@ import DeleteLogo3 from "../components/assets/DeleteLogo3";
 import DeleteLogo4 from "../components/assets/DeleteLogo4";
 import "./SysAdDemoVideo.css";
 import AccountLogout from './AccountLogout';
+import SysAdminSideMenu from './SysAdminSideMenu';
 
 export default function DemoVideo({ className = "" }: DemoVideoProps) {
   return (
@@ -21,13 +22,11 @@ export default function DemoVideo({ className = "" }: DemoVideoProps) {
         </div>
         <AccountLogout className="demo-video-logout" />
       </div>
+
       <div className="demo-video-t-side-menu-tttpreview-rectangle-12tttvideos-to-be-played-tprimary-button-list" >
         <div className="demo-video-side-menu">
-          <div>USER</div>
-          <div>ISSUES LOG</div>
-          <div className="demo-video-landing-page-management">
-            <p>LANDING PAGE MANAGEMENT</p>
-          </div>
+            <SysAdminSideMenu />
+        </div>
         </div>
         <div className="demo-video-tt-preview-rectangle-12tttvideos-to-be-played-tprimary-button-list" >
           <div className="demo-video-t-preview-rectangle">
@@ -132,7 +131,6 @@ export default function DemoVideo({ className = "" }: DemoVideoProps) {
           </div>
         </div>
       </div>
-    </div>
 
   );
 }

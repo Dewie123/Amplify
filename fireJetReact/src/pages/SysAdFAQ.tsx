@@ -3,6 +3,7 @@ import Logout from "../components/assets/Logout";
 import Row from "./SysAdFAQRow";
 import "./SysAdFAQ.css";
 import AccountLogout from './AccountLogout';
+import SysAdminSideMenu from './SysAdminSideMenu';
 
 export default function FAQ({ className = "" }: FAQProps) {
   return (
@@ -18,11 +19,7 @@ export default function FAQ({ className = "" }: FAQProps) {
       </div>
       <div className="faq-t-side-menu-tttttfilter-review-delete-table">
         <div className="faq-side-menu">
-          <div>USER</div>
-          <div>ISSUES LOG</div>
-          <div className="faq-landing-page-management">
-            <p>LANDING PAGE MANAGEMENT</p>
-          </div>
+          <div><SysAdminSideMenu /></div>
         </div>
         <div className="faq-tttt-filter-review-delete-table">
           <div className="faq-ttt-filter-review-delete">
