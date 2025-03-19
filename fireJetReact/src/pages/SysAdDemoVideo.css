@@ -38,16 +38,18 @@
 .demo-video-t-headline-tdelete-logo-3,
 .demo-video-t-headline-tdelete-logo-4 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
 
 .common-11,
 .demo-video-tt-preview-rectangle-12tttvideos-to-be-played-tprimary-button-list,
 .demo-video-t-text {
+  transform: translateY(-400px);
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  
 }
 
 .common-12,
@@ -117,7 +119,7 @@
 .common-4,
 .demo-video-nav-bar-system-admin,
 .demo-video-primary-button {
-
+  color: white;
   background-color: midnightblue;
 }
 
@@ -290,6 +292,7 @@
 .demo-video-t-text {
   padding-bottom: 4px;
   padding-left: 9px;
+  transform: translateY(-300px)
 }
 
 .demo-video-text {

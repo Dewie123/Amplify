@@ -22,12 +22,13 @@ export default function DemoVideo({ className = "" }: DemoVideoProps) {
         </div>
         <AccountLogout className="demo-video-logout" />
       </div>
-
+      
       <div className="demo-video-t-side-menu-tttpreview-rectangle-12tttvideos-to-be-played-tprimary-button-list" >
         <div className="demo-video-side-menu">
             <SysAdminSideMenu />
+            
         </div>
-        </div>
+        <div>
         <div className="demo-video-tt-preview-rectangle-12tttvideos-to-be-played-tprimary-button-list" >
           <div className="demo-video-t-preview-rectangle">
             <div className="demo-video-preview">
@@ -45,11 +46,10 @@ export default function DemoVideo({ className = "" }: DemoVideoProps) {
               <div className="demo-video-t-videos-to-be-played-tprimary-button" >
                 <div className="demo-video-t-primary-button">
                   <button  className="demo-video-primary-button">
-                    <div className="demo-video-t-text">
-                      <div className="demo-video-text">
+                    
+                    
                         Select Video to Upload
-                      </div>
-                    </div>
+                      
                   </button>
                 </div>
                 <div className="demo-video-videos-to-be-played">
@@ -130,6 +130,10 @@ export default function DemoVideo({ className = "" }: DemoVideoProps) {
             </div>
           </div>
         </div>
+
+        </div>
+        </div>
+        
       </div>
 
   );

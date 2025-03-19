@@ -70,7 +70,7 @@ function App() {
          <Route path="/bo-report-issues-form-update-details-view" element={<BOReportIssuesViewUpdateDetails />} />    
          {/* Route for Edit BODepartmentRolesViewMCRequestsViewDetails page */}
          <Route path="/bo-department-roles-view-mc-requests-view-details" element={<BODepartmentRolesViewMCRequestsViewDetails />} />   
-         {/* Route for Edit BOEditEmployeeDetail page */}
+         {/* Route for Edit EditEmployeeDetail page */}
          <Route path="/bo-edit-employee-detail" element={<EditEmployeeDetail />} />   
          {/* Route for Edit BODepartmentRolesLeaveView page */}
          <Route path="/bo-department-roles-leave-view" element={<BODepartmentRolesLeaveView />} /> 
