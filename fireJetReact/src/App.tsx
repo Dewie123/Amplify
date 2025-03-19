@@ -12,7 +12,7 @@ import BOScheduleView from "./pages/BOScheduleView";
 import BOTeamAvailabilityView from "./pages/BOTeamAvaibilityView";
 import BOReportIssuesViewSubmitAnIssue from "./pages/BOReportIssuesViewSubmitAnIssue";
 import BOReportIssuesView from "./pages/BOReportIssuesView";
-import EmployeeSendReceiveMessage from "./pages/EmployeeSendReceiveMessage";
+
 import EmployeeSubmitTimeSwapRequestView from "./pages/EmployeeSubmitTimeSwapRequestView";
 import EmployeeDashboard from "./pages/EmployeeDashboard";
 import BOReportIssuesViewUpdateDetails from "./pages/BOReportIssuesViewUpdateDetails";
@@ -28,10 +28,7 @@ import EmployeeViewReceivedTimeSwapRequestViewMain from "./pages/EmployeeViewRec
 import EmployeeViewSubmittedTimeSwapRequestView from "./pages/EmployeeViewSubmittedTimeSwapRequestView";
 import DemoVideo from "./pages/SysAdDemoVideo";
 import EmployeeViewAttendance from "./pages/EmployeeViewAttendance";
-import SADash from "./Employee-Smart-Roster/fireJetReact/src/pages/Dashboard/SADash";
-import RegisRequests from "./Employee-Smart-Roster/fireJetReact/src/pages/SA/RegisRequest/RegisRequests";
-import UserMgts from "./Employee-Smart-Roster/fireJetReact/src/pages/UserManagement/UserMgts";
-
+import Dashboard from "./pages/SADashboard"
 import UserManagement from "./pages/UserManagement"
 
 
@@ -82,13 +79,6 @@ function App() {
          <Route path="/bo-department-roles-view-leave-requests-view-details" element={<BODepartmentRolesViewLeaveRequestsViewDetails />} /> 
          {/* Route for Edit EmployeeMainViewTimeSwapRequest page */}
          <Route path="/employee-main-view-time-swap-request" element={<EmployeeViewTimeSwapRequestViewMain />} />
-
-         {/* Route for User Management page*/}
-         <Route path="/sys-user-management" element={<UserManagement/>} />
-
-
-
-
           {/* Route for SysAdReviewAndRating page*/}
           <Route path="/sys-review-rating" element={<Row/>} />    
           {/* Route for SysAdFAQ page*/}
@@ -101,18 +91,15 @@ function App() {
          <Route path="/sys-demo-vid" element={<DemoVideo/>} />   
          {/* Route for Employee ViewAttendance page*/}
          <Route path="/employee-view-attendance" element={<EmployeeViewAttendance/>} />
+         {/* Route for SADashboard page*/}
+         <Route path="/system-admin-dashboard" element={<Dashboard/>} />
 
-
-
-
-
-         {/* Route for SADash page*/}
-         <Route path="/system-admin-dashboard" element={< SADash/>} /> 
-         {/* Route for System Admin Register Requests page*/}
-         <Route path="/system-admin-register-requests" element={< RegisRequests/>} /> 
-         {/* Route for User Management page*/}
-         <Route path="/user-management" element={< UserMgts/>} /> 
          
+         {/* Route for UserManagement page*/}
+         <Route path="/sys-user-management" element={<UserManagement/>} />
+
+
+      
       </Routes>
     </Router>
   );

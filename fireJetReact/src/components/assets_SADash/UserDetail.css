@@ -1,0 +1,650 @@
+.common-28,
+.dashboard-tt-zr-18cls-1552tbg-zr-18cls-1549tbg-zr-18cls-1550zr-18cls,
+.dashboard-bg-zr-18cls {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+.common-27,
+.dashboard-t-bg-zr-18cls-1550zr-18cls,
+.dashboard-t-bg-zr-60cls-961zr-60cls {
+  background-position: center;
+  background-size: cover;
+}
+
+.common-26,
+.dashboard-rating,
+.dashboard-card,
+.dashboard-cell,
+.dashboard-card-1,
+.dashboard-cell-1,
+.dashboard-card-2,
+.dashboard-cell-2,
+.dashboard-t-reported-issues-1-type {
+  border-style: solid;
+  border-color: midnightblue;
+}
+
+.common-11,
+.dashboard-tt-rating-tsubscription-plans-total-users-tttenterprise-tfree-tbg-zr-60cls-961zr-60cls-962tttregistration-request-no-of-request-tcard-card-card-treported-issues,
+.dashboard-tttt-zr-18cls-1553ttzr-18cls-1552tbg-zr-18cls-1549tbg-zr-18cls-1550zr-18cls-1551zr-18cls-1554ttzr-18cls-1555ttt0t1t234t {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.common-12,
+.dashboard-t-rating-total-rating,
+.dashboard-t-subscription-plans-total-users,
+.t-t-registration-request-no-of-request {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.common-13,
+.dashboard-tt-enterprise-tfree,
+.dashboard-t-card-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.common-14,
+.dashboard-t-rating-tsubscription-plans-total-users-tttenterprise-tfree-tbg-zr-60cls-961zr-60cls,
+.dashboard-rating,
+.dashboard-t-zr-18cls-1552tbg-zr-18cls-1549tbg-zr-18cls-1550zr-18cls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.common-15,
+.dashboard-tt-zr-18cls-1552tbg-zr-18cls-1549tbg-zr-18cls-1550zr-18cls,
+.dashboard-t-bg-zr-60cls-961zr-60cls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.common-16,
+.dashboard-t-text-text,
+.dashboard-t-text-text-1,
+.dashboard-t-text-text-2,
+.dashboard-t-text-text-3,
+.dashboard-t-text-text-4,
+.dashboard-t-text-text-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.common-17,
+.dashboard-tt-logo-navbar-welcome-back-system-admin,
+.dashboard-ttt-zr-18cls-1553ttzr-18cls-1552tbg-zr-18cls-1549tbg-zr-18cls-1550zr-18cls-1551zr-18cls,
+.dashboard-t-zr-18cls-1555ttt0t1t234t,
+.dashboard-t-cell-tuser-detail,
+.dashboard-t-cell-tuser-detail-1,
+.dashboard-t-cell-tuser-detail-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-18,
+.dashboard-tt-text-text-ttext-text,
+.dashboard-tt-text-text-ttext-text-1,
+.dashboard-tt-text-text-ttext-text-2 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.common-19,
+.dashboard-card,
+.dashboard-card-1,
+.dashboard-card-2 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.common-20,
+.dashboard-dashboard,
+.dashboard-side-menu,
+.dashboard-t-zr-18cls-1553ttzr-18cls-1552tbg-zr-18cls-1549tbg-zr-18cls-1550zr-18cls,
+.dashboard-t-bg-zr-18cls-1550zr-18cls,
+.dashboard-t-enterprise-tfree {
+  display: flex;
+  flex-direction: column;
+}
+
+.common-21,
+.dashboard-t-side-menu-main-content,
+.dashboard-main-content {
+  display: flex;
+  justify-content: center;
+}
+
+.common-22,
+.dashboard-nav-bar-system-admin,
+.dashboard-t-bg-zr-18cls-1549tbg-zr-18cls-1550zr-18cls,
+.dashboard-t-free,
+.dashboard-cell,
+.dashboard-cell-1,
+.dashboard-cell-2,
+.t-tt-registration-request-no-of-request-1 {
+  display: flex;
+  align-items: center;
+}
+
+.common-23,
+.dashboard-landing-page-management,
+.dashboard-ttt-enterprise-tfree-tbg-zr-60cls-961zr-60cls {
+  display: flex;
+  align-items: flex-start;
+}
+
+.common-24,
+.dashboard-t-t0t1t234t,
+.dashboard-ttt-registration-request-no-of-request-tcard-card-card-treported-issues {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.common-25,
+.dashboard-t-user-detail,
+.dashboard-t-user-detail-1,
+.dashboard-t-user-detail-2 {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.common-8,
+.dashboard-rating-1,
+.dashboard-subscription-plans,
+.t-registration-request {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.common-9,
+.dashboard-t-t0t1t234t,
+.dashboard-t-enterprise-tfree {
+  font-size: 11px;
+  text-align: right;
+}
+
+.common-10,
+.dashboard-component,
+.dashboard-component-7,
+.t-component-8 {
+  font-weight: 600;
+  text-align: center;
+}
+
+.common-1,
+.dashboard-tt-t0t1t234t,
+.dashboard-t-user-detail,
+.dashboard-t-user-detail-1,
+.dashboard-t-user-detail-2 {
+  display: flex;
+  width: 0px;
+}
+
+.common-2,
+.dashboard-card,
+.dashboard-card-1,
+.dashboard-card-2 {
+  display: flex;
+  background-color: lavender;
+}
+
+.common-3,
+.dashboard-t-t0t1t234t,
+.dashboard-ttt-registration-request-no-of-request-tcard-card-card-treported-issues {
+  display: flex;
+  color: black;
+}
+
+.common-4,
+.dashboard-t-zr-18cls-1553ttzr-18cls-1552tbg-zr-18cls-1549tbg-zr-18cls-1550zr-18cls,
+.dashboard-zr-18cls-3 {
+  width: 139px;
+  height: 139px;
+}
+
+.common-5,
+.dashboard-tt-zr-18cls-1552tbg-zr-18cls-1549tbg-zr-18cls-1550zr-18cls,
+.dashboard-zr-18cls {
+  width: 71px;
+  height: 70px;
+}
+
+.common-6,
+.dashboard-user-detail,
+.dashboard-user-detail-1,
+.dashboard-user-detail-2 {
+  width: 38px;
+  height: 30px;
+}
+
+.common-7,
+.dashboard-component,
+.dashboard-component-7,
+.t-component-8 {
+  background-color: midnightblue;
+  color: white;
+}
+
+.dashboard-dashboard {
+  background-color: white;
+  width: 100%;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  line-height: normal;
+}
+
+.dashboard-nav-bar-system-admin {
+  background-color: midnightblue;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-top: 7px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 9.6px;
+}
+
+.dashboard-tt-logo-navbar-welcome-back-system-admin {
+  gap: 9.6px;
+}
+
+.dashboard-logo-navbar {
+  width: 30px;
+  height: 30px;
+}
+
+.dashboard-welcome-back-system-admin {
+  color: ghostwhite;
+}
+
+.dashboard-logout {
+  width: 24px;
+  height: 24px;
+}
+
+.dashboard-t-side-menu-main-content {
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.dashboard-side-menu {
+  background-color: #663399ea;
+  width: 200px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  color: white;
+  font-weight: 600;
+  gap: 10px;
+}
+
+.dashboard-main-content {
+  overflow: clip;
+  padding-left: 20px;
+  padding-right: 8px;
+  padding-top: 10px;
+}
+
+.dashboard-tt-rating-tsubscription-plans-total-users-tttenterprise-tfree-tbg-zr-60cls-961zr-60cls-962tttregistration-request-no-of-request-tcard-card-card-treported-issues {
+  gap: 18px;
+}
+
+.dashboard-t-rating-tsubscription-plans-total-users-tttenterprise-tfree-tbg-zr-60cls-961zr-60cls {
+  align-self: stretch;
+  gap: 9.5px;
+}
+
+.dashboard-rating {
+  border-bottom-width: 2px;
+  padding-bottom: 40px;
+  padding-right: 125px;
+  gap: 10px;
+}
+
+.dashboard-rating-1 {
+  text-transform: uppercase;
+}
+
+.dashboard-component {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.dashboard-tttt-zr-18cls-1553ttzr-18cls-1552tbg-zr-18cls-1549tbg-zr-18cls-1550zr-18cls-1551zr-18cls-1554ttzr-18cls-1555ttt0t1t234t {
+  gap: 67px;
+}
+
+.dashboard-ttt-zr-18cls-1553ttzr-18cls-1552tbg-zr-18cls-1549tbg-zr-18cls-1550zr-18cls-1551zr-18cls {
+  gap: 0px;
+}
+
+.dashboard-t-zr-18cls-1553ttzr-18cls-1552tbg-zr-18cls-1549tbg-zr-18cls-1550zr-18cls {
+  align-items: flex-end;
+  padding-left: 19px;
+  position: relative;
+}
+
+.dashboard-t-bg-zr-18cls-1549tbg-zr-18cls-1550zr-18cls {
+  position: relative;
+}
+
+.dashboard-bg-zr-18cls {
+  width: 61px;
+  top: 0px;
+}
+
+.dashboard-t-bg-zr-18cls-1550zr-18cls {
+  flex-grow: 1;
+  max-width: 61px;
+  z-index: 2;
+  background-image: url(FLAG_REPLACE_CONTENT_FLAG=SVG=246:10226);
+}
+
+.dashboard-zr-18cls-1 {
+  height: 0px;
+}
+
+.dashboard-zr-18cls-2 {
+  width: 120px;
+  height: 100px;
+  z-index: 2;
+}
+
+.dashboard-zr-18cls-4 {
+  width: 55px;
+  height: 152px;
+}
+
+.dashboard-tt-t0t1t234t {
+  align-items: center;
+}
+
+.dashboard-t-t0t1t234t {
+  margin-left: -40.22px;
+  width: 8.7px;
+  gap: 8.7px;
+}
+
+.dashboard-component-1 {
+  text-align: right;
+}
+
+.dashboard-component-2 {
+  text-align: center;
+  padding-left: 2.2px;
+}
+
+.dashboard-component-3 {
+  text-align: right;
+}
+
+.dashboard-component-6 {
+  text-align: right;
+}
+
+.dashboard-t-subscription-plans-total-users {
+  padding-top: 38px;
+}
+
+.dashboard-subscription-plans {
+  text-transform: uppercase;
+}
+
+.dashboard-component-7 {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.dashboard-ttt-enterprise-tfree-tbg-zr-60cls-961zr-60cls {
+  flex-wrap: wrap;
+  gap: 6.8px;
+}
+
+.dashboard-tt-enterprise-tfree {
+  align-items: center;
+  padding-top: 30px;
+}
+
+.dashboard-t-enterprise-tfree {
+  width: 69px;
+  color: lightslategray;
+  gap: 48px;
+}
+
+.dashboard-t-free {
+  max-width: 69px;
+  padding-left: 2.8px;
+  padding-right: 2.8px;
+  justify-content: flex-end;
+}
+
+.dashboard-free {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.dashboard-t-bg-zr-60cls-961zr-60cls {
+  padding-bottom: 73px;
+  padding-top: 11px;
+  background-image: url(/assets/Zr60Cls.svg);
+}
+
+.dashboard-zr-60cls {
+  width: 415px;
+  height: 113px;
+}
+
+.dashboard-ttt-registration-request-no-of-request-tcard-card-card-treported-issues {
+  gap: 11px;
+}
+
+.dashboard-tt-registration-request-no-of-request-0-type {
+  justify-content: center;
+}
+
+.dashboard-t-card-card {
+  align-items: flex-start;
+  padding-top: 12px;
+  gap: 11px;
+}
+
+.dashboard-card {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.dashboard-cell {
+  border-bottom-width: 1px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 184px;
+  padding-top: 9px;
+}
+
+.dashboard-text {
+  font-weight: 600;
+}
+
+.dashboard-user-detail {
+  margin-right: 18px;
+}
+
+.dashboard-tt-text-text-ttext-text {
+  font-size: 14px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.dashboard-t-text-text {
+  flex-grow: 1;
+  max-width: 96px;
+  font-weight: 600;
+}
+
+.dashboard-t-text-text-1 {
+  flex-grow: 1;
+  max-width: 96px;
+  font-weight: 300;
+}
+
+.dashboard-card-1 {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.dashboard-cell-1 {
+  border-bottom-width: 1px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 211px;
+  padding-top: 9px;
+}
+
+.dashboard-text-5 {
+  font-weight: 600;
+}
+
+.dashboard-user-detail-1 {
+  margin-right: 18px;
+}
+
+.dashboard-tt-text-text-ttext-text-1 {
+  font-size: 14px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.dashboard-t-text-text-2 {
+  flex-grow: 1;
+  max-width: 96px;
+  font-weight: 600;
+}
+
+.dashboard-t-text-text-3 {
+  flex-grow: 1;
+  max-width: 96px;
+  font-weight: 300;
+}
+
+.dashboard-card-2 {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.dashboard-cell-2 {
+  border-bottom-width: 1px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 277px;
+  padding-top: 9px;
+}
+
+.dashboard-text-10 {
+  font-weight: 600;
+}
+
+.dashboard-user-detail-2 {
+  margin-right: 18px;
+}
+
+.dashboard-tt-text-text-ttext-text-2 {
+  font-size: 14px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.dashboard-t-text-text-4 {
+  flex-grow: 1;
+  max-width: 96px;
+  font-weight: 600;
+}
+
+.dashboard-t-text-text-5 {
+  flex-grow: 1;
+  max-width: 96px;
+  font-weight: 300;
+}
+
+.dashboard-t-reported-issues-0-type {
+  flex-direction: column;
+  padding-top: 12px;
+  justify-content: flex-end;
+}
+
+.dashboard-t-reported-issues-1-type {
+  border-bottom-width: 2px;
+  padding-right: 178px;
+}
+
+.t-registration-request {
+  text-transform: uppercase;
+}
+
+.t-component-8 {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
