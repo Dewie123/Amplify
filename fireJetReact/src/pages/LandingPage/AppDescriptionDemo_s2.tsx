@@ -1,4 +1,9 @@
 import "./AppDescriptionDemo_s2.css";
+import appDescriptionIcon1 from './appDescriptionIcon1.png';
+import appDescriptionIcon2 from './appDescriptionIcon2.png';
+import appDescriptionIcon3 from './appDescriptionIcon3.png';
+import sampleVideo from './sampleVideo.png';
+
 
 export default function AppDescriptionDemo({
   className = "",
@@ -9,9 +14,20 @@ export default function AppDescriptionDemo({
         <div className="app-description-demo-time-management-efficient-scheduling-efficiently-manage-employee-shifts-and-schedules-with-our-intuitive-platform-our-system-simplifies-the-process-ensuring-smooth-operations-and-effective-utilization-of-resources-communication-seamless-collaboration-facilitate-seamless-communication-among-team-members-with-employeeroster-our-application-fosters-collaboration-ensuring-everyone-is-informed-and-connected-productivity-boost-efficiency-maximize-productivity-within-your-business-by-utilizing-employeeroster-sfeatures-our-tools-are-designed-to-streamline-operations-reduce-errors-and-increase-overall-efficiency" >
           <span>
             <p>Time Management</p>
+            
             <div className="app-description-demo-spacer" />
             <p className="app-description-demo-para-1">
-              Efficient Scheduling
+              <table>
+                <tr>
+                  <td>
+                  Efficient Scheduling 
+                  </td>
+                  <td className="floatRight">
+                  <img className="icons" src={appDescriptionIcon1} alt="Logo" />
+                  </td>
+                </tr>
+              </table>
+             
             </p>
             <div className="app-description-demo-spacer-1" />
             <p>
@@ -22,7 +38,17 @@ export default function AppDescriptionDemo({
             <p>Communication</p>
             <div className="app-description-demo-spacer-4" />
             <p className="app-description-demo-para-4">
-              Seamless Collaboration
+            <table>
+                <tr>
+                  <td>
+                  Seamless Collaboration
+                  </td>
+                  <td className="floatRight">
+                  <img className="icons" src={appDescriptionIcon2} alt="Logo" />
+                  </td>
+                </tr>
+              </table>
+              
             </p>
             <div className="app-description-demo-spacer-5" />
             <p>
@@ -32,7 +58,16 @@ export default function AppDescriptionDemo({
             <p>Productivity</p>
             <div className="app-description-demo-spacer-7" />
             <p className="app-description-demo-para-7">
-              Boost Efficiency
+            <table>
+                <tr>
+                  <td>
+                  Boost Efficiency
+                  </td>
+                  <td className="floatRight">
+                  <img className="icons" src={appDescriptionIcon3} alt="Logo" />
+                  </td>
+                </tr>
+              </table>
             </p>
             <div className="app-description-demo-spacer-8" />
             <p>
@@ -44,11 +79,12 @@ export default function AppDescriptionDemo({
           </span>
         </div>
         <div className="app-description-demo-demo-video">
+          
           <div className="app-description-demo-background" />
           <div className="app-description-demo-background-1" />
           <img
             className="app-description-demo-image"
-            src="../../../public/assets_s2/image.png"
+            src={sampleVideo}
             loading="lazy"
            />
         </div>

@@ -1,4 +1,5 @@
 import "./SubscriptionPlans.css";
+import subscriptionIcon from './subscriptionPlan.png';
 
 export default function SubscriptionPlans({
   className = "",
@@ -6,17 +7,33 @@ export default function SubscriptionPlans({
   return (
     <div className={`${className} subscription-plans-subscription-plans`}>
       <div className="subscription-plans-t-image-13subscription-plans">
-        <img
-          className="subscription-plans-image"
-          src="/assets/image.png"
-          loading="lazy"
-         />
+
+          <img className="icons" src={subscriptionIcon} alt="Logo" />
         <div className="subscription-plans-subscription-plans-1">
           Subscription Plans
         </div>
+
+        <div>
+
+        </div>
       </div>
       <div className="subscription-plans-ttt-starter-plan-for-small-teams-up-to-10users-ttbusiness-plan-for-growing-teams-up-to-50users-tbusiness-plan-for-growing-teams-up-to-50users" >
-        <div className="subscription-plans-t-starter-plan-for-small-teams-up-to-10users" >
+
+      <table>
+
+<tr>
+  <th>Starter Plan</th>
+  <th>Basic Plan</th>
+  <th>Advanced Plan</th>
+</tr>
+
+<tr>
+  <td>Free for up to 2 users</td>
+  <td>For small teams up to 20 users</td>
+  <td>$20 for the first 20 users, $3 per user thereafter</td>
+</tr>
+</table>
+        {/* <div className="subscription-plans-t-starter-plan-for-small-teams-up-to-10users" >
           <div className="subscription-plans-starter-plan-for-small-teams">
             <span>
               {"Starter Plan "}
@@ -56,7 +73,7 @@ export default function SubscriptionPlans({
               Up to 50 users
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

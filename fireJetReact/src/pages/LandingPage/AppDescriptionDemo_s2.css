@@ -9,6 +9,19 @@
   z-index: 0;
 }
 
+table{
+  width: 100%;
+}
+.icons{
+  height:50px;
+  float:right;
+  
+  /* padding-left: 285px; */
+}
+
+.floatRight{
+  float:right;
+}
 .common-1,
 .app-description-demo-t-time-management-efficient-scheduling-efficiently-manage-employee-shifts-and-schedules-with-our-intuitive-platform-our-system-simplifies-the-process-ensuring-smooth-operations-and-effective-utilization-of-resources-communication-seamless-collaboration-facilitate-seamless-communication-among-team-members-with-employeeroster-our-application-fosters-collaboration-ensuring-everyone-is-informed-and-connected-productivity-boost-efficiency-maximize-productivity-within-your-business-by-utilizing-employeeroster-sfeatures-our-tools-are-designed-to-streamline-operations-reduce-errors-and-increase-overall-efficiency-demo-video,
 .app-description-demo-demo-video {

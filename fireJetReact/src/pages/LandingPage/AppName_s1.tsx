@@ -1,6 +1,10 @@
 import "./AppName_s1.css";
+import logo from './logo.png';
+import { useNavigate } from 'react-router-dom';
+
 
 export default function AppName({ className = "" }: AppNameProps) {
+  const navigate = useNavigate();
   return (
     <div className={`${className} app-name-app-name`}>
       <div className="app-name-background" />
@@ -8,12 +12,26 @@ export default function AppName({ className = "" }: AppNameProps) {
       <div className="app-name-header">
         <div className="app-name-nav-bar-system-admin">
           <div className="app-name-t-image-9tnavigation-pill-title-ttitle-ttitle-ttitle" >
-            <div className="app-name-image" />
+            <div className="app-name-image">
+            <img className="icons" src={logo} alt="Logo" />
+            </div>
+            
+            
             <div className="app-name-t-navigation-pill-title-ttitle-ttitle-ttitle" >
               <div className="app-name-title">Home</div>
-              <div>Login</div>
-              <div className="app-name-title-2">Register</div>
-              <div className="app-name-title-3">About Our Team</div>
+<div onClick={() => navigate('/login')} style={{ cursor: 'pointer' }} // Changes cursor to indicate it's clickable
+>
+Login
+</div>
+              
+              {/* <div className="app-name-title-2">Register</div> */}
+
+              <div onClick={() => navigate('/guest-register')} style={{ cursor: 'pointer' }} // Changes cursor to indicate it's clickable
+              >
+              Register
+              </div>
+              
+              {/* <div className="app-name-title-3">About Our Team</div> */}
           
             </div>
           </div>

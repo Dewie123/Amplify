@@ -42,7 +42,13 @@
   color: black;
 }
 
+table{
+  float:left;
+  text-align: left;;
+}
+
 .subscription-plans-subscription-plans {
+  margin-top: 100px;
   border-style: solid;
   border-color: #0000007f;
   border-top-width: 1px;
