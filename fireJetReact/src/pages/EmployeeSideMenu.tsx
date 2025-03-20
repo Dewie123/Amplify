@@ -34,14 +34,14 @@ export default function EmployeeSideMenu() {
         onClick={handleProjectViewClick}
         style={{ cursor: 'pointer' }} // Indicates it's clickable
       >
-        Project View
+        View All Timeline
       </div>
       <div 
         className="emp-dashboard-view-dashboard" 
         onClick={handleTimeSwapClick}
         style={{ cursor: 'pointer' }} // Indicates it's clickable
       >
-        Time Swap
+        View Schedule
       </div>
     </div>
   );
