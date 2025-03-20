@@ -44,6 +44,20 @@ export default function Registration({ className = "" }: RegistrationProps) {
         <div className="registration-input-3">
           <input className="registration-value" placeholder="Enter your password" type="password"/>
         </div>
+
+        <div className="registration-t-attach-image">
+          <label htmlFor="imageUpload" className="registration-attach-image-label">
+            Attach Business Document
+          </label>
+        </div>
+        <div className="registration-input-file">
+          <input
+            id="imageUpload"
+            type="file"
+            accept="image/*"
+            className="registration-value"
+          />
+        </div>
         <div className="registration-t-button">
           <div className="registration-button">
             <button>
