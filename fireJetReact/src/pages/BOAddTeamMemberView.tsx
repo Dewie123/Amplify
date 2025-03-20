@@ -36,7 +36,7 @@ export default function BOAddTeamMemberView({
                 <div className="bo-add-team-member-view-tt-new-employee-details-edit-personnel-logo" >
                   <div className="bo-add-team-member-view-t-new-employee-details" >
                     <div className="bo-add-team-member-view-new-employee-details" >
-                      New Employee Details
+                      New Employee Profile
                     </div>
                   </div>
                   <img
@@ -54,15 +54,22 @@ export default function BOAddTeamMemberView({
                 <InputField label="Wage" defaultValue="$ /hr" />
 
                 {/* 4 items in column 2 (right) */}
-                <InputField label="Role" defaultValue="" />
                 <InputField
-                  label="Working Hours"
-                  timeDropdown
-                  onChange={(selectedTime) => {
-                    console.log("Selected time:", selectedTime);
+                  label="Role"
+                  jobRole
+                  onChange={(selectedRole) => {
+                    console.log("Selected role:", selectedRole);
                   }}
                 />
-                <InputField label="Skillsets" defaultValue="" />
+                <InputField
+                  label="Working Hours" defaultValue=""/>
+                <InputField
+                  label="Skillsets"
+                  jobSkillsets
+                  onChange={(selectedSkillset) => {
+                    console.log("Selected skillset:", selectedSkillset);
+                  }}
+                />
                 <InputField
                   label="Status"
                   statusDropdown
@@ -73,7 +80,7 @@ export default function BOAddTeamMemberView({
               <div className="bo-add-team-member-view-update-profile">
               <div
                   className="bo-add-team-member-view-button"
-                  onClick={() => alert("Account Created!")}
+                  onClick={() => alert("Profile Created!")}
                   style={{ cursor: "pointer" }} // Optional: shows it's clickable
                 >
                   Create Profile
@@ -83,7 +90,7 @@ export default function BOAddTeamMemberView({
                 <div className="bo-add-team-member-view-delete-profile">
                 <div
                     className="bo-add-team-member-view-button-1"
-                    onClick={() => alert("Account Deleted!")}
+                    onClick={() => alert("Profile Deleted!")}
                     style={{ cursor: "pointer" }} // Optional: shows it's clickable
                   >
                     Delete Profile

@@ -33,10 +33,10 @@ export default function BODashboardView({
               <div className="bo-dashboard-view-edit-details" />
               <div 
                 className="bo-dashboard-view-text-1"
-                onClick={() => navigate('/edit-company-profile')} //Change path here
+                onClick={() => navigate('/bo-view-company-profile')} //Change path here
                 style={{ cursor: 'pointer' }}
               >
-                Update Company Details
+                View Company Profile
               </div>
               <div className="bo-dashboard-view-emp-roster">
                 EmpRoster

@@ -11,6 +11,9 @@ export default function InputField({
   datePicker = false,
   statusDropdown = false,
   description = false,
+  readOnly = false,
+  jobRole = false,
+  jobSkillsets = false,
 }: InputFieldProps) {
   const [value, setValue] = useState(defaultValue);
 
@@ -18,6 +21,21 @@ export default function InputField({
     setValue(defaultValue);
   }, [defaultValue]);
 
+  const roles = [
+    "Lab Technician",
+    "Developer",
+    "Sound",
+    "Videographer",
+    "Logistics",
+    "Intern"
+  ]
+
+  const skillsets = [
+    "Directing, Casting",
+    "Java, Python",
+    "DJ, Sound Tech",
+    "Coaching, Talent"
+  ]
 
   const timeRanges = [
     "12am-1am",
@@ -47,14 +65,60 @@ export default function InputField({
   ];
 
   const handleChange = (newValue: string) => {
-    setValue(newValue);
-    if (onChange) {
-      onChange(newValue);
+    if (!readOnly) {
+      setValue(newValue);
+      if (onChange) {
+        onChange(newValue);
+      }
     }
   };
 
+
+  if (jobRole) {
+    return (
+      <div className={`${className} input-field-container`}>
+        <label className="input-field-label">{label}</label>
+        <div className="input-field-input-container">
+          <select
+            className="input-field-input"
+            value={value}
+            onChange={(e) => handleChange(e.target.value)}
+            style={{ cursor: "pointer" }}
+          >
+            {roles.map((range) => (
+              <option key={range} value={range}>
+                {range}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+    );
+  }
+
+  if (jobSkillsets) {
+    return (
+      <div className={`${className} input-field-container`}>
+        <label className="input-field-label">{label}</label>
+        <div className="input-field-input-container">
+          <select
+            className="input-field-input"
+            value={value}
+            onChange={(e) => handleChange(e.target.value)}
+            style={{ cursor: "pointer" }}
+          >
+            {skillsets.map((range) => (
+              <option key={range} value={range}>
+                {range}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+    );
+  }
+
   if (timeDropdown) {
-    // RENDER A <select> DROPDOWN FOR TIME RANGES
     return (
       <div className={`${className} input-field-container`}>
         <label className="input-field-label">{label}</label>
@@ -82,7 +146,7 @@ export default function InputField({
         <label className="input-field-label">{label}</label>
         <div
           className="input-field-input-container description-container"
-          style={{ height: "4.5em" }} // Adjust height as needed for about 3 rows of text
+          style={{ height: "4.5em" }} // Adjust height for about 3 rows of text
         >
           <textarea
             value={value}
@@ -115,6 +179,8 @@ export default function InputField({
     );
   }
 
+  
+
   if (datePicker) {
     return (
       <div className={`${className} input-field-container`}>
@@ -132,7 +198,6 @@ export default function InputField({
     );
   }
 
-
   return (
     <div className={`${className} input-field-container`}>
       <label className="input-field-label">{label}</label>
@@ -143,11 +208,14 @@ export default function InputField({
           onChange={(e) => handleChange(e.target.value)}
           placeholder={placeholder || `Enter ${label}`}
           className="input-field-input"
+          readOnly={readOnly}
         />
       </div>
     </div>
   );
 }
+
+
 
 interface InputFieldProps {
   className?: string;
@@ -159,4 +227,7 @@ interface InputFieldProps {
   datePicker?: boolean;
   statusDropdown?: boolean;
   description?: boolean;
+  readOnly?: boolean;
+  jobRole?: boolean;
+  jobSkillsets?: boolean;
 }

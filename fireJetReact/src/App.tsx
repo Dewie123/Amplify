@@ -32,6 +32,8 @@ import Dashboard from "./pages/SADashboard"
 import UserManagement from "./pages/UserManagement"
 import RegRequest from "./pages/RegRequest"
 import LandingPage from "./pages/LandingPage/LandingPage"
+import BOViewCompanyProfile from "./pages/BOViewCompanyProfile"
+
 
 function App() {
   return (
@@ -96,6 +98,8 @@ function App() {
          <Route path="/system-admin-dashboard" element={<Dashboard/>} />
          {/* Route for SARegRequest page*/}
          <Route path="/system-admin-registration-request" element={<RegRequest/>} />
+         {/* Route for BOViewCompanyProfile page*/}
+         <Route path="/bo-view-company-profile" element={<BOViewCompanyProfile/>} />         
 
          
          {/* Route for UserManagement page*/}
