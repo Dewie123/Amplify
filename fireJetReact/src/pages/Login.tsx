@@ -92,7 +92,7 @@ export default function Login({ className = "" }: LoginProps) {
           </div>
           <button>
             <div className="login-text-link" onClick={handleForgotPassword}>
-              Forgot password?
+              Forgot password? Reset It here.
             </div>
           </button>
           

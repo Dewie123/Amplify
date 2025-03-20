@@ -32,7 +32,7 @@ export default function BOSideMenu() {
         onClick={handleReportIssuesClick}
         style={{ cursor: 'pointer' }}
       >
-        Report Issues
+        View Reported Issues
       </div>
       <div className="bo-dashboard-view-bo-side-menu">
         <div 

@@ -28,7 +28,7 @@ export default function BOReportIssuesView({ className = "" }: BOReportIssuesPro
             </div>
             <button onClick={() => navigate('/bo-report-issues-form-view')}
                     style={{ cursor: 'pointer' }} 
-                    className="submit-issue-button">Submit an Issue</button>
+                    className="submit-issue-button">Report Issues</button>
             <div className="bo-department-roles-view-table">
               <table>
                 <thead>
