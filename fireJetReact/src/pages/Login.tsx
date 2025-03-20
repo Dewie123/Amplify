@@ -87,7 +87,7 @@ export default function Login({ className = "" }: LoginProps) {
           </div>
           <div className="login-t-button">
             <button className="login-button" onClick={handleSignIn}>
-              <span className="login-button-1">Sign In</span>
+              <span className="login-button-1">Login</span>
             </button>
           </div>
           <button>
