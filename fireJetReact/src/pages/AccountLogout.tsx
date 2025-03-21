@@ -8,7 +8,7 @@ export default function AccountLogout({ className = "" }: { className?: string }
 
   const handleLogout = () => {
     // Perform any logout logic (clear tokens, etc.) here
-    navigate('/'); // Navigate to the Login page (default route)
+    navigate('/Login'); // Navigate to the Login page (default route)
   };
 
   return (
