@@ -39,7 +39,7 @@ export default function BODepartmentRolesView({
                       <div>+</div>
                       <div 
                         className="bo-department-roles-view-add-team-member-1"
-                        onClick={() => navigate('/bo-add-team-member-view')} //Change path here
+                        onClick={() => navigate('/bo-add-team-member-view_1')} //Change path here
                         style={{ cursor: 'pointer' }}
                       >
                         Add Team Member
