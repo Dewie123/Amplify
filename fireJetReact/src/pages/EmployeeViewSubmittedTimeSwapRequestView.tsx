@@ -76,7 +76,7 @@ const navigate = useNavigate(); // Initialize useNavigate
               </div>
             </div>
             <div className="employee-view-time-swap-request-view-main-all-time-swap-requests" >
-              All Time Swap Requests
+              All Submitted Time Swap Requests
             </div>
             <div className="table-container">
       <table className="employee-table">
