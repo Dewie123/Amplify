@@ -41,7 +41,7 @@ export default function BODepartmentRolesViewMCRequestsViewDetails({
                 <div className="container-form">
                     <div className="bo-report-issues-view-submit-an-issue-form-contact" >
                     <div className="bo-report-issues-view-submit-an-issue-name">
-                      <InputField label="Name" defaultValue="" />
+                      <InputField label="Name" defaultValue="Stacy Loo" />
                     </div>
                     <div className="bo-report-issues-view-submit-an-issue-t-role" >
                         <div className="bo-report-issues-view-submit-an-issue-role" >
@@ -54,7 +54,7 @@ export default function BODepartmentRolesViewMCRequestsViewDetails({
                     </div>
                     <div className="bo-report-issues-view-submit-an-issue-t-issue-to-report" >
                         <div className="bo-report-issues-view-submit-an-issue-issue-to-report" >
-                          <InputField label="Reason for MC" defaultValue="" />
+                          <InputField label="Reason for MC" defaultValue="Feverish cough" />
                         </div>
                     </div>
                     <div className="bo-report-issues-view-submit-an-issue-t-attach-image-if-any" >

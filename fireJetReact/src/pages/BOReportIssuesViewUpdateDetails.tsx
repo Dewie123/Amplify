@@ -40,11 +40,11 @@ export default function BOReportIssuesViewUpdateDetails({
               <div className="bo-report-issues-view-submit-an-issue-t-form-contact" >
                 <div className="bo-report-issues-view-submit-an-issue-form-contact" >
                   <div className="bo-report-issues-view-submit-an-issue-name">
-                    <InputField label="Name" defaultValue="" />
+                    <InputField label="Name" defaultValue="Brock Lee" />
                   </div>
                   <div className="bo-report-issues-view-submit-an-issue-t-role" >
                     <div className="bo-report-issues-view-submit-an-issue-role" >
-                      <InputField label="Role" defaultValue="" />
+                      <InputField label="Role" defaultValue="Manager PM" />
                     </div>
                   </div>
                   <div className="bo-report-issues-view-submit-an-issue-t-issue-to-report" >
@@ -52,7 +52,7 @@ export default function BOReportIssuesViewUpdateDetails({
                       <InputField
                         label="Description"
                         description
-                        defaultValue=""
+                        defaultValue="I faced some issues clicking into my profile, please advise."
                         onChange={(val) => console.log("Description:", val)}
                       />
                     </div>
