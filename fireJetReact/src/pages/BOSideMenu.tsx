@@ -45,7 +45,7 @@ export default function BOSideMenu() {
           onClick={handleScheduleClick} 
           style={{ cursor: 'pointer' }}
         >
-          Schedule
+          View Timeline
         </div>
         <div 
           onClick={handleDepartmentRolesClick} 
