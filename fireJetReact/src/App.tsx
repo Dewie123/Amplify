@@ -49,7 +49,7 @@ function App() {
          {/* Route for Edit Company Profile page */}
          <Route path="/edit-company-profile" element={<EditCompanyProfile />} />  
          {/* Route for Edit BOAddTeamMemberView page */}
-         <Route path="/bo-add-team-member-view" element={<BOAddTeamMemberView />} /> 
+         <Route path="/bo-add-team-member-view_1" element={<BOAddTeamMemberView />} /> 
          {/* Route for Edit BOEditTeamMemberView page */}
          <Route path="/bo-edit-team-member-view" element={<BOEditTeamMemberView />} /> 
          {/* Route for Edit BODepartmentRolesView page */}
