@@ -1,0 +1,573 @@
+.common-15,
+.bo-add-team-member-view-input,
+.bo-add-team-member-view-input-1,
+.bo-add-team-member-view-input-2,
+.t-input-3 {
+  border-style: solid;
+  border-color: gainsboro;
+}
+
+.common-8,
+.bo-add-team-member-view-t-rectangle-8boside-menu,
+.bo-add-team-member-view-t-new-employee-details,
+.t-t-name-input-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.common-9,
+.bo-add-team-member-view-tt-new-employee-details-edit-personnel-logo,
+.bo-add-team-member-view-t-form-contact-form-contact,
+.bo-add-team-member-view-filter-account-status,
+.bo-add-team-member-view-update-profile,
+.bo-add-team-member-view-delete-profile {
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.common-10,
+
+.bo-add-team-member-view-t-2025emproster-all-rights-reserved {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+}
+
+.common-11,
+.bo-add-team-member-view-ttt-rectangle-8boside-menu-mid-white-container-right-sidebar,
+.bo-add-team-member-view-tt-rectangle-8boside-menu-mid-white-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height:100%;
+  
+}
+
+.common-12,
+.bo-add-team-member-view-bo-side-menu,
+.bo-add-team-member-view-tt-name-input-taddress-input-temail-input-twage-input {
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  
+  
+}
+
+.common-13,
+.bo-add-team-member-view-nav-bar-system-admin,
+.bo-add-team-member-view-tt-form-contact-form-contact {
+  display: flex;
+  justify-content: center; /* Horizontally centers the element */
+  align-items: center;     /* Vertically centers the element */
+  justify-content: flex-end;
+}
+
+.common-14,
+.bo-add-team-member-view-mid-white-container,
+.bo-add-team-member-view-form-contact {
+  flex-direction: column;
+  align-items: center;
+}
+
+.common-4,
+.bo-add-team-member-view-tt-name-input-taddress-input-temail-input-twage-input,
+.bo-add-team-member-view-singer,
+.bo-add-team-member-view-am-530pm,
+.bo-add-team-member-view-vocalist {
+  color: gray;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.common-5,
+
+.bo-add-team-member-view-emproster-all-rights-reserved {
+  color: white;
+  font-size: 12px;
+}
+
+.bo-add-team-member-view-text{
+  margin-left: 50px;
+}
+.common-6,
+.bo-add-team-member-view-button,
+.bo-add-team-member-view-button-1 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.common-7,
+.bo-add-team-member-view-emp-roster,
+.bo-add-team-member-view-text-1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.common-1,
+.bo-add-team-member-view-wrapper,
+.bo-add-team-member-view-bo-add-team-member-view {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.common-2,
+.bo-add-team-member-view-mid-white-container,
+.bo-add-team-member-view-form-contact,
+.bo-add-team-member-view-form-contact-1,
+.bo-add-team-member-view-input,
+.bo-add-team-member-view-input-1,
+.bo-add-team-member-view-input-2,
+.t-input-3 {
+  display: flex;
+  background-color: white;
+  width:100%;
+}
+
+.common-3,
+.bo-add-team-member-view-report-issues,
+.bo-add-team-member-view-bo-side-menu {
+  width: 200px;
+  background-color: #663399ea;
+}
+
+.bo-add-team-member-view-wrapper {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  align-items: flex-start;
+  line-height: normal;
+}
+
+.bo-add-team-member-view-bo-add-team-member-view {
+  border-style: solid;
+  border-color: transparent;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  overflow: clip;
+  background-color: black;
+  flex-direction: column;
+  padding-bottom: 21px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  height: 100%;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  gap: 1px;
+}
+
+.bo-add-team-member-view-nav-bar-system-admin {
+  align-items: flex-end;
+  row-gap: 8px;
+  background-color: midnightblue;
+  column-gap: 1007px;
+  padding-bottom: 19px;
+  padding-left: 58px;
+  padding-right: 10px;
+  padding-top: 10px;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: flex-start;
+}
+
+.bo-add-team-member-view-logo-transparent {
+  width: 30px;
+  bottom: 11px;
+  left: 17px;
+  top: 12px;
+  position: absolute;
+}
+
+.bo-add-team-member-view-logout {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+.bo-add-team-member-view-tt-rectangle-8boside-menu-mid-white-container {
+  flex-grow: 1;
+}
+
+.bo-add-team-member-view-t-rectangle-8boside-menu {
+  color: white;
+  font-weight: 600;
+}
+
+.bo-add-team-member-view-report-issues {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+}
+
+.bo-add-team-member-view-bo-side-menu {
+  padding-bottom: 556px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  gap: 10px;
+}
+
+.bo-add-team-member-view-mid-white-container {
+  padding-bottom: 9px;
+  padding-left: 66px;
+  padding-right: 66px;
+  padding-top: 9px;
+  gap: 6px;
+}
+
+.bo-add-team-member-view-emp-roster {
+  font-size: 55px;
+  line-height: 1.2;
+  color: black;
+  filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
+}
+
+.bo-add-team-member-view-ttt-new-employee-details-edit-personnel-logo {
+  
+  align-self: stretch;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 8px;
+  display: flex;
+  justify-content: center; /* Horizontally centers the element */
+  align-items: center;
+}
+
+.bo-add-team-member-view-tt-new-employee-details-edit-personnel-logo {
+  gap: 152px;
+  
+}
+
+.bo-add-team-member-view-t-new-employee-details {
+  padding-bottom: 17px;
+}
+
+.bo-add-team-member-view-new-employee-details {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.bo-add-team-member-view-edit-personnel-logo {
+  object-fit: cover;
+  object-position: center;
+  width: 66px;
+  height: 66px;
+}
+
+.bo-add-team-member-view-tt-form-contact-form-contact {
+  
+  align-self: stretch;
+  justify-content: center; /* Horizontally centers the element */
+  align-items: center;     /* Vertically centers the element */
+  padding-top: 6px;
+}
+
+.bo-add-team-member-view-t-form-contact-form-contact {
+  height: 363px;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.bo-add-team-member-view-form-contact {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-self: stretch;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  justify-content: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.bo-add-team-member-view-ttt-name-input-taddress-input-temail-input-twage-input {
+  align-items: flex-start;
+  flex-grow: 1;
+  padding-right: 36px;
+  display: flex;
+}
+
+.bo-add-team-member-view-tt-name-input-taddress-input-temail-input-twage-input {
+  gap: 30px;
+}
+
+.bo-add-team-member-view-form-contact-1 {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 49px;
+  padding-left: 24px;
+  padding-right: 80px;
+  padding-top: 24px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  gap: 4.5px;
+}
+
+.bo-add-team-member-view-role {
+  color: black;
+}
+
+.bo-add-team-member-view-input {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  align-self: stretch;
+  max-width: 255px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.bo-add-team-member-view-singer {
+  flex-grow: 1;
+}
+
+.bo-add-team-member-view-t-working-hours {
+  align-self: stretch;
+  max-width: 255px;
+  padding-top: 25px;
+}
+
+.bo-add-team-member-view-working-hours {
+  color: black;
+}
+
+.bo-add-team-member-view-input-1 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  align-self: stretch;
+  max-width: 255px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.bo-add-team-member-view-am-530pm {
+  flex-grow: 1;
+}
+
+.bo-add-team-member-view-t-skillsets {
+  align-self: stretch;
+  max-width: 255px;
+  padding-top: 25px;
+}
+
+.bo-add-team-member-view-skillsets {
+  color: black;
+}
+
+.bo-add-team-member-view-input-2 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  align-self: stretch;
+  max-width: 255px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.bo-add-team-member-view-vocalist {
+  flex-grow: 1;
+}
+
+.bo-add-team-member-view-t-status {
+  align-self: stretch;
+  max-width: 255px;
+  padding-top: 25px;
+}
+
+.bo-add-team-member-view-status {
+  color: black;
+}
+
+.bo-add-team-member-view-t-filter-account-status {
+  align-items: center;
+  display: flex;
+}
+
+.bo-add-team-member-view-filter-account-status {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: gainsboro;
+  height: 20px;
+  padding-left: 5px;
+  padding-right: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  gap: 4px;
+}
+
+.bo-add-team-member-view-activated {
+  width: 100px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.bo-add-team-member-view-line {
+  width: 1px;
+  height: 20px;
+}
+
+.bo-add-team-member-view-dropdown-down {
+  width: 15px;
+  height: 15px;
+}
+
+.bo-add-team-member-view-update-profile {
+  border-style: solid;
+  border-color: darkgray;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: seagreen;
+  padding-bottom: 13px;
+  padding-left: 249px;
+  padding-right: 249px;
+  padding-top: 13px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.bo-add-team-member-view-button {
+  line-height: 1;
+}
+
+.bo-add-team-member-view-t-delete-profile {
+  padding-top: 7px;
+}
+
+.bo-add-team-member-view-delete-profile {
+  border-style: solid;
+  border-color: gray;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: indianred;
+  padding-bottom: 13px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 13px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.bo-add-team-member-view-button-1 {
+  line-height: 1;
+}
+
+.bo-add-team-member-view-right-sidebar {
+  border-style: solid;
+  border-color: black;
+  border-top-width: 0.2px;
+  border-bottom-width: 0.2px;
+  border-left-width: 0.2px;
+  border-right-width: 0.2px;
+  background-color: white;
+  width: 153px;
+  min-height: 670px;
+}
+
+.bo-add-team-member-view-t-2025emproster-all-rights-reserved {
+  padding-top: 27px;
+  position: fixed; /* Makes the bar stay fixed at the bottom */
+  left: 0; /* Aligns the bar to the left edge */
+  bottom: 0; /* Sticks it to the bottom of the page */
+  width: 100%; /* Makes the bar span the full width of the screen */
+
+}
+
+.bo-add-team-member-view-emproster-all-rights-reserved {
+  text-align: center;
+  line-height: 1.3;
+}
+
+.t-t-name-input-1 {
+  max-width: 255px;
+  gap: 4.5px;
+}
+
+.t-name {
+  align-self: stretch;
+  color: black;
+}
+
+.t-input-3 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  width: 255px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.t-marry-jane {
+  flex-grow: 1;
+}
+@media (min-width: 1270px) {
+  .bo-add-team-member-view-nav-bar-system-admin {
+    flex-wrap: nowrap;
+  }
+  .bo-add-team-member-view-ttt-rectangle-8boside-menu-mid-white-container-right-sidebar {
+    flex-wrap: nowrap;
+  }
+  .bo-add-team-member-view-tt-rectangle-8boside-menu-mid-white-container {
+    flex-wrap: nowrap;
+    
+  }
+  .bo-add-team-member-view-t-form-contact-form-contact {
+    flex-wrap: nowrap;
+  }
+}

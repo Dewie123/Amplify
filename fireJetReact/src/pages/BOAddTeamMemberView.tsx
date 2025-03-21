@@ -3,7 +3,7 @@ import Logout from "../components/assets/Logout";
 import T from "./T";
 import Line from "../components/assets/Line";
 import DropdownDown from "../components/assets/DropdownDown";
-import "./BOAddTeamMemberView.css";
+import "./BOAddTeamMemberView_new.css";
 import BOSideMenu from './BOSideMenu';
 import AccountLogout from './AccountLogout';
 import InputField from "./InputField"; 
